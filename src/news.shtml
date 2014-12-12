@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>News - Resource Reasoning</title>
+		<link type="text/css" href="styles.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="favicon.ico" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>-->
+		<style type="text/css">
+			.newsdate { font-weight : bold }
+			.newsitem { padding-left : 80px; padding-right : 20px; padding-bottom : 0.5em; }
+		</style>
+	</head>
+	<body>
+		<div id="main">
+			<!--#include virtual="nav.html" -->
+			<div id="content">
+				<h1>News</h1>
+<div class="newsdate">January 2013</div>
+<div class="newsitem"><a href="http://research.microsoft.com/en-us/people/mattpark/">Matthew Parkinson</a> wins the <a href="http://www.aito.org/Dahl-Nygaard/2013.html">2013 Dahl-Nygaard Junior Prize</a> for his work on reasoning about object-oriented programs using Separation Logic.</div>
+<div class="newsitem"><a href="http://popl.mpi-sws.org/2013/">POPL 2013</a> takes place in Rome, with lots of participation from Resource Reasoning:
+        <ul>
+                <li><a href="http://www.doc.ic.ac.uk/~td202/">Thomas Dinsdale-Young</a> presents the paper <a href="http://www.doc.ic.ac.uk/~td202/papers/views.pdf">"Views: Compositional Reasoning for Concurrent Programs"</a>.</li>
+                <li><a href="http://www0.cs.ucl.ac.uk/staff/jvillard/">Jules Villard</a> presents the paper <a href="http://www0.cs.ucl.ac.uk/staff/jvillard/ramification/">"The Ramifications of Sharing in Data Structures"</a>.</li>
+                <li><a href="http://www0.cs.ucl.ac.uk/staff/p.ohearn/">Peter O'Hearn</a> gives a talk on <a href="http://www.cs.ucl.ac.uk/staff/p.ohearn/Talks/PLMW2013.pdf">"Program Logic and Analysis"</a> at the co-located <a href="http://www.doc.ic.ac.uk/~gds/PLMW">Programming Languages Mentoring Workshop</a>.</li>
+                <li>An informal <a href="http://www.resourcereasoning.com/popl13yak/">Pre-POPL Yak</a>, sponsored by Resource Reasoning, features talks by international experts on concurrency and verification.</li>
+        </ul>
+</div>
+<div class="newsitem">Resource Reasoning proudly sponsors the <a
+href="http://www.doc.ic.ac.uk/~gds/PLMW">Programming Languages Mentoring
+Workshop</a>, co-located in Rome with <a
+href="http://popl.mpi-sws.org/2013/">POPL</a> on January the 22nd
+2013. Students have until Sunday the 9th December to <a
+href="http://www.doc.ic.ac.uk/~gds/PLMW/grants.html">apply for
+funding</a> to attend both PLMW and POPL for free!</div>
+<div class="newsdate">November 2012</div>
+<div class="newsitem"><a href="http://www.eecs.qmul.ac.uk/~ddino/ddino_homepage/About_me.html">Dino Distefano</a> presents the <a href="http://www.bcs.org/category/16878">Needham Award lecture</a> on 29th November for his work on program analysis with separation logic.  Tickets are available <a href="http://www.bcs.org/category/16878">here</a>.  The talk will be at the Royal Society in London.  Check out the <a href="http://www.corriere.it/tecnologia/12_novembre_27/dino-app-genio-informatico_fee987e6-386e-11e2-a2c7-8d9940659020.shtml">entertaining headline</a> in the Italian press.</div>
+<div class="newsdate">August 2012</div>
+<div class="newsitem"><a href="http://www0.cs.ucl.ac.uk/staff/J.Alglave/">Jade Alglave</a> and <a href="http://navarroj.com/research/">Juan Antonio Navarro P&eacute;rez</a> move to UCL and join the <a href="http://pplv.cs.ucl.ac.uk/">PPLV</a> group as Lecturers.</div>
+<div class="newsdate">September 2012</div>
+<div class="newsitem"><a href="http://software.imdea.org/~gotsman/">Alexey Gotsman</a> and <a href="http://www.cs.ox.ac.uk/people/hongseok.yang/Public/Home.html">Hongseok Yang's</a> paper &quot;<a href="http://software.imdea.org/~gotsman/papers/linown-concur12-ext.pdf">Linearizability with Ownership Transfer</a>&quot; receives the best paper award at <a href="http://conferences.ncl.ac.uk/concur-2012/index.html">CONCUR 2012</a>.</div>
+<div class="newsdate">July 2012</div>
+<div class="newsitem">The <a href="http://www.cs.ox.ac.uk/people/hongseok.yang/ccw12/index.html">Oxford Concurrency Workshop</a> takes place on 9th and 10th July, continuing the series.</div>
+<div class="newsdate">June 2012</div>
+<div class="newsitem">Congratulations to <a href="http://www.doc.ic.ac.uk/~mjw03/">Mark Wheelhouse</a> for passing his PhD viva!</div>
+<div class="newsitem"><a href="http://www0.cs.ucl.ac.uk/staff/J.Brotherston/">James Brotherston</a> moves to UCL as a Lecturer and EPSRC Career Acceleration Fellow</div>
+<div class="newsdate">April 2012</div>
+<div class="newsitem"><a href="http://www.eecs.qmul.ac.uk/~ddino/">Dino Distefano</a> <a href="http://www.qmul.ac.uk/media/news/items/se/71251.html">receives the BCS Roger Needham Award</a>.  The award is made annually for a distinguished research contribution in computer science by a UK-based researcher who has completed up to 10 years of post-doctoral research.</div>
+<div class="newsdate">March 2012</div>
+<div class="newsitem">
+	<a href="http://www.cs.ucl.ac.uk/staff/p.ohearn/">Peter O'Hearn</a> and <a href="http://www.cs.ucl.ac.uk/staff/b.cook/">Byron Cook</a> move to UCL, where they will start a <a href="http://pplv.cs.ucl.ac.uk">new research group</a>.
+	<a href="http://www.cs.ucl.ac.uk/staff/C.Fuhs/">Carsten Fuhs</a>, <a href="http://www.cs.ucl.ac.uk/staff/N.Gorogiannis/">Nikos Gorrogiannis</a> and <a href="http://www.cs.ucl.ac.uk/staff/jvillard/">Jules Villard</a> join them as postdocs, and Kaustubh Nimkar as a PhD student, all supported by the Resource Reasoning Programme grant.
+</div>
+<div class="newsitem"><a href="http://www.cs.ucl.ac.uk/staff/p.ohearn/">Peter</a> takes up a Royal Academy of Engineering/Microsoft Research Chair at UCL.</div>
+<div class="newsdate">January 2012</div>
+<div class="newsitem"><a href="http://www.cse.psu.edu/popl/12/">POPL 2012</a> happens in Philadelphia, with lots of participation from Resource Reasoning and friends:
+							<ul>
+								<li><a href="http://www.doc.ic.ac.uk/~pg/">Philippa Gardner</a> and <a href="http://research.microsoft.com/en-us/people/bycook/">Byron Cook</a> give talks at the pre-POPL <a href="http://www.cis.upenn.edu/~sweirich/plmw12/">mentoring workshop</a>.</li> 
+								<li><a href="http://research.microsoft.com/en-us/people/thoare/">Tony Hoare</a> receives the SIGPLAN <a href="http://www.sigplan.org/award-achievement.htm">Programming Languages Achievement Award</a>. As part of the presentation, Peter O'Hearn interviews Hoare in front of the POPL audience.</li>
+								<li><a href="http://www.cs.ox.ac.uk/people/hongseok.yang/Public/Home.html">Hongseok Yang</a> presents the paper <a href="http://www.cs.ox.ac.uk/people/hongseok.yang/paper/popl12.pdf">&quot;Abstractions from Tests&quot;</a> in the POPL main conference.
+								<li><a href="http://www.doc.ic.ac.uk/~gds/">Gareth Smith</a> presents the paper <a href="http://www.doc.ic.ac.uk/~gds/TowardsProgramLogicJavaScriptPOPL2012.pdf">&quot;Towards a Program Logic for JavaScript&quot;</a> in the POPL main conference.
+								Gareth and Philippa embark on a tour of Stanford, <a title="Video of Gareth's talk at Mozilla" href="http://vid.ly/8j8c0j">Mozilla</a>, Oracle and Microsoft Redmond to discuss their work with JavaScript insiders.</li>
+								<li>Our mate <a href="http://www.cs.bham.ac.uk/~udr/">Uday Reddy</a> presents his joint paper with <a href="http://www.cs.cmu.edu/~jcr/">John Reynolds</a>,  <a href="http://www.cs.bham.ac.uk/~udr/papers/sci-reddy-reynolds.pdf">"Syntactic Control of Interference for Separation Logic"</a>, to rave reviews.</li>
+								<li>Byron Cook and Peter O'Hearn give <a title="Peter's talk" href="http://www.eecs.qmul.ac.uk/~ohearn/Talks/POPL12tutorial.pdf">talks</a> at the post-POPL <a href="http://www.cse.psu.edu/popl/12/tutorial.html">TutorialFest</a>.
+								</li>
+							</ul>
+						</div>
+<div class="newsitem">Yak goes international with a <a href="http://www.cims.nyu.edu/~ejk/pre-popl-yak/photos.html">Pre-POPL Yak</a> at New York University.</div>
+<div class="newsdate">December 2011</div>
+<div class="newsitem"><a href="http://www.eecs.qmul.ac.uk/~ohearn/">Peter O'Hearn</a> gives a joint invited lecture at <a href="http://flolac.iis.sinica.edu.tw/aplas11/doku.php">APLAS/CPP 2011</a> in Taiwan, on a general theory of concurrency.</div>
+<div class="newsitem">Calcagno, Distefano, O'Hearn and Yang publish a 73-page <a href="http://dl.acm.org/citation.cfm?id=2049700">paper on abductive program analysis</a> in JACM, the leading journal in computing.</div>
+<div class="newsitem">Yak at Cambridge University on 9th December.</div>
+<div class="newsdate">October 2011</div>
+<div class="newsitem"><a href="http://www.doc.ic.ac.uk/~pg/">Philippa Gardner</a> delivers a keynote at <a href="http://www.disi.unige.it/person/ZuccaE/FOOL2011/">FOOL'11</a> in Portland, on reasoning about a concurrent B-Tree algorithm.</div>
+<div class="newsitem"><a href="http://www.eecs.qmul.ac.uk/~ohearn/">Peter O'Hearn</a> delivers a keynote at <a href="http://www.scm.tees.ac.uk/icfem2011/">ICFEM</a> in Durham, on abductive program proving.</div>
+<div class="newsdate">September 2011</div>
+<div class="newsitem"><a href="http://www.doc.ic.ac.uk/~pg/">Philippa Gardner</a> delivers a keynote at <a href="http://calco2011.ecs.soton.ac.uk/">CALCO 2011</a> in Winchester, on reasoning about a concurrent B-Tree algorithm.</div>
+<div class="newsdate">August 2011</div>
+<div class="newsitem"><a href="http://www.eecs.qmul.ac.uk/~ohearn/">Peter O'Hearn</a> gives a course at the <a href="http://asimod.in.tum.de/2011/index.shtml">Marktoberdorf PhD summer school</a>.</div>
+<div class="newsitem"><a href="http://research.microsoft.com/en-us/people/bycook/">Byron Cook</a> is an invited speaker at <a href="http://cade23.ii.uni.wroc.pl/">CADE 23</a> in Poland.</div>
+<div class="newsdate">July 2011</div>
+<div class="newsitem">Yak at Imperial on 29th July with special guest <a href="http://distrinet.cs.kuleuven.be/people/showMember.do?memberID=u0022525">Bart Jacobs</a> (Katholieke Universiteit Leuven).</div>
+<div class="newsitem">Congratulations to <a href="http://www.doc.ic.ac.uk/~td202">Thomas Dinsdale-Young</a> for passing his PhD thesis defense on <a href="http://www.doc.ic.ac.uk/~td202/thesis.pdf">Abstract Data and Local Reasoning</a>.
+						</div>
+<div class="newsitem"><a href="http://research.microsoft.com/en-us/people/bycook/">Byron Cook</a> gives a course at the <a href="http://ecoop11.comp.lancs.ac.uk/?q=program/summer_school">ECOOP'11 PhD summer school</a>.
+					</div>
+<div class="newsdate">June 2011</div>
+<div class="newsitem"><a href="http://www.cs.cmu.edu/~jcr/">John Reynolds</a> delivers the <a href="http://www.bcs.org/category/15161">BCS Lovelace Lecture</a> on 8th June on "Making Program Logics Intelligible".</div>
+<div class="newsdate">May 2011</div>
+<div class="newsitem"><a href="http://research.microsoft.com/en-us/people/bycook/">Byron Cook</a> publishes a <a href="http://cacm.acm.org/magazines/2011/5/107680-proving-program-termination/fulltext">review article</a> with his colleagues Podelski and Rybalchenko in CACM.  It explains their seminal ideas on "Proving Program Termination" in a manner appropriate to the broad CACM audience.
+						Moshe Vardi comments on this work in his piece <a href="http://mags.acm.org/communications/201107/?pg=7">"Solving the Unsolvable"</a> from the July '11 issue of CACM.</div>
+<div class="newsdate">April 2011</div>
+<div class="newsitem">The <a href="http://www.scss.tcd.ie/Vasileios.Koutavas/dcw2011/">Dublin Concurrency Workshop</a> takes place on 14th-15th April, continuing the series.</div>
+<div class="newsitem"><a href="http://software.imdea.org/~gotsman/">Alexey Gotsman</a> is awarded the <a href="http://eapls.org/items/330/">EAPLS Best PhD Dissertation Award 2010</a> for his dissertation on "Logics and analyses for concurrent heap-manipulating programs".</div>
+<div class="newsdate">March 2011</div>
+<div class="newsitem">Javascript yak at Imperial on 15th March.</div>
+<div class="newsitem">Congratulations to <a href="http://www.doc.ic.ac.uk/~gds/">Gareth Smith</a> for passing his PhD viva.</div>
+<div class="newsdate">February 2011</div>
+<div class="newsitem"><a href="http://www.cs.ox.ac.uk/people/hongseok.yang/Public/Home.html">Hongseok Yang</a>, <a href="http://software.imdea.org/~gotsman/">Alexey Gotsman</a> and <a href="http://research.microsoft.com/en-us/people/mattpark/">Matthew Parkinson</a> teach the course <a href="http://www.ens-lyon.fr/DI/?p=1203&lang=en">&quot;Separation Logics and Applications&quot;</a> at the ENS Lyon Winter School in Computer Science.</div>
+<div class="newsdate">January 2011</div>
+<div class="newsitem"><a href="http://www.cse.psu.edu/popl/11/">POPL 2011</a> takes place.  <a href="http://www.doc.ic.ac.uk/~pg/">Gardner</a> and <a href="http://www.eecs.qmul.ac.uk/~hyang/Public/Home.html">Yang</a> serve on the program committee; <a href="http://www.cl.cam.ac.uk/~md466/">Dodds</a> and <a href="http://www.cl.cam.ac.uk/~ejk39/">Koskinen</a> present papers at the main conference; <a href="http://research.microsoft.com/en-us/people/bycook/">Cook</a> organises the PhD student session; and <a href="http://www.doc.ic.ac.uk/~pmd09/">da Rocha Pinto</a> and <a href="http://www.cl.cam.ac.uk/~mjp41/">Parkinson</a> present workshop papers at <a href="http://research.ihost.com/verico/">Verico</a>.</div>
+<div class="newsitem"><a href="http://research.microsoft.com/en-us/people/sishtiaq/">Samin Ishtiaq</a> and <a href="http://www.eecs.qmul.ac.uk/~ohearn/">Peter O'Hearn</a> win the <a href="http://www.sigplan.org/award-popl.htm">Most Influential POPL Paper Award</a> for there POPL 2001 paper <a href="http://dx.doi.org/10.1145/360204.375719">BI as an Assertion Language for Mutable Data Structures</a>.  The award is presented annually to the authors of a paper presented at the POPL held 10 years prior to the award year.  The papers are judged by their influence over the past decade.</div>
+<div class="newsdate">December 2010</div>
+<div class="newsitem">Web/concurrency yak at Imperial.</div>
+<div class="newsitem"><a href="http://www.cs.cmu.edu/~jcr/">John Reynolds</a> gives <a href="http://www.bcs.org/content/conWebDoc/37902">the first Peter Landin Annual Semantics Seminar</a> at the British Computer Society offices in London.</div>
+<div class="newsdate">November 2010</div>
+<div class="newsitem"><a href="http://users.cecs.anu.edu.au/~jeremy/">Jeremy Dawson</a> of ANU Canberra arrives to visit Imperial for ~1 month. He will be working with <a href="http://www.eecs.qmul.ac.uk/~jamesb/">James Brotherston</a> on interpolation for displayable logics.</div>
+<div class="newsitem"><a href="http://www.eecs.qmul.ac.uk/~ohearn/">Peter O'Hearn</a> talks on Reasoning about Programs Using a Scientific Method on 16th November in a <a href="http://www.lms.ac.uk/content/lms-bac-facs-evening-seminars">BCS-FACS Evening Seminar</a> at the London Mathematical Society.</div>
+<div class="newsitem"><a href="http://research.microsoft.com/en-us/people/moraza/">Mohammad Raza</a> moves to <a href="http://research.microsoft.com/en-us/labs/cambridge/default.aspx">Microsoft Research Cambridge</a>.</div>
+<div class="newsdate">October 2010</div>
+<div class="newsitem"><a href="http://www.simple-talk.com/opinion/geek-of-the-week/dr-byron-cook-geek-of-the-week/">Geek of the Week</a> interviews <a href="http://research.microsoft.com/en-us/people/bycook/">Byron Cook</a>.</div>
+<div class="newsitem">Automation yak at Queen Mary . informal talks and demonstrations on automated verification including <a href="http://www.di.ens.fr/~rival/">Xavier Rival</a> (INRIA Roquencourt).</div>
+<div class="newsitem"><a href="http://www.cs.ucl.ac.uk/staff/jvillard/">Jules Villard</a> arrives to start a postdoc at Queen Mary.</div>
+<div class="newsdate">September 2010</div>
+<div class="newsitem"><a href="http://research.microsoft.com/en-us/people/moraza/">Mohammad Raza</a> passes his PhD with flying colours.</div>
+<div class="newsitem">Abstraction yak at Imperial . informal talks, including <a href="http://www.itu.dk/~birkedal/">Lars Birkedal</a> (ITU Copenhagen) on Step-Indexed Kripke Models over Recursive Worlds.
+						</div>
+<div class="newsitem"><a href="http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=10351">Dagstuhl Seminar on Modelling, Controlling and Reasoning About State</a> takes place, organised by Ahmed, Benton, Birkedal and Hofmannm, with talks by Yang, Rinetzky and Gardner.
+						</div>
+<div class="newsdate">August 2010</div>
+<div class="newsitem"><a href="http://www.eecs.qmul.ac.uk/~ohearn/">O'Hearn</a> is a keynote speaker on <a href="http://www.springerlink.com/content/mq48443048607777/">Abductive, Deductive and Inductive Reasoning about Resources</a> at <a href="http://mfcsl2010.fi.muni.cz/">CSL 2010</a>.
+						</div>
+<div class="newsitem"><a href="http://www.macs.hw.ac.uk/vstte10/">Verified Software: Theories, Tools and Experiments 2010</a> takes place in Edinbugh, with <a href="http://www.eecs.qmul.ac.uk/~ohearn/">O'Hearn</a> a program chair, <a href="http://www.eecs.qmul.ac.uk/~hyang/Public/Home.html">Yang</a> a theory workshop chair, and <a href="http://research.microsoft.com/en-us/people/mattpark/">Parkinson</a> keynote speaker on <a href="http://research.microsoft.com/apps/pubs/default.aspx?id=137770">The Next 700 Separation Logics</a>.  The conference was partly sponsored by EPSRC programme grant .Resource Reasoning..
+						</div>
+<div class="newsitem"><a href="http://www.doc.ic.ac.uk/~maffeis/">Sergio Maffeis</a> awarded a five-year EPSRC Career Acceleration Fellowship at Imperial.</div>
+<div class="newsdate">July 2010</div>
+<div class="newsitem">Refinement mini-yak at Imperial . informal talks, including <a href="http://www.ccs.neu.edu/home/turon/">Aaron Turon</a> (Northeastern University, visiting Microsoft) on <a href="http://www.ccs.neu.edu/home/turon/sepref/">A Separation Logic for Refining Concurrent Objects</a>.</div>
+<div class="newsitem"><a href="http://pllab.hyu.ac.kr/~oukseh/">Oukseh Lee</a> arrives at Queen Mary for one year on Resource Reasoning project.  He will be working with <a href="http://www.eecs.qmul.ac.uk/~hyang/Public/Home.html">Hongseok Yang</a> on automatic verification of operating systems programs.</div>
+<div class="newsitem">The <a href="http://homepages.inf.ed.ac.uk/als/PSPL2010/">Proof Systems for Program Logics</a> workshop takes place at FLOC in Edinburgh, partly sponsored by EPSRC programme grant .Resource Reasoning..</div>
+<div class="newsitem">The <a href="http://www.cl.cam.ac.uk/~md466/ccw2010/">Cambridge Concurrency Workshop</a> continues a series of local workshops, with predecessors held in <a href="http://homepages.cs.ncl.ac.uk/joey.coleman/ncw2009/">Newcastle in November 2009</a> and at <a href="http://www.eecs.qmul.ac.uk/~ohearn/Workshops/Concurrency09/">Queen Mary in January 2009</a>.
+						</div>
+<div class="newsitem"><a href="http://www.cs.cmu.edu/~jcr/">John Reynolds</a> arrives to visit Queen Mary and Imperial for six months.</div>
+<div class="newsdate">June 2010</div>
+<div class="newsitem"><a href="http://www.cs.cmu.edu/~brookes/">Steve Brookes</a> arrives to visit Queen Mary for two months.</div>
+<div class="newsdate">April 2010</div>
+<div class="newsitem"><a href="http://www.cs.cmu.edu/~jcr/">John Reynolds</a> wins the <a href="http://www.bcs.org/content/ConWebDoc/35352">2010 BCS Lovelace Medal</a>.</div>
+<div class="newsitem"><a href="http://www.eecs.qmul.ac.uk/~maon/">Noam Rinetzky</a> awarded a 5-year <a href="http://www.raeng.org.uk/research/researcher/postdoc/">Royal Academy of Engineering research fellowship</a> at Queen Mary.</div>
+<div class="newsdate">March 2010</div>
+<div class="newsitem">Yak session at Imperial on 4th March.</div>
+<div class="newsitem"><a href="http://www.eecs.qmul.ac.uk/~nikosg/">Nikos Gorogiannis</a> hired as RA at Queen Mary on Resource Reasoning project.</div>
+<div class="newsdate">October 2009</div>
+<div class="newsitem"><a href="http://www.cosbi.eu/index.php/people/people-research/53-ozan-kahramanogullari">Ozan Kahramanogullari</a> has moved to Trento.</div>
+<div class="newsitem"><a href="http://www.doc.ic.ac.uk/~ccris/Cristianos_Web_Page/Cristiano_Calcagno.html">Cristiano Calcagno</a> is working part-time for <a href="http://www.monoidics.com/">Monoidics Ltd</a>, a technology transfer startup working with automatic software verification, where he serves as Chairman and founder.
+						</div>
+
+			</div>
+		</div>
+		<!--#include virtual="foot.html" -->
+	</body>
+</html>
+

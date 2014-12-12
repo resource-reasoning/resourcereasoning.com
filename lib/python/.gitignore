@@ -1,0 +1,3 @@
+*.pyc
+psycopg2*
+rrcgi.py
