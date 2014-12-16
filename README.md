@@ -1,16 +1,9 @@
 Resource Reasoning Website
 ==========================
-The resource reasoning website is at http://www.resourcereasoning.com/, and is intended as the public web presence for the Resource Reasoning grant.
-The actual address of the webserver is http://www-rr.doc.ic.ac.uk/.
-HTTPS is also supported on the server, and is used for the interface for maintaining publications.
 
 Editing the website
 -------------------
-The _live_ website is located at `/vol/rr/www` on the shared volume.
-For changes to the static content, you usually _do not want to modify this_.
-This repository is an instance of directory structure at the at `/vol/rr/rr-web`, it contains all the source files for the above directory. It has not yet been updated for off-site development.
-Instead, modify the corresponding `.shtml` files located in `src` and run `make` which will process some includes and copy the result to the live site.
-Be careful not to edit the `.html` files as they are automatically generated, and will be clobbered.
+Submit a pull request with changes, they should be deployed by the current site maintainer to the live site after being merged in (details below).
 
 The main files of interest for editing in `src` are:
   * **index.shtml** The main page.
@@ -34,7 +27,20 @@ The main files of interest for editing in `src` are:
     This just contains a link to the site maintainer.
     If you're taking over maintenance of the site _change this to you_.
 
-Some other files in `src` that will __not__ be copied over to the live site automatically by the Makefile:
+Depoloyment Details
+-------------------
+The resource reasoning website is at http://www.resourcereasoning.com/, and is intended as the public web presence for the Resource Reasoning grant.
+The actual address of the webserver is http://www-rr.doc.ic.ac.uk/.
+HTTPS is also supported on the server, and is used for the interface for maintaining publications.
+
+The _live_ website is located at `/vol/rr/www` on the shared volume.
+For changes to the static content, you usually _do not want to modify this_.
+This repository is an instance of directory structure at the at `/vol/rr/rr-web`, it contains all the source files for the above directory. It has not yet been updated for off-site development.
+Instead, modify the corresponding `.shtml` files located in `src` and run `make` which will process some includes and copy the result to the live site.
+Be careful not to edit the `.html` files as they are automatically generated, and will be clobbered.
+
+Some other files in `src` that will __not__ be copied over to the live site automatically by the Makefile, but may
+require editing:
   * **styles.css** The main style file.
   * **papers.cgi** Python file that dynamically generates the list of publications.
   * **submitpaper.cgi** The paper submission form.
