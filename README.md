@@ -8,10 +8,11 @@ Editing the website
 -------------------
 The _live_ website is located at `/vol/rr/www` on the shared volume.
 For changes to the static content, you usually _do not want to modify this_.
-Instead, modify the corresponding `.shtml` files located in `/vol/rr/rr-web/src` and run `make` which will process some includes and copy the result to the live site.
+This repository is an instance of directory structure at the at `/vol/rr/rr-web`, it contains all the source files for the above directory. It has not yet been updated for off-site development.
+Instead, modify the corresponding `.shtml` files located in `src` and run `make` which will process some includes and copy the result to the live site.
 Be careful not to edit the `.html` files as they are automatically generated, and will be clobbered.
 
-The main files of interest for editing in `/vol/rr/rr-web/src` are:
+The main files of interest for editing in `src` are:
   * **index.shtml** The main page.
     You might want to edit the blurb or change the pictures in the photo gallery.
     Images for the gallery should be stored in `/vol/rr/www/images` and referenced as the existing images are inside the page.
@@ -33,7 +34,7 @@ The main files of interest for editing in `/vol/rr/rr-web/src` are:
     This just contains a link to the site maintainer.
     If you're taking over maintenance of the site _change this to you_.
 
-Some other files in `/vol/rr/www` you might want or need to modify include:
+Some other files in `src` that will __not__ be copied over to the live site automatically by the Makefile:
   * **styles.css** The main style file.
   * **papers.cgi** Python file that dynamically generates the list of publications.
   * **submitpaper.cgi** The paper submission form.
@@ -42,7 +43,7 @@ In fact, you _should_ edit the last of these, as it automatically generates an e
 You should update it so that it e-mails you.
 
 The dynamic list of papers is stored in a database.
-The connect string for the database is located in `/vol/rr/rr-web/lib/python/rrcgi.py`.
+The connect string for the database is located in `lib/python/rrcgi.py`.
 CGI error logs are stored in `/vol/rr/rr-web/log`.
 (I seem to remember some potential caveats to do with the owner of pyc/group of pyc files.
 CGI scripts will be executed by the user `rr_u` in the group `rr`, and may have trouble if they cannot use/overwrite the compiled python.)
