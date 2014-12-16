@@ -27,6 +27,25 @@ The main files of interest for editing in `src` are:
     This just contains a link to the site maintainer.
     If you're taking over maintenance of the site _change this to you_.
 
+### Papers
+Papers may be submitted by anyone at http://resourcereasoning.com/addpaper.html (as linked from the bottom of the
+Publications page).
+
+There is a web interface for editing the papers at https://www-rr.doc.ic.ac.uk/ed/papers.cgi.
+Anyone in the `rr` group can sign in and access this.
+
+Papers are not published to the list until you authorise them.
+I recommend having a look at the style of other entries to normalise new submissions.
+For instance, conference names are generally formatted as "POPL 2012" or "ESOP 2013".
+Names are a comma-separated list, with no "and".
+Check the abstract for funny characters, and use `<p>` elements to break up paragraphs.
+
+The editorial policy is not to allow papers that have yet to be published.
+(You don't need to delete them, just don't put them up until publication.)
+Workshop papers and techreports are generally not included, although often an "extended version" can accompany a paper.
+It's good to have the BibTeX where possible.
+
+
 Depoloyment Details
 -------------------
 The resource reasoning website is at http://www.resourcereasoning.com/, and is intended as the public web presence for the Resource Reasoning grant.
@@ -53,20 +72,6 @@ The connect string for the database is located in `lib/python/rrcgi.py`.
 CGI error logs are stored in `/vol/rr/rr-web/log`.
 (I seem to remember some potential caveats to do with the owner of pyc/group of pyc files.
 CGI scripts will be executed by the user `rr_u` in the group `rr`, and may have trouble if they cannot use/overwrite the compiled python.)
-
-There is a web interface for editing the papers at https://www-rr.doc.ic.ac.uk/ed/papers.cgi.
-Anyone in the `rr` group can sign in and access this.
-(Note, it would be a good idea to fix this to use local copies of jquery scripts...).
-Papers are not published to the list until you authorise them.
-I recommend having a look at the style of other entries to normalise new submissions.
-For instance, conference names are generally formatted as "POPL 2012" or "ESOP 2013".
-Names are a comma-separated list, with no "and".
-Check the abstract for funny characters, and use `<p>` elements to break up paragraphs.
-
-The editorial policy is not to allow papers that have yet to be published.
-(You don't need to delete them, just don't put them up until publication.)
-Workshop papers and techreports are generally not included, although often an "extended version" can accompany a paper.
-It's good to have the BibTeX where possible.
 
 The domain name `resourcereasoning.com` is registered till 21st January 2016.
 If you need it beyond then, I can renew it.
