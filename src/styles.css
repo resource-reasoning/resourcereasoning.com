@@ -1,0 +1,74 @@
+img {
+	border-style : none
+}
+body {
+	background-color : #F0D0F5 ;
+	font-family : "Verdana", "Franklin Gothic Book", "Trebuchet MS", "Helvetica", "Arial", sans-serif;
+	font-size : medium;
+	
+}
+a:link {color:#8416CC;}      /* unvisited link */
+a:visited {color:#80015F;}  /* visited link */
+a:hover {color:#EC1991;}  /* mouse over link */
+a:active {color:#EC1C3B;}  /* selected link */
+
+td, th {
+	padding:0.5em
+}
+
+h1 {color:#60015F;}
+
+#main {
+	width : 800px;
+	min-height : 600px;
+	background-color : #FFFFFF;
+	margin-left : auto;
+	margin-right : auto;
+}
+#nav {
+	list-style-type:none;
+	margin-top : 0.1em;
+}
+.navbutton {
+	width : 6em;
+	padding: 0.5em;
+	border-color : #F0E0E5;
+}
+.navi {
+	display : inline;
+	color : #F0D0F5
+}
+
+#content {
+	padding-left : 1em;
+	padding-right : 1em;
+	padding-bottom : 2em;
+}
+
+#logo {
+	display: block;
+	margin: 1.4em 0em 0em 1.7em;
+	width: 16.8em;	 
+	height: 4.4em;
+	float: left;
+	display: inline;
+}
+#lrr {
+	margin-top:1em;
+	margin-left:3em;
+	margin-right:3em;
+}
+#footer {
+	text-align:right;
+	margin-top:1em;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:xx-small;
+	width:800px;
+}
+#photoGallery {
+	width: 400px !important;
+	height: 300px !important;
+	margin-left:1em;
+	margin-bottom:1em;
+}
