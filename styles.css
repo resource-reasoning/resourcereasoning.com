@@ -80,3 +80,13 @@ h1 {color:#60015F;}
     padding-right : 20px;
     padding-bottom : 0.5em;
 }
+.papertitle {font-weight: bold; font-size: larger}
+.paperbody {margin-left: 1em;}
+.authors {margin:0.2em}
+.publishedin {margin:0.2em; margin-bottom:0.1em;margin-left:2em;font-style: italic}
+.abstract {font-size: smaller; text-align: justify; max-width:40em; margin-top:0.1em;margin-left:2em}
+.abstract p {margin-top:0em; margin-bottom:0.5em}
+.abstract p+p {text-indent:2em}
+.links {font-size: smaller; margin-left: 1em; display:block; float:right; margin-right:100px; margin-top:0.3em}
+.abstractlink {font-size: smaller; margin-left:2em}
+.bibtex {font-size: small; display:none}

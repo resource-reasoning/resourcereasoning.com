@@ -1,0 +1,56 @@
+---
+title: Publications
+---
+<script type="text/javascript">
+$(document).ready(function(){
+    $("<a href=\"#\">show abstract</a>")
+        .addClass('abstractlink')
+        .insertBefore($(".abstract").hide())
+        .click(function() {
+            $(this).next().toggle();
+            if ($(this).text() == "show abstract") {
+            $(this).text("hide abstract");
+            } else {
+            $(this).text("show abstract");
+            }
+            return false;
+        });
+        $(".bibtex").dialog({width : 600, title : "BibTeX", autoOpen : false});
+});
+
+function dobib(id) {
+    $("#bibtex" + id).dialog("open");
+}
+</script>
+
+<p>The following is a list of recent publications by the Resource Reasoning group:</p>
+
+{% assign papers = site.data.papers | sort: 'pubdate' %}
+{% for paper in papers reversed %}
+<div class="paper">
+    <span class="papertitle">{{ paper.title }}</span>
+    <span class="links">
+        {% if paper.pdf %}
+            [<a href="{{paper.pdf}}">PDF</a>]
+        {% endif %}
+        {% if paper.ps %}
+            [<a href="{{paper.ps}}">PS</a>]
+        {% endif %}
+        {% if paper.pdflong %}
+            [<a href="{{paper.pdflong}}">Full PDF</a>]
+        {% endif %}
+        {% if paper.pslong %}
+            [<a href="{{paper.pslong}}">Full PS</a>]
+        {% endif %}
+        {% if paper.bibtex %}
+            [<a href="javascript:dobib('{{ forloop.index }}')">BibTeX</a>]
+        {% endif %}
+    </span>
+    <div class="paperbody">
+        <p class="authors">{{ paper.authors }}</p>
+        <p class="publishedin">{{ paper.venue }} </p>
+        <div class="abstract">{{ paper.abstract }}</div>
+    </div>
+    <pre class="bibtex" id="bibtex{{ forloop.index }}">{{ paper.bibtex }}</pre>
+</div>
+{% endfor %}
