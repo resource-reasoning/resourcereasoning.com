@@ -1,0 +1,14 @@
+---
+title: People
+---
+<p>
+    The people currently researching resource reasoning in London, Cambridge and Oxford include:
+</p>
+<ul>
+{% for person in site.data.people %}
+  <li>
+    {% if person.url %}<a href="{{ person.url }}">{% endif %}
+      {{ person.firstname }}{{ person.lastname }}
+    {% if person.url %}</a>{% endif %}
+  </li>
+{% endfor %}

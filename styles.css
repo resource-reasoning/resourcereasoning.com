@@ -72,3 +72,11 @@ h1 {color:#60015F;}
 	margin-left:1em;
 	margin-bottom:1em;
 }
+.newsdate {
+    font-weight : bold;
+}
+.newsitem {
+    padding-left : 80px;
+    padding-right : 20px;
+    padding-bottom : 0.5em;
+}
