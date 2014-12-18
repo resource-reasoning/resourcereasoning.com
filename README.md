@@ -1,6 +1,8 @@
 Resource Reasoning Website
 ==========================
 
+[![Build Status](https://travis-ci.org/resource-reasoning/resourcereasoning.com.svg)](https://travis-ci.org/resource-reasoning/resourcereasoning.com)
+
 Editing the website
 -------------------
 The preferred method of contributing to the site is by pull request, or if you have commit rights, directly pushing your
