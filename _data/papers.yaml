@@ -448,7 +448,7 @@
         pages     = "137--146",
         year      = 2010
       }
-  pdf: "http://www.eecs.qmul.ac.uk/~jamesb/LICS10/SL_undecidable.pdf"
+  pdf: "http://www0.cs.ucl.ac.uk/staff/J.Brotherston/LICS10/SL_undecidable.pdf"
   pdflong: ~
   ps: ~
   pslong: ~
@@ -525,7 +525,7 @@
         publisher = "Elsevier B.V.",
         year      = 2010
       }
-  pdf: "http://www.eecs.qmul.ac.uk/~jamesb/MFPS10/display_bunched_logics.pdf"
+  pdf: "http://www0.cs.ucl.ac.uk/staff/J.Brotherston/MFPS10/display_bunched_logics.pdf"
   pdflong: ~
   ps: ~
   pslong: ~
@@ -641,7 +641,7 @@
         note      = "Awaiting publication",
         year      = 2011
       }
-  pdf: "http://www.eecs.qmul.ac.uk/~jamesb/StudiaLogica11/BL_display_SL_final.pdf"
+  pdf: "http://www0.cs.ucl.ac.uk/staff/J.Brotherston/StudiaLogica11/BL_display_SL_final.pdf"
   pdflong: ~
   ps: ~
   pslong: ~
@@ -773,8 +773,8 @@
         pages     = "88--103",
         year      = 2011
       }
-  pdf: "http://www.eecs.qmul.ac.uk/~jamesb/TABLEAUX11/interpolation.pdf"
-  pdflong: "http://www.eecs.qmul.ac.uk/~jamesb/TABLEAUX11/interpolation_long.pdf"
+  pdf: "http://www0.cs.ucl.ac.uk/staff/J.Brotherston/TABLEAUX11/interpolation.pdf"
+  pdflong: "http://www0.cs.ucl.ac.uk/staff/J.Brotherston/TABLEAUX11/interpolation_long.pdf"
   ps: ~
   pslong: ~
   pubdate: "2011-07-04"
@@ -1645,7 +1645,7 @@
       \x20address = {New York, NY, USA},\n\
       \x20keywords = {aliasing, heap/shape, modularity, separation logic},\n\
       } "
-  pdf: "http://www0.cs.ucl.ac.uk/staff/jvillard/pub/ramification-HVpopl13.pdf"
+  pdf: "http://www.doc.ic.ac.uk/~jvillar1/pub/ramification-HVpopl13.pdf"
   pdflong: ~
   ps: ~
   pslong: ~
@@ -1664,7 +1664,7 @@
       Our benchmarks include work-queue management code from PostgreSQL.
   authors: "Jade Alglave, Daniel Kroening, Vincent Nimal, Michael Tautschnig"
   bibtex: ~
-  pdf: www0.cs.ucl.ac.uk/staff/j.alglave/papers/esop13.pdf
+  pdf: "http://www0.cs.ucl.ac.uk/staff/j.alglave/papers/esop13.pdf"
   pdflong: ~
   ps: ~
   pslong: ~

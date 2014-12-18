@@ -1,5 +1,5 @@
 ---
-title: Support & Connections
+title: Support &amp; Connections
 ---
 We are grateful to the EPSRC, RAEng and other organizations for supporting this research:
 
@@ -13,5 +13,5 @@ Our work also involves the following industrial connections:
 * The startup company [Monoidics](http://www.monoidics.com)
 * [SLAyer project](http://research.microsoft.com/en-us/um/cambridge/projects/slayer/) at Microsoft
 * [Terminator project](http://research.microsoft.com/en-us/um/cambridge/projects/terminator/) at Microsoft
-* [Paraglide project](https://researcher.ibm.com/researcher/view_project.php?id=251) at IBM
+* [Paraglide project](http://researcher.ibm.com/researcher/view_project.php?id=251) at IBM
 * Work with GCHQ on security and program analysis

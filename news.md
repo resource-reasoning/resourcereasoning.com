@@ -10,7 +10,7 @@ title: News
     * [Thomas Dinsdale-Young](http://www.doc.ic.ac.uk/~td202/) presents the paper
         ["Views: Compositional Reasoning for Concurrent Programs"](http://www.doc.ic.ac.uk/~td202/papers/views.pdf).
     * [Jules Villard](http://www0.cs.ucl.ac.uk/staff/jvillard/) presents the paper
-        ["The Ramifications of Sharing in Data Structures"](http://www0.cs.ucl.ac.uk/staff/jvillard/ramification/).
+        ["The Ramifications of Sharing in Data Structures"](http://www.doc.ic.ac.uk/~jvillar1/ramification/).
     * [Peter O'Hearn](http://www0.cs.ucl.ac.uk/staff/p.ohearn/) gives a talk on
         ["Program Logic and Analysis"](http://www.cs.ucl.ac.uk/staff/p.ohearn/Talks/PLMW2013.pdf) at the co-located
         [Programming Languages Mentoring Workshop](http://www.doc.ic.ac.uk/~gds/PLMW).
@@ -66,8 +66,8 @@ title: News
     Reasoning and friends:
     * [Philippa Gardner](http://www.doc.ic.ac.uk/~pg/) and [Byron Cook](http://research.microsoft.com/en-us/people/bycook/)
         give talks at the pre-POPL [mentoring workshop](http://www.cis.upenn.edu/~sweirich/plmw12/). 
-    * [Tony Hoare](http://research.microsoft.com/en-us/people/thoare/) receives the SIGPLAN
-        [Programming Languages Achievement Award](http://www.sigplan.org/award-achievement.htm). As part of the
+    * [Tony Hoare](http://www.cs.ox.ac.uk/people/tony.hoare/) receives the SIGPLAN
+        [Programming Languages Achievement Award](http://www.sigplan.org/Award/Achievement/). As part of the
         presentation, Peter O'Hearn interviews Hoare in front of the POPL audience.
     * [Hongseok Yang](http://www.cs.ox.ac.uk/people/hongseok.yang/Public/Home.html) presents the paper
         "[Abstractions from Tests](http://www.cs.ox.ac.uk/people/hongseok.yang/paper/popl12.pdf)" in the POPL main
@@ -81,14 +81,14 @@ title: News
     * Our mate [Uday Reddy](http://www.cs.bham.ac.uk/~udr/) presents his joint paper with
         [John Reynolds](http://www.cs.cmu.edu/~jcr/), ["Syntactic Control of Interference for Separation Logic"](http://www.cs.bham.ac.uk/~udr/papers/sci-reddy-reynolds.pdf),
         to rave reviews.
-    * Byron Cook and Peter O'Hearn give [talks](http://www.eecs.qmul.ac.uk/~ohearn/Talks/POPL12tutorial.pdf "Peter's talk")
+    * Byron Cook and Peter O'Hearn give [talks](http://www0.cs.ucl.ac.uk/staff/p.ohearn/Talks/POPL12tutorial.pdf "Peter's talk")
         at the post-POPL [TutorialFest](http://www.cse.psu.edu/popl/12/tutorial.html).
 
 * Yak goes international with a [Pre-POPL Yak](http://www.cims.nyu.edu/~ejk/pre-popl-yak/photos.html) at New York University.
 
 ## December 2011
-* [Peter O'Hearn](http://www.eecs.qmul.ac.uk/~ohearn/) gives a joint invited lecture at
-    [APLAS/CPP 2011](http://flolac.iis.sinica.edu.tw/aplas11/doku.php) in Taiwan, on a general theory of concurrency.
+* [Peter O'Hearn](http://www0.cs.ucl.ac.uk/staff/p.ohearn/) gives a joint invited lecture at
+    [APLAS/CPP 2011](http://flolac.iis.sinica.edu.tw/aplas11/) in Taiwan, on a general theory of concurrency.
 * Calcagno, Distefano, O'Hearn and Yang publish a 73-page [paper on abductive program analysis](http://dl.acm.org/citation.cfm?id=2049700)
     in JACM, the leading journal in computing.
 * Yak at Cambridge University on 9th December.
@@ -96,7 +96,7 @@ title: News
 ## October 2011
 * [Philippa Gardner](http://www.doc.ic.ac.uk/~pg/) delivers a keynote at [FOOL'11](http://www.disi.unige.it/person/ZuccaE/FOOL2011/)
     in Portland, on reasoning about a concurrent B-Tree algorithm.
-* [Peter O'Hearn](http://www.eecs.qmul.ac.uk/~ohearn/) delivers a keynote at [ICFEM](http://www.scm.tees.ac.uk/icfem2011/)
+* [Peter O'Hearn](http://www0.cs.ucl.ac.uk/staff/p.ohearn/) delivers a keynote at [ICFEM](http://www.scm.tees.ac.uk/icfem2011/)
     in Durham, on abductive program proving.
 
 ## September 2011
@@ -104,7 +104,7 @@ title: News
     in Winchester, on reasoning about a concurrent B-Tree algorithm.
 
 ## August 2011
-* [Peter O'Hearn](http://www.eecs.qmul.ac.uk/~ohearn/) gives a course at the [Marktoberdorf PhD summer school](http://asimod.in.tum.de/2011/index.shtml).
+* [Peter O'Hearn](http://www0.cs.ucl.ac.uk/staff/p.ohearn/) gives a course at the [Marktoberdorf PhD summer school](http://asimod.in.tum.de/2011/index.shtml).
 * [Byron Cook](http://research.microsoft.com/en-us/people/bycook/) is an invited speaker at [CADE 23](http://cade23.ii.uni.wroc.pl/) in Poland.
 
 ## July 2011
@@ -153,8 +153,8 @@ title: News
     * [Cook](http://research.microsoft.com/en-us/people/bycook/) organises the PhD student session
     * [da Rocha Pinto](http://www.doc.ic.ac.uk/~pmd09/) and [Parkinson](http://www.cl.cam.ac.uk/~mjp41/) present
         workshop papers at [Verico](http://research.ihost.com/verico/).
-* [Samin Ishtiaq](http://research.microsoft.com/en-us/people/sishtiaq/) and [Peter O'Hearn](http://www.eecs.qmul.ac.uk/~ohearn/)
-    win the [Most Influential POPL Paper Award](http://www.sigplan.org/award-popl.htm) for their POPL 2001 paper
+* [Samin Ishtiaq](http://research.microsoft.com/en-us/people/sishtiaq/) and [Peter O'Hearn](http://www0.cs.ucl.ac.uk/staff/p.ohearn/)
+    win the [Most Influential POPL Paper Award](http://www.sigplan.org/Awards/POPL) for their POPL 2001 paper
     [BI as an Assertion Language for Mutable Data Structures](http://dx.doi.org/10.1145/360204.375719).
 
     The award is presented annually to the authors of a paper presented at the POPL held 10 years prior to the award year.
@@ -168,7 +168,7 @@ title: News
 ## November 2010
 * [Jeremy Dawson](http://users.cecs.anu.edu.au/~jeremy/) of ANU Canberra arrives to visit Imperial for ~1 month. He will
     be working with [James Brotherston](http://www.eecs.qmul.ac.uk/~jamesb/) on interpolation for displayable logics.
-* [Peter O'Hearn](http://www.eecs.qmul.ac.uk/~ohearn/) talks on Reasoning about Programs Using a Scientific Method on
+* [Peter O'Hearn](http://www0.cs.ucl.ac.uk/staff/p.ohearn/) talks on Reasoning about Programs Using a Scientific Method on
     16th November in a [BCS-FACS Evening Seminar](http://www.lms.ac.uk/content/lms-bac-facs-evening-seminars) at the
     London Mathematical Society.
 * [Mohammad Raza](http://research.microsoft.com/en-us/people/moraza/) moves to [Microsoft Research Cambridge](http://research.microsoft.com/en-us/labs/cambridge/default.aspx).
@@ -189,12 +189,12 @@ title: News
     takes place, organised by Ahmed, Benton, Birkedal and Hofmannm, with talks by Yang, Rinetzky and Gardner.
 
 ## August 2010
-* [O'Hearn](http://www.eecs.qmul.ac.uk/~ohearn/) is a keynote speaker on
+* [O'Hearn](http://www0.cs.ucl.ac.uk/staff/p.ohearn/) is a keynote speaker on
     [Abductive, Deductive and Inductive Reasoning about Resources](http://www.springerlink.com/content/mq48443048607777/)
     at [CSL 2010](http://mfcsl2010.fi.muni.cz/).
 
 * [Verified Software: Theories, Tools and Experiments 2010](http://www.macs.hw.ac.uk/vstte10/) takes place in Edinbugh,
-    with [O'Hearn](http://www.eecs.qmul.ac.uk/~ohearn/) a program chair, [Yang](http://www.eecs.qmul.ac.uk/~hyang/Public/Home.html)
+    with [O'Hearn](http://www0.cs.ucl.ac.uk/staff/p.ohearn/) a program chair, [Yang](http://www.eecs.qmul.ac.uk/~hyang/Public/Home.html)
     a theory workshop chair, and [Parkinson](http://research.microsoft.com/en-us/people/mattpark/) keynote speaker on
     [The Next 700 Separation Logics](http://research.microsoft.com/apps/pubs/default.aspx?id=137770). The conference was
     partly sponsored by EPSRC programme grant Resource Reasoning.
@@ -212,7 +212,7 @@ title: News
     Edinburgh, partly sponsored by EPSRC programme grant Resource Reasoning.
 * The [Cambridge Concurrency Workshop](http://www.cl.cam.ac.uk/~md466/ccw2010/) continues a series of local workshops,
     with predecessors held in [Newcastle in November 2009](http://homepages.cs.ncl.ac.uk/joey.coleman/ncw2009/) and at
-    [Queen Mary in January 2009](http://www.eecs.qmul.ac.uk/~ohearn/Workshops/Concurrency09/).
+    [Queen Mary in January 2009](http://www0.cs.ucl.ac.uk/staff/p.ohearn/Workshops/Concurrency09/).
 
 * [John Reynolds](http://www.cs.cmu.edu/~jcr/) arrives to visit Queen Mary and Imperial for six months.
 
@@ -226,10 +226,9 @@ title: News
 
 ## March 2010
 * Yak session at Imperial on 4th March.
-* [Nikos Gorogiannis](http://www.eecs.qmul.ac.uk/~nikosg/) hired as RA at Queen Mary on Resource Reasoning project.
+* [Nikos Gorogiannis](http://www.eis.mdx.ac.uk/staffpages/nikosgkorogiannis/) hired as RA at Queen Mary on Resource Reasoning project.
 
 ## October 2009
-* [Ozan Kahramanogullari](http://www.cosbi.eu/index.php/people/people-research/53-ozan-kahramanogullari) has moved to Trento.
-* [Cristiano Calcagno](http://www.doc.ic.ac.uk/~ccris/Cristianos_Web_Page/Cristiano_Calcagno.html) is working part-time
-    for [Monoidics Ltd](http://www.monoidics.com/), a technology transfer startup working with automatic software
-    verification, where he serves as Chairman and founder.
+* [Ozan Kahramanogullari](http://www.cosbi.eu/index.php/people/people-research/ozan-kahramanogullari) has moved to Trento.
+* Cristiano Calcagno is working part-time for [Monoidics Ltd](http://www.monoidics.com/), a technology transfer startup
+    working with automatic software verification, where he serves as Chairman and founder.

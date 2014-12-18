@@ -29,13 +29,13 @@ current:
       - UCL
     firstname: James
     lastname: Brotherston
-    url: "http://www.eecs.qmul.ac.uk/~jamesb/"
+    url: "http://www0.cs.ucl.ac.uk/staff/J.Brotherston/"
   -
     affiliations:
       - "Imperial College London"
     firstname: Cristiano
     lastname: Calcagno
-    url: "http://www.doc.ic.ac.uk/~ccris"
+#    url: "http://www.doc.ic.ac.uk/~ccris"
   -
     affiliations:
       - "Imperial College London"
@@ -80,12 +80,6 @@ current:
     url: "http://rgrig.appspot.com/"
   -
     affiliations:
-      - "Queen Mary"
-    firstname: Akbar
-    lastname: Hussain
-    url: "http://www.eecs.qmul.ac.uk/~akbar/"
-  -
-    affiliations:
       - "Microsoft Research Cambridge"
     firstname: Samin
     lastname: Ishtiaq
@@ -96,12 +90,6 @@ current:
     firstname: Max
     lastname: Kanovich
     url: "http://www.eecs.qmul.ac.uk/~mik/"
-  -
-    affiliations:
-      - "Cambridge University"
-    firstname: Eric
-    lastname: Koskinen
-    url: "http://www.cl.cam.ac.uk/~ejk39/"
   -
     affiliations:
       - "Imperial College London"
@@ -129,7 +117,7 @@ current:
       - UCL
     firstname: Peter
     lastname: O'Hearn
-    url: "http://www.eecs.qmul.ac.uk/~ohearn/"
+    url: "http://www0.cs.ucl.ac.uk/staff/p.ohearn/"
   -
     affiliations:
       - "Microsoft Research Cambridge"
@@ -141,19 +129,13 @@ current:
       - "Queen Mary"
     firstname: Rasmus
     lastname: Petersen
-    url: "http://www.eecs.qmul.ac.uk/~rusmus/"
+    #url: "http://www.eecs.qmul.ac.uk/~rusmus/"
   -
     affiliations:
       - "Imperial College London"
     firstname: Azalea
     lastname: Raad
     url: "http://www.doc.ic.ac.uk/~azalea/"
-  -
-    affiliations:
-      - "Queen Mary"
-    firstname: Noam
-    lastname: Rinetzky
-    url: "http://www.eecs.qmul.ac.uk/~maon/"
   -
     affiliations:
       - "Queen Mary"
@@ -185,12 +167,6 @@ current:
     url: "http://www.cs.ucl.ac.uk/staff/jvillard/"
   -
     affiliations:
-      - "Imperial College London"
-    firstname: Mark
-    lastname: Wheelhouse
-    url: "http://www.doc.ic.ac.uk/~mjw03"
-  -
-    affiliations:
       - "Cambridge University"
     firstname: John
     lastname: Wickerson
@@ -203,12 +179,6 @@ current:
     url: "http://www.doc.ic.ac.uk/~tw1509"
   -
     affiliations:
-      - "Imperial College London"
-    firstname: Adam
-    lastname: Wright
-    url: "http://www.doc.ic.ac.uk/~adw07"
-  -
-    affiliations:
       - "Oxford University"
     firstname: Hongseok
     lastname: Yang
@@ -219,7 +189,7 @@ former:
       - "Queen Mary"
     firstname: Oukseh
     lastname: Lee
-    url: "http://pllab.hyu.ac.kr/~oukseh/"
+    #url: "http://pllab.hyu.ac.kr/~oukseh/"
   -
     affiliations:
       - "Imperial College London"
@@ -231,7 +201,7 @@ former:
       - "Microsoft Research Cambridge"
     firstname: Mohammad
     lastname: Raza
-    url: "http://research.microsoft.com/en-us/people/moraza/"
+    #url: "http://research.microsoft.com/en-us/people/moraza/"
   -
     affiliations:
       - "Queen Mary"
@@ -239,3 +209,32 @@ former:
     firstname: John
     lastname: Reynolds
     url: "http://www.cs.cmu.edu/~jcr/"
+  -
+    affiliations:
+      - "Queen Mary"
+    firstname: Noam
+    lastname: Rinetzky
+    url: "http://www.cs.tau.ac.il/~maon/"
+  -
+    affiliations:
+      - "Cambridge University"
+    firstname: Eric
+    lastname: Koskinen
+    url: "http://cs.nyu.edu/~ejk/"
+  -
+    affiliations:
+      - "Queen Mary"
+    firstname: Akbar
+    lastname: Hussain
+  -
+    affiliations:
+      - "Imperial College London"
+    firstname: Mark
+    lastname: Wheelhouse
+    url: "http://www.doc.ic.ac.uk/~mjw03"
+  -
+    affiliations:
+      - "Imperial College London"
+    firstname: Adam
+    lastname: Wright
+    url: "http://www.doc.ic.ac.uk/~adw07"
