@@ -1,6 +1,0 @@
-# Rewrite to canonical hostname
-RewriteEngine On
-RewriteCond %(HTTP_HOST)	!^www\.resourcereasoning\.com [NC]
-RewriteCond %(HTTP_HOST)	!^$
-RewriteCond %(HTTPS)		^off$
-RewriteRule ^/(.*)		http://www.resourcereasoning.com/$1 [L,R]

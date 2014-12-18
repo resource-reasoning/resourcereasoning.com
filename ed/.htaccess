@@ -1,5 +1,0 @@
-SSLRequireSSL
-AuthType KerberosV5
-Satisfy all
-AuthName "Editor Interface"
-require group rr
