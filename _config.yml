@@ -1,4 +1,8 @@
 exclude: [vendor,README.md,Gemfile,Gemfile.lock,Rakefile]
+
+gems:
+  - jekyll-sitemap
+
 defaults:
   -
     scope:
