@@ -54,3 +54,7 @@ function dobib(id) {
     <pre class="bibtex" id="bibtex{{ forloop.index }}">{{ paper.bibtex }}</pre>
 </div>
 {% endfor %}
+<p>
+    To request a paper be added to this list, please <a href="{% include newpaper_url.html %}">contact
+    us</a>.
+</p>

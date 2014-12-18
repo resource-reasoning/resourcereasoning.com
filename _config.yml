@@ -3,6 +3,11 @@ exclude: [vendor,README.md,Gemfile,Gemfile.lock,Rakefile]
 gems:
   - jekyll-sitemap
 
+# GitHub will override these
+github:
+    repository_url: "https://github.com/resource-reasoning/resourcereasoning.com"
+    issues_url: "https://github.com/resource-reasoning/resourcereasoning.com/issues"
+
 defaults:
   -
     scope:
