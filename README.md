@@ -59,6 +59,24 @@ The main files of interest for editing are:
   * **_include/foot.html** Common page footer.
     This just contains a link to the site maintainence information page.
 
+Local Testing
+-------------
+If you wish to test the site locally, ensure you have ruby installed, and then initially run:
+```
+gem install bundle
+bundle install
+```
+
+And to start a local webserver that remakes files whenever changed:
+```
+bundle exec rake serve
+```
+
+You can test for dead links and html errors using:
+```
+bundle exec rake test
+```
+
 Depoloyment Details
 -------------------
 The site is deployed using [GitHub Pages](https://help.github.com/categories/github-pages-basics/). We additionally use
