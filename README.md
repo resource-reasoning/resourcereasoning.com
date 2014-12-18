@@ -3,75 +3,53 @@ Resource Reasoning Website
 
 Editing the website
 -------------------
-Submit a pull request with changes, they should be deployed by the current site maintainer to the live site after being merged in (details below).
+The preferred method of contributing to the site is by pull request, or if you have commit rights, directly pushing your
+changes to the live repository.
 
-The main files of interest for editing in `src` are:
+Site maintainers will also accept Issue reports submitted to the main repository.
+
+The site is built on the [GitHub Pages](https://help.github.com/categories/github-pages-basics/) platform, which is
+backed by the [Jekyll](http://jekyllrb.com/) website framework. Pages can be written using Markdown or HTML, and there
+is a powerful templating and data-inclusion backend.
+
+The main files of interest for editing are:
   * **index.shtml** The main page.
     You might want to edit the blurb or change the pictures in the photo gallery.
-    Images for the gallery should be stored in `/vol/rr/www/images` and referenced as the existing images are inside the page.
-  * **news.shtml** The news page.
-    It should be apparent the general format of this file: the main body consists of `div` elemnts of class `newsdate`, containing the month and year of the immediately subsequent news items, each of which occupies a `newsitem`-class `div`.
+    Images for the gallery should be stored in `images` and referenced as the existing images are inside the page.
+
+  * **news.md** The news page.
+    It should be apparent the general format of this file: use second level headers for the month and year, and
+    unordered lists for events occuring in that month. A second level of list may be used, eg for POPL.
+
     The house style is reasonably formal, including links where available.
     All entries should be in the _present tense_.
-  * **people.shtml** The people page.
-    This page lists the people directly associated with the Resource Reasoning grant at present.
-    They are stored in a JavaScript array of objects, and the list is dynamically generated (allowing it to be reformatted by institution as desired).
+
+  * **_data/people.yaml** The people page data
+    This file contains the people directly associated with the Resource Reasoning grant at present and in the past.
     It should be quite easy to see how to change this to add and remove people, change institutions, websites _etc._.
-    I like to maintain the JavaScript-free list in the page (just in case...), usually by copying the generated html from a browser.
-  * **support.shtml** The support page.
+
+  * **_data/papers.yaml** The publications page data
+    This file contains the data of publications, fields should be reasonably obvious from the data already in the file.
+
+    Page style guide:
+    * Conference names are generally formatted as "POPL 2012" or "ESOP 2013".
+    * Names are a comma-separated list, with no "and".
+    * The editorial policy is not to allow papers that have yet to be published.
+    * Workshop papers and techreports are generally not included, although often an "extended version" can accompany a
+        paper using the pdflong/pslong fields.
+    * It's good to have the BibTeX where possible.
+
+  * **support.md** The support page.
     Should be self-explanatory.
-  * **nav.html** Common navigational elements.
+  * **_include/nav.html** Common navigational elements.
     You might want to change this page if you add or remove pages from the site, so that all of the other pages link to them.
     This file is included by both dynamically- and statically-generated pages.
-  * **foot.html** Common page footer.
-    This just contains a link to the site maintainer.
-    If you're taking over maintenance of the site _change this to you_.
-
-### Papers
-Papers may be submitted by anyone at http://resourcereasoning.com/addpaper.html (as linked from the bottom of the
-Publications page).
-
-There is a web interface for editing the papers at https://www-rr.doc.ic.ac.uk/ed/papers.cgi.
-Anyone in the `rr` group can sign in and access this.
-
-Papers are not published to the list until you authorise them.
-I recommend having a look at the style of other entries to normalise new submissions.
-For instance, conference names are generally formatted as "POPL 2012" or "ESOP 2013".
-Names are a comma-separated list, with no "and".
-Check the abstract for funny characters, and use `<p>` elements to break up paragraphs.
-
-The editorial policy is not to allow papers that have yet to be published.
-(You don't need to delete them, just don't put them up until publication.)
-Workshop papers and techreports are generally not included, although often an "extended version" can accompany a paper.
-It's good to have the BibTeX where possible.
-
+  * **_include/foot.html** Common page footer.
+    This just contains a link to the site maintainence information page.
 
 Depoloyment Details
 -------------------
-The resource reasoning website is at http://www.resourcereasoning.com/, and is intended as the public web presence for the Resource Reasoning grant.
-The actual address of the webserver is http://www-rr.doc.ic.ac.uk/.
-HTTPS is also supported on the server, and is used for the interface for maintaining publications.
-
-The _live_ website is located at `/vol/rr/www` on the shared volume.
-For changes to the static content, you usually _do not want to modify this_.
-This repository is an instance of directory structure at the at `/vol/rr/rr-web`, it contains all the source files for the above directory. It has not yet been updated for off-site development.
-Instead, modify the corresponding `.shtml` files located in `src` and run `make` which will process some includes and copy the result to the live site.
-Be careful not to edit the `.html` files as they are automatically generated, and will be clobbered.
-
-Some other files in `src` that will __not__ be copied over to the live site automatically by the Makefile, but may
-require editing:
-  * **styles.css** The main style file.
-  * **papers.cgi** Python file that dynamically generates the list of publications.
-  * **submitpaper.cgi** The paper submission form.
-
-In fact, you _should_ edit the last of these, as it automatically generates an e-mail when someone submits a paper.
-You should update it so that it e-mails you.
-
-The dynamic list of papers is stored in a database.
-The connect string for the database is located in `lib/python/rrcgi.py`.
-CGI error logs are stored in `/vol/rr/rr-web/log`.
-(I seem to remember some potential caveats to do with the owner of pyc/group of pyc files.
-CGI scripts will be executed by the user `rr_u` in the group `rr`, and may have trouble if they cannot use/overwrite the compiled python.)
-
-The domain name `resourcereasoning.com` is registered till 21st January 2016.
-If you need it beyond then, I can renew it.
+The site is deployed using [GitHub Pages](https://help.github.com/categories/github-pages-basics/). We additionally use
+[Travis CI](https://travis-ci.org/resource-reasoning/resourcereasoning.com) to automatically test that the site builds
+and that external links still resolve.
+The domain name `resourcereasoning.com` is registered till 21st January 2016 to Thomas Dinsdale-Young.
