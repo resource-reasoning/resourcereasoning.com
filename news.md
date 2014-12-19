@@ -210,7 +210,7 @@ title: News
     of operating systems programs.
 * The [Proof Systems for Program Logics](http://homepages.inf.ed.ac.uk/als/PSPL2010/) workshop takes place at FLOC in
     Edinburgh, partly sponsored by EPSRC programme grant Resource Reasoning.
-* The [Cambridge Concurrency Workshop](http://www.cl.cam.ac.uk/~md466/ccw2010/) continues a series of local workshops,
+* The [Cambridge Concurrency Workshop](http://www-users.cs.york.ac.uk/~miked/ccw2010/) continues a series of local workshops,
     with predecessors held in [Newcastle in November 2009](http://homepages.cs.ncl.ac.uk/joey.coleman/ncw2009/) and at
     [Queen Mary in January 2009](http://www0.cs.ucl.ac.uk/staff/p.ohearn/Workshops/Concurrency09/).
 
