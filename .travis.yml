@@ -15,4 +15,7 @@ env:
 
 notifications:
   irc:
-    - "ircs://irc.elvum.net:6697#rr"
+    channels:
+      - "ircs://irc.elvum.net:6697#rr"
+    template:
+      - "%{repository_name} build %{result} - %{author} %{commit}: %{commit_message} (%{build_url})"
