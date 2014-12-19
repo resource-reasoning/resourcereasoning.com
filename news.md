@@ -67,7 +67,7 @@ title: News
     * [Philippa Gardner](http://www.doc.ic.ac.uk/~pg/) and [Byron Cook](http://research.microsoft.com/en-us/people/bycook/)
         give talks at the pre-POPL [mentoring workshop](http://www.cis.upenn.edu/~sweirich/plmw12/). 
     * [Tony Hoare](http://www.cs.ox.ac.uk/people/tony.hoare/) receives the SIGPLAN
-        [Programming Languages Achievement Award](http://www.sigplan.org/Award/Achievement/). As part of the
+        [Programming Languages Achievement Award](http://www.sigplan.org/Awards/Achievement/). As part of the
         presentation, Peter O'Hearn interviews Hoare in front of the POPL audience.
     * [Hongseok Yang](http://www.cs.ox.ac.uk/people/hongseok.yang/Public/Home.html) presents the paper
         "[Abstractions from Tests](http://www.cs.ox.ac.uk/people/hongseok.yang/paper/popl12.pdf)" in the POPL main
@@ -146,9 +146,9 @@ title: News
 
 ## January 2011
 * [POPL 2011](http://www.cse.psu.edu/popl/11/) takes place.
-    * [Gardner](http://www.doc.ic.ac.uk/~pg/) and [Yang](http://www.eecs.qmul.ac.uk/~hyang/Public/Home.html) serve on
+    * [Gardner](http://www.doc.ic.ac.uk/~pg/) and [Yang](http://www.cs.ox.ac.uk/people/hongseok.yang/Public/Home.html) serve on
         the program committee
-    * [Dodds](http://www.cl.cam.ac.uk/~md466/) and [Koskinen](http://www.cl.cam.ac.uk/~ejk39/) present papers at the
+    * [Dodds](http://www.cl.cam.ac.uk/~md466/) and [Koskinen](http://cs.nyu.edu/~ejk/) present papers at the
         main conference
     * [Cook](http://research.microsoft.com/en-us/people/bycook/) organises the PhD student session
     * [da Rocha Pinto](http://www.doc.ic.ac.uk/~pmd09/) and [Parkinson](http://www.cl.cam.ac.uk/~mjp41/) present
@@ -167,11 +167,11 @@ title: News
 
 ## November 2010
 * [Jeremy Dawson](http://users.cecs.anu.edu.au/~jeremy/) of ANU Canberra arrives to visit Imperial for ~1 month. He will
-    be working with [James Brotherston](http://www.eecs.qmul.ac.uk/~jamesb/) on interpolation for displayable logics.
+    be working with [James Brotherston](http://www0.cs.ucl.ac.uk/staff/J.Brotherston/) on interpolation for displayable logics.
 * [Peter O'Hearn](http://www0.cs.ucl.ac.uk/staff/p.ohearn/) talks on Reasoning about Programs Using a Scientific Method on
     16th November in a [BCS-FACS Evening Seminar](http://www.lms.ac.uk/content/lms-bac-facs-evening-seminars) at the
     London Mathematical Society.
-* [Mohammad Raza](http://research.microsoft.com/en-us/people/moraza/) moves to [Microsoft Research Cambridge](http://research.microsoft.com/en-us/labs/cambridge/default.aspx).
+* Mohammad Raza moves to [Microsoft Research Cambridge](http://research.microsoft.com/en-us/labs/cambridge/default.aspx).
 
 ## October 2010
 * [Geek of the Week](http://www.simple-talk.com/opinion/geek-of-the-week/dr-byron-cook-geek-of-the-week/) interviews
@@ -181,7 +181,7 @@ title: News
 * [Jules Villard](http://www.cs.ucl.ac.uk/staff/jvillard/) arrives to start a postdoc at Queen Mary.
 
 ## September 2010
-* [Mohammad Raza](http://research.microsoft.com/en-us/people/moraza/) passes his PhD with flying colours.
+* Mohammad Raza passes his PhD with flying colours.
 * Abstraction yak at Imperial . informal talks, including [Lars Birkedal](http://www.itu.dk/~birkedal/) (ITU Copenhagen)
     on Step-Indexed Kripke Models over Recursive Worlds.
 
@@ -194,7 +194,7 @@ title: News
     at [CSL 2010](http://mfcsl2010.fi.muni.cz/).
 
 * [Verified Software: Theories, Tools and Experiments 2010](http://www.macs.hw.ac.uk/vstte10/) takes place in Edinbugh,
-    with [O'Hearn](http://www0.cs.ucl.ac.uk/staff/p.ohearn/) a program chair, [Yang](http://www.eecs.qmul.ac.uk/~hyang/Public/Home.html)
+    with [O'Hearn](http://www0.cs.ucl.ac.uk/staff/p.ohearn/) a program chair, [Yang](http://www.cs.ox.ac.uk/people/hongseok.yang/Public/Home.html)
     a theory workshop chair, and [Parkinson](http://research.microsoft.com/en-us/people/mattpark/) keynote speaker on
     [The Next 700 Separation Logics](http://research.microsoft.com/apps/pubs/default.aspx?id=137770). The conference was
     partly sponsored by EPSRC programme grant Resource Reasoning.
@@ -205,8 +205,8 @@ title: News
 * Refinement mini-yak at Imperial . informal talks, including [Aaron Turon](http://www.ccs.neu.edu/home/turon/)
     (Northeastern University, visiting Microsoft) on
     [A Separation Logic for Refining Concurrent Objects](http://www.ccs.neu.edu/home/turon/sepref/).
-* [Oukseh Lee](http://pllab.hyu.ac.kr/~oukseh/) arrives at Queen Mary for one year on Resource Reasoning project. He
-    will be working with [Hongseok Yang](http://www.eecs.qmul.ac.uk/~hyang/Public/Home.html) on automatic verification
+* Oukseh Lee arrives at Queen Mary for one year on Resource Reasoning project. He
+    will be working with [Hongseok Yang](http://www.cs.ox.ac.uk/people/hongseok.yang/Public/Home.html) on automatic verification
     of operating systems programs.
 * The [Proof Systems for Program Logics](http://homepages.inf.ed.ac.uk/als/PSPL2010/) workshop takes place at FLOC in
     Edinburgh, partly sponsored by EPSRC programme grant Resource Reasoning.
@@ -221,8 +221,9 @@ title: News
 
 ## April 2010
 * [John Reynolds](http://www.cs.cmu.edu/~jcr/) wins the [2010 BCS Lovelace Medal](http://www.bcs.org/content/ConWebDoc/35352).
-* [Noam Rinetzky](http://www.eecs.qmul.ac.uk/~maon/) awarded a 5-year
-    [Royal Academy of Engineering research fellowship](http://www.raeng.org.uk/research/researcher/postdoc/) at Queen Mary.
+* [Noam Rinetzky](http://www.cs.tau.ac.il/~maon/) awarded a 5-year
+    [Royal Academy of Engineering research fellowship](http://www.raeng.org.uk/grants-and-prizes/support-for-research/research-fellowships/raeng-research-fellowship)
+    at Queen Mary.
 
 ## March 2010
 * Yak session at Imperial on 4th March.
