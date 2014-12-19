@@ -2,6 +2,7 @@ exclude: [vendor,README.md,Gemfile,Gemfile.lock,Rakefile]
 
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 github:
     repository_url: "https://github.com/resource-reasoning/resourcereasoning.com"
