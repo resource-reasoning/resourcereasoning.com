@@ -49,7 +49,7 @@ function dobib(id) {
     <div class="paperbody">
         <p class="authors">{{ paper.authors }}</p>
         <p class="publishedin">{{ paper.venue }} </p>
-        <div class="abstract">{{ paper.abstract }}</div>
+        <div class="abstract">{{ paper.abstract | markdownify }}</div>
     </div>
     <pre class="bibtex" id="bibtex{{ forloop.index }}">{{ paper.bibtex }}</pre>
 </div>
