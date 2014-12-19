@@ -1,6 +1,10 @@
 ---
 title: News
 ---
+## December 2014
+* This website has been migrated to GitHub pages, and is now being co-maintained with UCL. If you notice any incorrect
+    information please feel free to report it on our [project page]({{ site.github.repository_url }}).
+
 ## January 2013
 * [Matthew Parkinson](http://research.microsoft.com/en-us/people/mattpark/) wins the
   [2013 Dahl-Nygaard Junior Prize](http://www.aito.org/Dahl-Nygaard/2013.html) for his work on reasoning about
