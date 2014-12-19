@@ -1,27 +1,29 @@
 ---
 title: Publications
 ---
-<script type="text/javascript">
-$(document).ready(function(){
-    $("<a href=\"#\">show abstract</a>")
-        .addClass('abstractlink')
-        .insertBefore($(".abstract").hide())
-        .click(function() {
-            $(this).next().toggle();
-            if ($(this).text() == "show abstract") {
-            $(this).text("hide abstract");
-            } else {
-            $(this).text("show abstract");
-            }
-            return false;
-        });
-        $(".bibtex").dialog({width : 600, title : "BibTeX", autoOpen : false});
-});
+<script type="text/javascript"><!--
+    $(document).ready(function(){
+        $(document.createElement("a"))
+            .text("show abstract")
+            .attr('href', '#')
+            .addClass('abstractlink')
+            .insertBefore($(".abstract").hide())
+            .click(function() {
+                $(this).next().toggle();
+                if ($(this).text() == "show abstract") {
+                $(this).text("hide abstract");
+                } else {
+                $(this).text("show abstract");
+                }
+                return false;
+            });
+            $(".bibtex").dialog({width : 600, title : "BibTeX", autoOpen : false});
+    });
 
-function dobib(id) {
-    $("#bibtex" + id).dialog("open");
-}
-</script>
+    function dobib(id) {
+        $("#bibtex" + id).dialog("open");
+    }
+--></script>
 
 <p>The following is a list of recent publications by the Resource Reasoning group:</p>
 
@@ -31,16 +33,16 @@ function dobib(id) {
     <span class="papertitle">{{ paper.title }}</span>
     <span class="links">
         {% if paper.pdf %}
-            [<a href="{{paper.pdf}}">PDF</a>]
+            [<a href="{{paper.pdf | escape }}">PDF</a>]
         {% endif %}
         {% if paper.ps %}
-            [<a href="{{paper.ps}}">PS</a>]
+            [<a href="{{paper.ps | escape }}">PS</a>]
         {% endif %}
         {% if paper.pdflong %}
-            [<a href="{{paper.pdflong}}">Full PDF</a>]
+            [<a href="{{paper.pdflong | escape }}">Full PDF</a>]
         {% endif %}
         {% if paper.pslong %}
-            [<a href="{{paper.pslong}}">Full PS</a>]
+            [<a href="{{paper.pslong | escape }}">Full PS</a>]
         {% endif %}
         {% if paper.bibtex %}
             [<a href="javascript:dobib('{{ forloop.index }}')">BibTeX</a>]

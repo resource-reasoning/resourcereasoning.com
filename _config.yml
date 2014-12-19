@@ -4,8 +4,8 @@ gems:
   - jekyll-sitemap
 
 github:
-    repository_url: "//github.com/resource-reasoning/resourcereasoning.com"
-    issues_url: "//github.com/resource-reasoning/resourcereasoning.com/issues"
+    repository_url: "https://github.com/resource-reasoning/resourcereasoning.com"
+    issues_url: "https://github.com/resource-reasoning/resourcereasoning.com/issues"
 
 defaults:
   -

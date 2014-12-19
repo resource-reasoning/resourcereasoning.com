@@ -1,5 +1,4 @@
-{% capture template %}
-Title:
+{% capture template %}Title:
 Authors:
 Venue:
 Publication Date:
@@ -8,5 +7,4 @@ PS link:
 PDF link (full version):
 PS link (full version):
 Abstract:
-BibTeX:
-{% endcapture %}{{site.github.issues_url}}/new?title=New paper&body={{template | cgi_escape}}
+BibTeX: {% endcapture %}{{site.github.issues_url}}/new?title=New%20paper&amp;body={{template | uri_escape}}
