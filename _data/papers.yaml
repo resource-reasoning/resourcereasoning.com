@@ -107,7 +107,7 @@
         address = {New York, NY, USA},
         publisher = {ACM}
       }
-  pdf: "http://www.eecs.qmul.ac.uk/~ohearn/papers/podc2010.pdf"
+  pdf: "http://www0.cs.ucl.ac.uk/staff/p.ohearn/papers/podc2010.pdf"
   pubdate: "2010-07-25"
   title: "Verifying Linearizability with Hindsight"
   venue: "PODC 2010"
@@ -133,7 +133,8 @@
         address = {Berlin, Heidelberg},
         publisher = {Springer-Verlag}
       }
-  pdf: "http://www.doc.ic.ac.uk/~ccris/ftp/agents.pdf"
+  #pdf: "http://www.doc.ic.ac.uk/~ccris/ftp/agents.pdf"
+  pdf: "http://se.ethz.ch/~meyer/publications/proofs/agents.pdf"
   pubdate: "2010-06-28"
   title: "Reasoning about Function Objects"
   venue: "TOOLS Europe 2010"
@@ -164,7 +165,8 @@
         address = {Berlin, Heidelberg},
         publisher = {Springer-Verlag}
       }
-  pdf: "http://www.doc.ic.ac.uk/~ccris/ftp/ExecutableSpecs.pdf"
+  #pdf: "http://www.doc.ic.ac.uk/~ccris/ftp/ExecutableSpecs.pdf"
+  pdf: "http://se.ethz.ch/~meyer/publications/proofs/ooseparation.pdf"
   pubdate: "2010-06-21"
   title: "Verifying Executable Object-Oriented Specifications with Separation Logic"
   venue: "ECOOP 2010"
@@ -216,8 +218,8 @@
         address = {Berlin, Heidelberg},
         publisher = {Springer-Verlag}
       }
-  pdf: "http://www.dcs.qmul.ac.uk/~hyang/paper/fossacs10.pdf"
-  pdflong: "http://www.dcs.qmul.ac.uk/~hyang/paper/CSL2009-full.pdf"
+  pdf: "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/fossacs10.pdf"
+  pdflong: "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/CSL2009-full.pdf"
   pubdate: "2010-03-20"
   title: "A Semantic Foundation for Hidden State"
   venue: "FoSSaCS 2010"
@@ -266,7 +268,7 @@
         address = {Berlin, Heidelberg},
         publisher = {Springer-Verlag}
       }
-  pdf: "http://www.doc.ic.ac.uk/~ccris/ftp/VLC-tacas10.pdf"
+  pdf: "http://www.doc.ic.ac.uk/~jvillar1/pub/heap-hop-VLCtacas10.pdf"
   pubdate: "2010-03-20"
   title: "Tracking Heaps that Hop with Heap-Hop"
   venue: "TACAS 2010"
@@ -304,7 +306,7 @@
         Month     = "January",
         Year      = "2011"
       }
-  pdf: "http://www.eecs.qmul.ac.uk/~hyang/paper/popl11-long.pdf"
+  pdf: "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/popl11-long.pdf"
   pubdate: "2011-01-27"
   title: "Step-Indexed Kripke Models over Recursive Worlds"
   venue: "POPL 2011"
@@ -351,7 +353,7 @@
         isbn      = {978-1-60558-479-9},
         bibsource = {DBLP, http://dblp.uni-trier.de}
       }
-  pdf: "http://www.cl.cam.ac.uk/~ejk39/papers/cgt.pdf"
+  pdf: "http://cs.nyu.edu/~ejk/papers/cgt.pdf"
   pubdate: "2010-01-20"
   title: "Coarse-Grained Transactions"
   venue: "POPL 2010"
@@ -401,8 +403,8 @@
         pages     = {156-171},
         ee        = {http://dx.doi.org/10.1007/978-3-642-17164-2_12}
       }
-  pdf: "http://www.eecs.qmul.ac.uk/~hyang/paper/aplas10.pdf"
-  pdflong: "http://www.dcs.qmul.ac.uk/~hyang/paper/aplas10-long.pdf"
+  pdf: "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/aplas10.pdf"
+  pdflong: "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/aplas10-long.pdf"
   pubdate: "2010-11-28"
   title: "Metric Spaces and Termination Analyses"
   venue: "APLAS 2010"
@@ -428,7 +430,7 @@
         pages     = {4379-4398},
         ee        = {http://dx.doi.org/10.1016/j.tcs.2010.09.021}
       }
-  pdf: "http://www.dcs.qmul.ac.uk/~hyang/paper/TCS10-concurrent-objects.pdf"
+  pdf: "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/TCS10-concurrent-objects.pdf"
   pdflong: ~
   ps: ~
   pslong: ~
@@ -522,7 +524,7 @@
         year = 2010,
         pages = {31--42}
       }
-  pdf: "http://www.eecs.qmul.ac.uk/~maon/pubs/seqser-popl10.pdf"
+  pdf: "http://www.cs.tau.ac.il/~maon/pubs/seqser-popl10.pdf"
   pdflong: ~
   ps: ~
   pslong: ~
@@ -552,7 +554,7 @@
         pages     = {547-583},
         ee        = {http://dx.doi.org/10.1007/s00165-009-0125-8}
       }
-  pdf: "http://www.dcs.qmul.ac.uk/~hyang/paper/refinement-facs2009.pdf"
+  pdf: "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/refinement-facs2009.pdf"
   pdflong: ~
   ps: ~
   pslong: ~
@@ -661,7 +663,7 @@
         pages = {287--296},
         publisher = {ACM},
       }
-  pdf: "http://www.eecs.qmul.ac.uk/~maon/pubs/FSE10-ADAS.pdf"
+  pdf: "http://www.cs.tau.ac.il/~maon/pubs/FSE10-ADAS.pdf"
   pdflong: ~
   ps: ~
   pslong: ~
@@ -720,20 +722,20 @@
       of bunched logic are very unlikely to exist.
   authors: "James Brotherston"
   bibtex: |
-      @Article{Brotherston:11,
-        author    = "James Brotherston",
-        title     = "Bunched Logics Displayed",
-        journal   = "Studia Logica: Special Issue on Recent Developments related to Residuated Lattices and Substructural Logics",
-        note      = "Awaiting publication",
-        year      = 2011
-      }
-  pdf: "http://www0.cs.ucl.ac.uk/staff/J.Brotherston/StudiaLogica11/BL_display_SL_final.pdf"
-  pdflong: ~
-  ps: ~
-  pslong: ~
-  pubdate: "2011-03-02"
+    @Article{Brotherston:12,
+      author    = "James Brotherston",
+      title     = "Bunched Logics Displayed",
+      journal   = "Studia Logica: Special Issue on Recent Developments related to Residuated Lattices and Substructural Logics",
+      volume    = 100,
+      number    = 6,
+      pages     = "1223--1254",
+      publisher = "Springer",
+      year      = 2012
+    }
+  pdf: "http://www0.cs.ucl.ac.uk/staff/J.Brotherston/StudiaLogica12/BL_display_SL_final.pdf"
+  pubdate: "2012-10-20"
   title: "Bunched Logics Displayed"
-  venue: "Studia Logica: Special Issue on Recent Developments related to Residuated Lattices and Substructural Logics, 2011"
+  venue: "Studia Logica: Special Issue on Recent Developments related to Residuated Lattices and Substructural Logics, 2012"
 -
   abstract: |
       Modern concurrent algorithms are usually encapsulated in libraries, and
@@ -922,10 +924,7 @@
         year      = {2011},
         pages     = {250-264}
       }
-  pdf: "http://www.eecs.qmul.ac.uk/~rusmus/articles/LocalityBimonoid.pdf"
-  pdflong: ~
-  ps: ~
-  pslong: ~
+  pdf: "http://dx.doi.org/10.1007/978-3-642-23217-6_17"
   pubdate: "2011-09-08"
   title: "On Locality and the Exchange Law for Concurrent Processes"
   venue: "CONCUR 2011"
@@ -940,19 +939,19 @@
       show that standard entailment is decidable in polynomial time, while abduction ranges from NP-complete to polynomial time for different subproblems.
   authors: "Nikos Gorogiannis, Max Kanovich, Peter O'Hearn"
   bibtex: |
-      @inproceedings{DBLP:conf/sas/GorogiannisKO11,
-        author    = {Nikos Gorogiannis and
-                     Max I. Kanovich and
-                     Peter W. O'Hearn},
-        title     = {The Complexity of Abduction for Separated Heap Abstractions},
-        booktitle = {18th SAS, Springer LNCS 6887},
-        year      = {2011},
-        pages     = {25-42}
-      }
-  pdf: "http://www.eecs.qmul.ac.uk/~nikosg/publications/2011-sas.pdf"
-  pdflong: ~
-  ps: ~
-  pslong: ~
+    @inproceedings{Gorogiannis2011b,
+      author = {Nikos Gorogiannis and Max Kanovich and Peter W. O'Hearn},
+      title = {The Complexity of Abduction for Separated Heap Abstractions},
+      booktitle = {The 18th International Static Analysis Symposium, SAS 2011},
+      year = {2011},
+      pdf = {publications/2011-sas.pdf},
+      series = {Lecture Notes in Computer Science},
+      publisher = {Springer},
+      volume = {6887},
+      pages = {25--42},
+      doi = {10.1007/978-3-642-23702-7_7}
+    }
+  pdf: "http://www.eis.mdx.ac.uk/staffpages/nikosgkorogiannis/publications/2011-sas.pdf"
   pubdate: "2011-09-12"
   title: "The Complexity of Abduction for  Separated Heap Abstractions"
   venue: "SAS 2011"
@@ -999,9 +998,6 @@
         year      = 2011
       }
   pdf: "http://logcom.oxfordjournals.org/content/early/2010/09/30/logcom.exq052.full.pdf?ijkey=Iv8ztXdIy6Hc6d6&keytype=ref"
-  pdflong: ~
-  ps: ~
-  pslong: ~
   pubdate: "2011-12-06"
   title: "Sequent Calculi for Induction and Infinite Descent"
   venue: "Journal of Logic and Computation"
