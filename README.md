@@ -5,27 +5,14 @@ Resource Reasoning Website
 
 Editing the website
 -------------------
-The preferred method of contributing to the site is by pull request, or if you have commit rights, directly pushing your
-changes to the live repository.
+The preferred method of contributing to the site is by pull request, or directly if you have commit rights.
+
+Site maintainers may edit directly on GitHub by clicking on the page to edit and using the edit button.
 
 Site maintainers will also accept Issue reports submitted to the main repository.
 
-The site is built on the [GitHub Pages](https://help.github.com/categories/github-pages-basics/) platform, which is
-backed by the [Jekyll](http://jekyllrb.com/) website framework. Pages can be written using
-[Markdown](http://daringfireball.net/projects/markdown/) (preferred) or HTML, and there
-is a powerful [templating language](http://jekyllrb.com/docs/templates/) available for use.
-
-Pages to be interpreted by the Jekyll framework should be started with a YAML variable block, for example:
-```
----
-title: Page Name
----
-```
-The main content of the page should then follow.
-
-Any other files present in the directory structure (except for those prefixed with `_`, `.`, or explicitly excluded in
-`_config.yml`) will be published unchanged to the website.
-
+Website Structure
+-----------------
 The main files of interest for editing are:
   * **index.html** The main page.
     You might want to edit the blurb or change the pictures in the photo gallery.
@@ -60,6 +47,25 @@ The main files of interest for editing are:
     This file is included by both dynamically- and statically-generated pages.
   * **_include/foot.html** Common page footer.
     This just contains a link to the site maintainence information page.
+
+
+Technical Detail
+----------------
+The site is built on the [GitHub Pages](https://help.github.com/categories/github-pages-basics/) platform, which is
+backed by the [Jekyll](http://jekyllrb.com/) website framework. Pages can be written using
+[Markdown](http://daringfireball.net/projects/markdown/) (preferred) or HTML, and there
+is a powerful [templating language](http://jekyllrb.com/docs/templates/) available for use.
+
+Pages to be interpreted by the Jekyll framework should be started with a YAML variable block, for example:
+```
+---
+title: Page Name
+---
+```
+The main content of the page should then follow.
+
+Any other files present in the directory structure (except for those prefixed with `_`, `.`, or explicitly excluded in
+`_config.yml`) will be published unchanged to the website.
 
 Local Testing
 -------------
