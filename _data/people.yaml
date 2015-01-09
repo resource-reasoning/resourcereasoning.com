@@ -1,3 +1,5 @@
+# Entries do not need to be ordered, they will be re-ordered when placed on the website
+# Current grant members are located here, former grant members are located at the bottom of this file.
 current:
   -
     affiliations:
@@ -192,6 +194,16 @@ current:
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 former:
   -
     affiliations:
@@ -247,3 +259,5 @@ former:
     firstname: Adam
     lastname: Wright
     url: "http://www.doc.ic.ac.uk/~adw07"
+    
+# Note: The above section is listing former grant members, see further above for end of the current list.
