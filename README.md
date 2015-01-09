@@ -23,6 +23,17 @@ The main files of interest for editing are:
     * **people.yaml** The people page data
       This file contains the people directly associated with the Resource Reasoning grant at present and in the past.
       It should be quite easy to see how to change this to add and remove people, change institutions, websites _etc._.
+     
+    Template person record:
+     ```markdown
+      -
+        affiliations:
+          - First
+          - Second
+        firstname: First
+        lastname: Second
+        url: "http://www.example.com/~first.second/"
+     ```
 
     * **papers.yaml** The publications page data
       This file contains the data of publications, fields should be reasonably obvious from the data already in the file.
@@ -34,6 +45,28 @@ The main files of interest for editing are:
      * Workshop papers and techreports are generally not included, although often an "extended version" can accompany a
          paper using the pdflong/pslong fields.
      * It's good to have the BibTeX where possible.
+     
+     Template paper record:
+     ```markdown
+     -
+       abstract: |
+         Block of **Markdown** formatted text.
+         Multiple lines
+
+         And paragraphs are permitted:
+       authors: "First Name, Second Person, Third Person"
+       bibtex: |
+         @INPROCEEDINGS{bibid,
+         comment = {Copy and paste from your reference manager}
+         }
+       pdf: "http://URI for short (or only) version of paper pdf"
+       pdflong: "http://URI for full version of paper pdf"
+       ps: "As pdf, but for ps files"
+       pslong: "As pdflong, but for ps files"
+       pubdate: "yyyy-mm-dd"
+       title: "Paper Title"
+       venue: "Paper Venue, year"
+     ```
 
   * **support.md** The support page.
     Should be self-explanatory.
