@@ -68,7 +68,7 @@ title: News
 ## January 2012
 * [POPL 2012](http://www.cse.psu.edu/popl/12/) happens in Philadelphia, with lots of participation from Resource
     Reasoning and friends:
-    * [Philippa Gardner](http://www.doc.ic.ac.uk/~pg/) and [Byron Cook](http://research.microsoft.com/en-us/people/bycook/)
+    * [Philippa Gardner](http://www.doc.ic.ac.uk/~pg/) and [Byron Cook](http://www0.cs.ucl.ac.uk/staff/b.cook/)
         give talks at the pre-POPL [mentoring workshop](http://www.cis.upenn.edu/~sweirich/plmw12/). 
     * [Tony Hoare](http://www.cs.ox.ac.uk/people/tony.hoare/) receives the SIGPLAN
         [Programming Languages Achievement Award](http://www.sigplan.org/Awards/Achievement/). As part of the
@@ -109,14 +109,14 @@ title: News
 
 ## August 2011
 * [Peter O'Hearn](http://www0.cs.ucl.ac.uk/staff/p.ohearn/) gives a course at the [Marktoberdorf PhD summer school](http://asimod.in.tum.de/2011/index.shtml).
-* [Byron Cook](http://research.microsoft.com/en-us/people/bycook/) is an invited speaker at [CADE 23](http://cade23.ii.uni.wroc.pl/) in Poland.
+* [Byron Cook](http://www0.cs.ucl.ac.uk/staff/b.cook/) is an invited speaker at [CADE 23](http://cade23.ii.uni.wroc.pl/) in Poland.
 
 ## July 2011
 * Yak at Imperial on 29th July with special guest [Bart Jacobs](http://distrinet.cs.kuleuven.be/people/showMember.do?memberID=u0022525)
     (Katholieke Universiteit Leuven).
 * Congratulations to [Thomas Dinsdale-Young](http://www.doc.ic.ac.uk/~td202) for passing his PhD thesis defense on
     [Abstract Data and Local Reasoning](http://www.doc.ic.ac.uk/~td202/thesis.pdf).
-* [Byron Cook](http://research.microsoft.com/en-us/people/bycook/) gives a course at the
+* [Byron Cook](http://www0.cs.ucl.ac.uk/staff/b.cook/) gives a course at the
     [ECOOP'11 PhD summer school](http://ecoop11.comp.lancs.ac.uk/?q=program/summer_school).
 
 ## June 2011
@@ -124,7 +124,7 @@ title: News
     8th June on "Making Program Logics Intelligible".
 
 ## May 2011
-* [Byron Cook](http://research.microsoft.com/en-us/people/bycook/) publishes a
+* [Byron Cook](http://www0.cs.ucl.ac.uk/staff/b.cook/) publishes a
     [review article](http://cacm.acm.org/magazines/2011/5/107680-proving-program-termination/fulltext) with his
     colleagues Podelski and Rybalchenko in CACM.  It explains their seminal ideas on "Proving Program Termination" in a
     manner appropriate to the broad CACM audience.
@@ -154,7 +154,7 @@ title: News
         the program committee
     * [Dodds](http://www.cl.cam.ac.uk/~md466/) and [Koskinen](http://cs.nyu.edu/~ejk/) present papers at the
         main conference
-    * [Cook](http://research.microsoft.com/en-us/people/bycook/) organises the PhD student session
+    * [Cook](http://www0.cs.ucl.ac.uk/staff/b.cook/) organises the PhD student session
     * [da Rocha Pinto](http://www.doc.ic.ac.uk/~pmd09/) and [Parkinson](http://www.cl.cam.ac.uk/~mjp41/) present
         workshop papers at [Verico](http://research.ihost.com/verico/).
 * [Samin Ishtiaq](http://research.microsoft.com/en-us/people/sishtiaq/) and [Peter O'Hearn](http://www0.cs.ucl.ac.uk/staff/p.ohearn/)
@@ -179,7 +179,7 @@ title: News
 
 ## October 2010
 * [Geek of the Week](http://www.simple-talk.com/opinion/geek-of-the-week/dr-byron-cook-geek-of-the-week/) interviews
-    [Byron Cook](http://research.microsoft.com/en-us/people/bycook/).
+    [Byron Cook](http://www0.cs.ucl.ac.uk/staff/b.cook/).
 * Automation yak at Queen Mary . informal talks and demonstrations on automated verification including
     [Xavier Rival](http://www.di.ens.fr/~rival/) (INRIA Roquencourt).
 * [Jules Villard](http://www.cs.ucl.ac.uk/staff/jvillard/) arrives to start a postdoc at Queen Mary.
