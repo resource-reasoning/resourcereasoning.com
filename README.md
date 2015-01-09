@@ -5,11 +5,9 @@ Resource Reasoning Website
 
 Editing the website
 -------------------
-The preferred method of contributing to the site is by pull request, or directly if you have commit rights.
-
 Site maintainers may edit directly on GitHub by clicking on the page to edit and using the edit button. ([GitHub documentation on how to do this](https://help.github.com/articles/editing-files-in-your-repository/))
 
-Site maintainers will also accept Issue reports submitted to the main repository.
+Site maintainers may also accept relevant Issue reports and Pull Requests submitted to the main repository.
 
 Website Structure
 -----------------
