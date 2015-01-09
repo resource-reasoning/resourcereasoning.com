@@ -23,20 +23,21 @@ The main files of interest for editing are:
     The house style is reasonably formal, including links where available.
     All entries should be in the _present tense_.
 
-  * **_data/people.yaml** The people page data
-    This file contains the people directly associated with the Resource Reasoning grant at present and in the past.
-    It should be quite easy to see how to change this to add and remove people, change institutions, websites _etc._.
+  * Inside the folder **_data**:
+    * **people.yaml** The people page data
+      This file contains the people directly associated with the Resource Reasoning grant at present and in the past.
+      It should be quite easy to see how to change this to add and remove people, change institutions, websites _etc._.
 
-  * **_data/papers.yaml** The publications page data
-    This file contains the data of publications, fields should be reasonably obvious from the data already in the file.
+    * **papers.yaml** The publications page data
+      This file contains the data of publications, fields should be reasonably obvious from the data already in the file.
 
-    Page style guide:
-    * Conference names are generally formatted as "POPL 2012" or "ESOP 2013".
-    * Names are a comma-separated list, with no "and".
-    * The editorial policy is not to allow papers that have yet to be published.
-    * Workshop papers and techreports are generally not included, although often an "extended version" can accompany a
-        paper using the pdflong/pslong fields.
-    * It's good to have the BibTeX where possible.
+     Page style guide:
+     * Conference names are generally formatted as "POPL 2012" or "ESOP 2013".
+     * Names are a comma-separated list, with no "and".
+     * The editorial policy is not to allow papers that have yet to be published.
+     * Workshop papers and techreports are generally not included, although often an "extended version" can accompany a
+         paper using the pdflong/pslong fields.
+     * It's good to have the BibTeX where possible.
 
   * **support.md** The support page.
     Should be self-explanatory.
