@@ -49,23 +49,23 @@ The main files of interest for editing are:
      Template paper record:
      ```markdown
      -
-       abstract: |
-         Block of **Markdown** formatted text.
-         Multiple lines
+        abstract: |
+          Block of **Markdown** formatted text.
+          Multiple lines
 
-         And paragraphs are permitted:
-       authors: "First Name, Second Person, Third Person"
-       bibtex: |
-         @INPROCEEDINGS{bibid,
-         comment = {Copy and paste from your reference manager}
-         }
-       pdf: "http://URI for short (or only) version of paper pdf"
-       pdflong: "http://URI for full version of paper pdf"
-       ps: "As pdf, but for ps files"
-       pslong: "As pdflong, but for ps files"
-       pubdate: "yyyy-mm-dd"
-       title: "Paper Title"
-       venue: "Paper Venue, year"
+          And paragraphs are permitted:
+        authors: "First Name, Second Person, Third Person"
+        bibtex: |
+          @INPROCEEDINGS{bibid,
+          comment = {Copy and paste from your reference manager}
+          }
+        pdf: "http://URI for short (or only) version of paper pdf"
+        pdflong: "http://URI for full version of paper pdf"
+        ps: "As pdf, but for ps files"
+        pslong: "As pdflong, but for ps files"
+        pubdate: "yyyy-mm-dd"
+        title: "Paper Title"
+        venue: "Paper Venue, year"
      ```
 
   * **support.md** The support page.
