@@ -2,6 +2,12 @@ current:
   -
     affiliations:
       - UCL
+    firstname: David
+    lastname: Pym
+    url: "http://www0.cs.ucl.ac.uk/staff/D.Pym/"
+  -
+    affiliations:
+      - UCL
     firstname: Jade
     lastname: Alglave
     url: "http://www0.cs.ucl.ac.uk/staff/J.Alglave/"
@@ -183,6 +189,9 @@ current:
     firstname: Hongseok
     lastname: Yang
     url: "http://www.cs.ox.ac.uk/people/hongseok.yang/Public/Home.html"
+    
+    
+    
 former:
   -
     affiliations:
