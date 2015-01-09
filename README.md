@@ -12,10 +12,6 @@ Site maintainers may also accept relevant Issue reports and Pull Requests submit
 Website Structure
 -----------------
 The main files of interest for editing are:
-  * **index.html** The main page.
-    You might want to edit the blurb or change the pictures in the photo gallery.
-    Images for the gallery should be stored in `images` and referenced as the existing images are inside the page.
-
   * **news.md** The news page.
     It should be apparent the general format of this file: use second level headers for the month and year, and
     unordered lists for events occuring in that month. A second level of list may be used, eg for POPL.
@@ -41,12 +37,16 @@ The main files of interest for editing are:
 
   * **support.md** The support page.
     Should be self-explanatory.
+
+Files that are less likely to require editing:
+  * **index.html** The main page.
+    You might want to edit the blurb or change the pictures in the photo gallery.
+    Images for the gallery should be stored in `images` and referenced as the existing images are inside the page.
+  * **_layouts/page.html** Page template
   * **_include/nav.html** Common navigational elements.
     You might want to change this page if you add or remove pages from the site, so that all of the other pages link to them.
-    This file is included by both dynamically- and statically-generated pages.
   * **_include/foot.html** Common page footer.
     This just contains a link to the site maintainence information page.
-
 
 Technical Detail
 ----------------
