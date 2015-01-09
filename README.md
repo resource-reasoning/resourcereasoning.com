@@ -27,7 +27,7 @@ Any other files present in the directory structure (except for those prefixed wi
 `_config.yml`) will be published unchanged to the website.
 
 The main files of interest for editing are:
-  * **index.shtml** The main page.
+  * **index.html** The main page.
     You might want to edit the blurb or change the pictures in the photo gallery.
     Images for the gallery should be stored in `images` and referenced as the existing images are inside the page.
 
