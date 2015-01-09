@@ -1,7 +1,7 @@
 Resource Reasoning Website
 ==========================
 
-[![Build Status](https://travis-ci.org/resource-reasoning/resourcereasoning.com.svg)](https://travis-ci.org/resource-reasoning/resourcereasoning.com)
+[![Build Status](https://travis-ci.org/resource-reasoning/resourcereasoning.com.svg)](https://travis-ci.org/resource-reasoning/resourcereasoning.com) (If this icon turns grey or red, something technical has gone wrong, or there are dead links on the website)
 
 Editing the website
 -------------------
