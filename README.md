@@ -20,22 +20,23 @@ The main files of interest for editing are:
     All entries should be in the _present tense_.
 
   * Inside the folder **_data**:
-    * **people.yaml**([edit](https://github.com/resource-reasoning/resourcereasoning.com/edit/gh-pages/_data/people.yaml)) The people page data
+    * **people.yaml** ([edit](https://github.com/resource-reasoning/resourcereasoning.com/edit/gh-pages/_data/people.yaml)) The people page data
       This file contains the people directly associated with the Resource Reasoning grant at present and in the past.
       It should be quite easy to see how to change this to add and remove people, change institutions, websites _etc._.
      
-    Template person record:
-     ```markdown
-      -
-        affiliations:
-          - First
-          - Second
-        firstname: First
-        lastname: Second
-        url: "http://www.example.com/~first.second/"
-     ```
+      Template person record:
+       ```yaml
+        -
+          affiliations:
+            - First
+            - Second
+          firstname: First
+          lastname: Second
+          url: "http://www.example.com/~first.second/"
+       ```
 
-    * **papers.yaml**([edit](https://github.com/resource-reasoning/resourcereasoning.com/edit/gh-pages/_data/papers.yaml]) The publications page data
+    * **papers.yaml** ([edit](https://github.com/resource-reasoning/resourcereasoning.com/edit/gh-pages/_data/papers.yaml)) The publications page data
+    
       This file contains the data of publications, fields should be reasonably obvious from the data already in the file.
 
      Page style guide:
@@ -47,7 +48,7 @@ The main files of interest for editing are:
      * It's good to have the BibTeX where possible.
      
      Template paper record:
-     ```markdown
+     ```yaml
      -
         abstract: |
           Block of **Markdown** formatted text.
