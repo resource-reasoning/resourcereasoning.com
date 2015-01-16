@@ -12,7 +12,7 @@ Site maintainers may also accept relevant Issue reports and Pull Requests submit
 Website Structure
 -----------------
 The main files of interest for editing are:
-  * **news.md** The news page.
+  * **news.md** ([edit](https://github.com/resource-reasoning/resourcereasoning.com/edit/gh-pages/news.md)) The news page.
     It should be apparent the general format of this file: use second level headers for the month and year, and
     unordered lists for events occuring in that month. A second level of list may be used, eg for POPL.
 
@@ -20,7 +20,7 @@ The main files of interest for editing are:
     All entries should be in the _present tense_.
 
   * Inside the folder **_data**:
-    * **people.yaml** The people page data
+    * **people.yaml**([edit](https://github.com/resource-reasoning/resourcereasoning.com/edit/gh-pages/_data/people.yaml)) The people page data
       This file contains the people directly associated with the Resource Reasoning grant at present and in the past.
       It should be quite easy to see how to change this to add and remove people, change institutions, websites _etc._.
      
@@ -35,7 +35,7 @@ The main files of interest for editing are:
         url: "http://www.example.com/~first.second/"
      ```
 
-    * **papers.yaml** The publications page data
+    * **papers.yaml**([edit](https://github.com/resource-reasoning/resourcereasoning.com/edit/gh-pages/_data/papers.yaml]) The publications page data
       This file contains the data of publications, fields should be reasonably obvious from the data already in the file.
 
      Page style guide:
@@ -80,6 +80,10 @@ Files that are less likely to require editing:
     You might want to change this page if you add or remove pages from the site, so that all of the other pages link to them.
   * **_include/foot.html** Common page footer.
     This just contains a link to the site maintainence information page.
+
+User Permissions
+----------------
+Members of the [resource-reasoning/resourcereasoning.com](https://github.com/orgs/resource-reasoning/teams/resourcereasoning-com) Team have admin access to the website. Further administrators can be added there.
 
 Technical Detail
 ----------------
