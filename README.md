@@ -8,7 +8,7 @@ Editing the website
 Site maintainers may edit directly on GitHub by clicking on the page to edit and using the edit button. ([GitHub documentation on how to do this](https://help.github.com/articles/editing-files-in-your-repository/))
 
 Two types of files are primarily used to generate the website:
-* .md files are written in the [Markdown](http://daringfireball.net/projects/markdown/) formatting language
+* .md files are written in the **Markdown** formatting language. I recommend reading this [brief guide](https://guides.github.com/features/mastering-markdown/) to introduce you to the basics.
 * .yaml files are sets of data records ([tutorial](http://ess.khhq.net/wiki/YAML_Tutorial#YAML_Key-Property_Structure_Tutorial))
 Both file types have a fairly natural plain-text format and should be reasonably easy to follow by example.
 
