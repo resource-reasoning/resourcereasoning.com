@@ -3,8 +3,8 @@ title: Support &amp; Connections
 ---
 We are grateful to the EPSRC, RAEng and other organizations for supporting this research:
 
-* [EPSRC Resource Reasoning Program Grant](http://gow.epsrc.ac.uk/ViewGrant.aspx?GrantRef=EP/H008373/1)
-* [EPSRC jStar Grant](http://gow.epsrc.ac.uk/ViewGrant.aspx?GrantRef=EP/H011749/1)
+* EPSRC Resource Reasoning Program Grants [EP/H008373/1](http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/H008373/1) [EP/H008373/2](http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/H008373/2)
+* [EPSRC jStar Grant](http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/H011749/1)
 * RAEng fellowships of Gardner, Distefano, Rinetzky and Parkinson
 * EPSRC fellowships of Brotherston, Calcagno, Yang, O'Hearn and Maffeis
 
