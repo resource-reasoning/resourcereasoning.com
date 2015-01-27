@@ -2,7 +2,9 @@ language: ruby
 
 rvm:
 - 2.1
-script: travis_wait bundle exec rake test
+script:
+  - bundle exec rake test
+  - travis_wait bundle exec rake testlinks || true
 
 # Force gh-pages branch to be tested
 branches:
