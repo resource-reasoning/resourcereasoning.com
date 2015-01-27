@@ -76,10 +76,10 @@ current:
     url: "http://www.doc.ic.ac.uk/~pg"
   -
     affiliations:
-      - UCL
+      - "Middlesex"
     firstname: Nikos
     lastname: Gorogiannis
-    url: "http://www.cs.ucl.ac.uk/staff/N.Gorogiannis/"
+    url: "http://www.eis.mdx.ac.uk/staffpages/nikosgkorogiannis/"
   -
     affiliations:
       - "Queen Mary"
@@ -169,13 +169,13 @@ current:
     url: "http://www.cl.cam.ac.uk/~tt291/"
   -
     affiliations:
-      - "Imperial College London"
+      - UCL
     firstname: Jules
     lastname: Villard
     url: "http://www.cs.ucl.ac.uk/staff/jvillard/"
   -
     affiliations:
-      - "Imperial College London"
+      - "Cambridge University"
     firstname: John
     lastname: Wickerson
     url: "http://www.cl.cam.ac.uk/~jpw48/"
@@ -191,11 +191,7 @@ current:
     firstname: Hongseok
     lastname: Yang
     url: "http://www.cs.ox.ac.uk/people/hongseok.yang/Public/Home.html"
-  -
-    affiliations:
-      - "Imperial College London"
-    firstname: Julian
-    lastname: Sutherland
+    
     
     
     
