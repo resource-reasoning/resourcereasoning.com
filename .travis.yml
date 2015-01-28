@@ -2,9 +2,12 @@ language: ruby
 
 rvm:
 - 2.1
+
 script:
   - bundle exec rake test
-  - travis_wait bundle exec rake testlinks || true
+
+after_success:
+  - travis_wait bundle exec rake testlinks
 
 # Force gh-pages branch to be tested
 branches:
@@ -16,5 +19,5 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 notifications:
-  webhooks: http://localhost:55678/travis-ci
+  webhooks: http://146.169.46.217:55678/travis-ci
   email: false
