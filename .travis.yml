@@ -16,9 +16,5 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 notifications:
-  irc:
-    channels:
-      - "ircs://irc.elvum.net:6697#rr"
-    template:
-      - "%{repository_name} build %{result} - %{author} %{commit}: %{commit_message} (%{build_url})"
+  webhooks: http://localhost:55678/travis-ci
   email: false
