@@ -169,13 +169,6 @@ current:
     url: "http://www.cl.cam.ac.uk/~tt291/"
   -
     affiliations:
-      - UCL
-      - "Imperial College London"
-    firstname: Jules
-    lastname: Villard
-    url: "http://www.cs.ucl.ac.uk/staff/jvillard/"
-  -
-    affiliations:
       - "Cambridge University"
       - "Imperial College London"
     firstname: John
@@ -249,6 +242,14 @@ former:
       - "Queen Mary"
     firstname: Akbar
     lastname: Hussain
+  -
+    affiliations:
+      - "Queen Mary"
+      - UCL
+      - "Imperial College London"
+    firstname: Jules
+    lastname: Villard
+    url: "http://www.doc.ic.ac.uk/~jvillar1/"
   -
     affiliations:
       - "Imperial College London"
