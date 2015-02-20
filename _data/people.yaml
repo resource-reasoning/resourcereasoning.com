@@ -13,8 +13,8 @@ current:
     firstname: Jade
     lastname: Alglave
     url: "http://www0.cs.ucl.ac.uk/staff/J.Alglave/"
-    
-      affiliations:
+  -
+    affiliations:
       - UCL
     firstname: Gabrielle 
     lastname: Anderson
@@ -92,7 +92,7 @@ current:
     firstname: Radu
     lastname: Grigore
     url: "http://rgrig.appspot.com/"
-    
+  -
     affiliations:
       - "UCL"
     firstname: Robin
