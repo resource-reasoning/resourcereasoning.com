@@ -26,11 +26,11 @@ current:
     lastname: Berdine
     url: "http://research.microsoft.com/en-us/people/jjb/"
   -
-        affiliations:
+    affiliations:
       - "UCL"
     firstname: Sukriti
     lastname: Bhattacharya
-    url: "http://www0.cs.ucl.ac.uk/people/S.Bhattacharya"
+    url: "http://www0.cs.ucl.ac.uk/people/S.Bhattacharya/"
   -
     affiliations:
       - "Queen Mary"
