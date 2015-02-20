@@ -117,7 +117,7 @@ title: News
 * Congratulations to [Thomas Dinsdale-Young](http://www.doc.ic.ac.uk/~td202) for passing his PhD thesis defense on
     [Abstract Data and Local Reasoning](http://www.doc.ic.ac.uk/~td202/thesis.pdf).
 * [Byron Cook](http://www0.cs.ucl.ac.uk/staff/b.cook/) gives a course at the
-    [ECOOP'11 PhD summer school](http://ecoop11.comp.lancs.ac.uk/?q=program/summer_school).
+    [ECOOP'11 PhD summer school](http://scc-sentinel.lancs.ac.uk/ecoop11/?q=program/summer_school).
 
 ## June 2011
 * [John Reynolds](http://www.cs.cmu.edu/~jcr/) delivers the [BCS Lovelace Lecture](http://www.bcs.org/category/15161) on
@@ -215,7 +215,7 @@ title: News
 * The [Proof Systems for Program Logics](http://homepages.inf.ed.ac.uk/als/PSPL2010/) workshop takes place at FLOC in
     Edinburgh, partly sponsored by EPSRC programme grant Resource Reasoning.
 * The [Cambridge Concurrency Workshop](http://www-users.cs.york.ac.uk/~miked/ccw2010/) continues a series of local workshops,
-    with predecessors held in [Newcastle in November 2009](http://homepages.cs.ncl.ac.uk/joey.coleman/ncw2009/) and at
+    with predecessors held in Newcastle in November 2009 and at
     [Queen Mary in January 2009](http://www0.cs.ucl.ac.uk/staff/p.ohearn/Workshops/Concurrency09/).
 
 * [John Reynolds](http://www.cs.cmu.edu/~jcr/) arrives to visit Queen Mary and Imperial for six months.
