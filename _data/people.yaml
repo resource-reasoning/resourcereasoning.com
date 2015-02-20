@@ -25,7 +25,7 @@ current:
     firstname: Josh
     lastname: Berdine
     url: "http://research.microsoft.com/en-us/people/jjb/"
-     -
+  -
         affiliations:
       - "UCL"
     firstname: Sukriti
