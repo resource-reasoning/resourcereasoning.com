@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'yaml'
+require 'json'
 
 class TestPeople < Test::Unit::TestCase
-  @@people = YAML.load_file('_data/people.yaml')
+  @@people = JSON.parse(File.read('_data/people.json'))
 
   def test_people_has_current_and_former
     assert_includes @@people, 'current'

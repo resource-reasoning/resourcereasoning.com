@@ -25,19 +25,18 @@ The main files of interest for editing are:
     All entries should be in the _present tense_.
 
   * Inside the folder **_data**:
-    * **people.yaml** ([edit](https://github.com/resource-reasoning/resourcereasoning.com/edit/gh-pages/_data/people.yaml)) The people page data
+    * **people.json** ([edit](https://github.com/resource-reasoning/resourcereasoning.com/edit/gh-pages/_data/people.json)) The people page data
       This file contains the people directly associated with the Resource Reasoning grant at present and in the past.
       It should be quite easy to see how to change this to add and remove people, change institutions, websites _etc._.
      
       Template person record:
-       ```yaml
-        -
-          affiliations:
-            - First
-            - Second
-          firstname: First
-          lastname: Second
-          url: "http://www.example.com/~first.second/"
+       ```json
+        {
+          "affiliations": ["First", "Second"],
+          "firstname": "First",
+          "lastname": "Second",
+          "url": "http://www.example.com/~first.second/"
+        },
        ```
 
     * **papers.yaml** ([edit](https://github.com/resource-reasoning/resourcereasoning.com/edit/gh-pages/_data/papers.yaml)) The publications page data
