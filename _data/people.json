@@ -77,7 +77,7 @@
       ],
       "firstname": "Tristan",
       "lastname": "Caulfield"
-      "url":  "http://www0.cs.ucl.ac.uk/people/T.Caulfield/"
+      "url" :  "http://www0.cs.ucl.ac.uk/people/T.Caulfield/"
     },
     {
       "affiliations": [
