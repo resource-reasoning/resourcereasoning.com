@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+
+  "person": {
+    "type": "object",
+    "properties": {
+      "affiliations": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1,
+        "uniqueItems": true,
+        "additionalItems": false
+      },
+      "firstname": {
+        "type": "string"
+      },
+      "lastname": {
+        "type": "string"
+      },
+      "url": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "additionalProperties": false,
+    "required": ["affiliations", "firstname", "lastname"]
+  },
+
+  "type": "object",
+  "properties": {
+    "current": {
+      "type": "array",
+      "items": { "$ref": "#/person" },
+      "additionalItems": false
+    },
+    "former": {
+      "type": "array",
+      "items": { "$ref": "#/person" },
+      "additionalItems": false
+    }
+  },
+  "additionalProperties": false
+}
