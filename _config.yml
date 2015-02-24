@@ -1,6 +1,6 @@
 include:
   - _schema
-exclude: &exclude
+exclude:
   - vendor
   - README.md
   - Gemfile
@@ -24,7 +24,13 @@ defaults:
       layout: page
 
 prose:
-  ignore: << *exclude
+  ignore:
+    - vendor
+    - README.md
+    - Gemfile
+    - Gemfile.lock
+    - Rakefile
+    - CNAME
     - .gitignore
     - .travis.yml
     - _config.yml
