@@ -1,4 +1,12 @@
-exclude: [vendor,README.md,Gemfile,Gemfile.lock,Rakefile]
+include:
+  - _schema
+exclude: &exclude
+  - vendor
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - CNAME
 
 gems:
   - jekyll-sitemap
@@ -14,3 +22,10 @@ defaults:
       path: ""
     values:
       layout: page
+
+prose:
+  ignore: << *exclude
+    - .gitignore
+    - .travis.yml
+    - _config.yml
+    - _tests
