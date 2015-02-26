@@ -5,9 +5,13 @@
   "definitions": {
     "personList": {
       "type": "array",
-      "format": "table",
       "items": { "$ref": "#/definitions/person" },
-      "additionalItems": false
+
+      "additionalItems": false,
+      "format": "table",
+      "options": {
+        "disable_array_reorder": true
+      }
     },
 
     "person": {
@@ -16,14 +20,18 @@
         "affiliations": {
           "title": "Affilitations",
           "type": "array",
-          "format": "table",
           "items": {
             "type": "string"
           },
           "minItems": 1,
           "uniqueItems": true,
           "additionalItems": false,
-          "propertyOrder": 4
+
+          "propertyOrder": 4,
+          "format": "table",
+          "options": {
+            "disable_array_reorder": true
+          }
         },
         "firstname": {
           "title": "Firstname",
