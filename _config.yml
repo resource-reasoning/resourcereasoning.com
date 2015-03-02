@@ -32,7 +32,8 @@ prose:
     - Rakefile
     - CNAME
     - .gitignore
+    - .gitmodules
     - .travis.yml
     - _config.yml
     - _tests
-    - _schema
+    - edit
