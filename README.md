@@ -5,11 +5,11 @@ Resource Reasoning Website
 
 Editing the website
 -------------------
-Site maintainers may edit directly on GitHub by clicking on the page to edit and using the edit button. ([GitHub documentation on how to do this](https://help.github.com/articles/editing-files-in-your-repository/))
+Site maintainers may edit the site using the interface provided at http://www.resourcereasoning.com/edit/. Once this interface has been authorized with GitHub (click the green buttons). You'll be presented with a listing of the files available to edit on the webiste.
 
 Two types of files are primarily used to generate the website:
 * .md files are written in the **Markdown** formatting language. I recommend reading this [brief guide](https://guides.github.com/features/mastering-markdown/) to introduce you to the basics.
-* .yaml files are sets of data records ([tutorial](http://ess.khhq.net/wiki/YAML_Tutorial#YAML_Key-Property_Structure_Tutorial))
+* .json files are sets of data records used to build more complex pages such as people and papers. You should be presented with a form interface to make changes to these files.
 Both file types have a fairly natural plain-text format and should be reasonably easy to follow by example.
 
 Site maintainers may also accept relevant Issue reports and Pull Requests submitted to the main repository.
