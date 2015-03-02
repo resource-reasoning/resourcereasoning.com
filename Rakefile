@@ -13,16 +13,17 @@ Rake::TestTask.new do |t|
   t.verbose = true
 end
 
+file_ignore = [/_site\/edit/]
+href_ignore = [/issues\/new/] # GitHub 400s when we poke it
+
 desc "Build the site and test output for dead links, invalid html etc."
 task :test => :build do
-  ignore = [/issues\/new/] # GitHub 400s when we poke it
-  HTML::Proofer.new("./_site", {:disable_external => true, :validate_html => true, :href_ignore => ignore}).run
+  HTML::Proofer.new("./_site", {:disable_external => true, :validate_html => true, :file_ignore => file_ignore, :href_ignore => href_ignore}).run
 end
 
 desc "Test dead external links"
 task :testlinks => :build do
-  ignore = [/issues\/new/] # GitHub 400s when we poke it
-  HTML::Proofer.new("./_site", {:validate_html => true, :href_ignore => ignore}).run
+  HTML::Proofer.new("./_site", {:validate_html => true, :file_ignore => file_ignore, :href_ignore => href_ignore}).run
 end
 
 
