@@ -1,0 +1,3 @@
+[submodule "edit"]
+	path = edit
+	url = https://github.com/edgemaster/prose.git
