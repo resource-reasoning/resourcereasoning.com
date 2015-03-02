@@ -26,7 +26,6 @@ defaults:
 prose:
   ignore:
     - vendor
-    - README.md
     - Gemfile
     - Gemfile.lock
     - Rakefile
