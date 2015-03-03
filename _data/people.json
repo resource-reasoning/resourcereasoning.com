@@ -259,14 +259,6 @@
     },
     {
       "affiliations": [
-        "Oxford University"
-      ],
-      "firstname": "Abhishek",
-      "lastname": "Thakur",
-      "url": "http://www.cs.ox.ac.uk/people/abhishek.thakur/"
-    },
-    {
-      "affiliations": [
         "Imperial College London"
       ],
       "firstname": "Gareth",
@@ -277,9 +269,17 @@
       "affiliations": [
         "Oxford University"
       ],
-      "firstname": "Hongseok",
-      "lastname": "Yang",
-      "url": "http://www.cs.ox.ac.uk/people/hongseok.yang/Public/Home.html"
+      "firstname": "Abhishek",
+      "lastname": "Thakur",
+      "url": "http://www.cs.ox.ac.uk/people/abhishek.thakur/"
+    },
+    {
+      "affiliations": [
+        "Cambridge University"
+      ],
+      "firstname": "Thomas",
+      "lastname": "Tuerk",
+      "url": "http://www.cl.cam.ac.uk/~tt291/"
     },
     {
       "affiliations": [
@@ -292,19 +292,19 @@
     },
     {
       "affiliations": [
-        "Cambridge University"
-      ],
-      "firstname": "Thomas",
-      "lastname": "Tuerk",
-      "url": "http://www.cl.cam.ac.uk/~tt291/"
-    },
-    {
-      "affiliations": [
         "Imperial College London"
       ],
       "firstname": "Thomas",
       "lastname": "Wood",
       "url": "http://www.doc.ic.ac.uk/~tw1509"
+    },
+    {
+      "affiliations": [
+        "Oxford University"
+      ],
+      "firstname": "Hongseok",
+      "lastname": "Yang",
+      "url": "http://www.cs.ox.ac.uk/people/hongseok.yang/Public/Home.html"
     }
   ],
   "former": [
