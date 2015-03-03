@@ -49,7 +49,10 @@
         }
       },
       "additionalProperties": false,
-      "required": ["affiliations", "firstname", "lastname"]
+      "required": ["affiliations", "firstname", "lastname"],
+      "options": {
+        "remove_empty_properties": true
+      }
     }
   },
 
