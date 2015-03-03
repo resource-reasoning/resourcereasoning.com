@@ -23,7 +23,7 @@
       },
       "bibtex": {
         "type": "string",
-        "format": "textareaa",
+        "format": "textarea",
         "title": "BibTeX bibliography reference"
       },
       "pubdate": {
