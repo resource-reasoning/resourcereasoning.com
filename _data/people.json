@@ -223,6 +223,14 @@
     },
     {
       "affiliations": [
+        "Imperial College London"
+      ],
+      "firstname": "Azalea",
+      "lastname": "Raad",
+      "url": "http://www.doc.ic.ac.uk/~azalea/"
+    },
+    {
+      "affiliations": [
         "Queen Mary"
       ],
       "firstname": "Rasmus",
@@ -237,12 +245,6 @@
       "url": "http://www0.cs.ucl.ac.uk/staff/R.Rowe/"
     },
     {
-      "affiliations": [
-        "UCL"
-      ],
-      "firstname": "Peter",
-      "lastname": "O'Hearn",
-      "url": "http://www0.cs.ucl.ac.uk/staff/p.ohearn/"
       "affiliations": [
         "Queen Mary"
       ],
