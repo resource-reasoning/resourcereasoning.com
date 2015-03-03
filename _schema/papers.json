@@ -5,42 +5,55 @@
   "type": "array",
   "items": {
     "type": "object",
+    "title": "Paper",
+
     "properties": {
       "title": {
-        "type": "string"
+        "type": "string",
+        "title": "Title (required)"
       },
       "authors": {
-        "type": "string"
+        "type": "string",
+        "title": "Authors (required)"
       },
       "abstract": {
         "type": "string",
-        "format": "markdown"
+        "format": "markdown",
+        "title": "Abstract (required)"
       },
       "bibtex": {
-        "type": "string"
+        "type": "string",
+        "format": "textareaa",
+        "title": "BibTeX bibliography reference"
       },
       "pubdate": {
         "type": "string",
-        "format": "date"
+        "format": "date",
+        "title": "Publication date (yyyy-mm-dd) (required)"
       },
       "venue": {
-        "type": "string"
+        "type": "string",
+        "title": "Publication Venue (required)"
       },
       "pdf": {
         "type": "string",
-        "format": "url"
+        "format": "url",
+        "title": "Link to paper PDF"
       },
       "pdflong": {
         "type": "string",
-        "format": "url"
+        "format": "url",
+        "title": "Link to PDF of extended version"
       },
       "ps": {
         "type": "string",
-        "format": "url"
+        "format": "url",
+        "title": "Link to paper PS"
       },
       "pslong": {
         "type": "string",
-        "format": "url"
+        "format": "url",
+        "title": "Link to PS of extended version"
       }
     },
     "additionalProperties": false,
@@ -54,7 +67,8 @@
 
     "options": {
       "remove_empty_properties": true
-    }
+    },
+    "headerTemplate": "{{ self.title }}"
   },
 
   "additionalItems": false,
