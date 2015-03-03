@@ -81,6 +81,14 @@
     },
     {
       "affiliations": [
+        "UCL"
+      ],
+        "firstname": "Nathan",
+        "lastname": "Chong",
+        "url": "http://www0.cs.ucl.ac.uk/people/N.Chong.html"
+    },
+    {
+      "affiliations": [
         "Imperial College London"
       ],
       "firstname": "Pedro",
