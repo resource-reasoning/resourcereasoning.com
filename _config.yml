@@ -35,4 +35,5 @@ prose:
     - .travis.yml
     - _config.yml
     - _tests
+    - _schema
     - edit

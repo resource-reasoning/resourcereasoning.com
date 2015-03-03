@@ -1,0 +1,579 @@
+[
+  {
+    "abstract": "Local reasoning has become a well-established technique in program verification, which has been shown to be useful\nat many different levels of abstraction.  In separation logic, we use a low-level abstraction that is close to how the\nmachine sees the program state. In context logic, we work with high-level abstractions that are close to how the clients\nof modules see the program state.  We apply program refinement to local reasoning, demonstrating that high-level local\nreasoning is sound for module implementations.  We consider two approaches: one that preserves the high-level locality\nat the low level;  and one that breaks the high-level \"fiction\" of locality.\n",
+    "authors": "Thomas Dinsdale-Young, Philippa Gardner, Mark Wheelhouse",
+    "bibtex": "@INPROCEEDINGS{DGW10,\n  author = {Dinsdale-Young, Thomas and Gardner, Philippa and Wheelhouse, Mark},\n  title = {Abstraction and Refinement for Local Reasoning},\n  booktitle = {Proceedings of the Third international conference on Verified software:\n\ttheories, tools, experiments},\n  year = {2010},\n  pages = {199--215},\n  address = {Berlin, Heidelberg},\n  publisher = {Springer-Verlag}\n}\n",
+    "pdf": "http://www.doc.ic.ac.uk/~td202/papers/vstte2010.pdf",
+    "pdflong": "http://www.doc.ic.ac.uk/~td202/papers/vsttepfs.pdf",
+    "pubdate": "2010-08-16",
+    "title": "Abstraction and Refinement for Local Reasoning",
+    "venue": "VSTTE 2010"
+  },
+  {
+    "abstract": "We present _Classical_ BI (CBI), a new addition to the family of _bunched logics_\nwhich originates in O'Hearn and Pym's logic of bunched implications BI. CBI differs from\nexisting bunched logics in that its multiplicative connectives behave classically rather than\nintuitionistically (including in particular a multiplicative version of classical negation). At\nthe semantic level, CBI-formulas have the normal bunched logic reading as declarative\nstatements about resources, but its resource models necessarily feature more structure\nthan those for other bunched logics; principally, they satisfy the requirement that every\nresource has a unique dual. At the proof-theoretic level, a very natural formalism for CBI\nis provided by a display calculus _à la_ Belnap, which can be seen as a generalisation of the\nbunched sequent calculus for BI. In this paper we formulate the aforementioned model\ntheory and proof theory for CBI, and prove some fundamental results about the logic,\nmost notably completeness of the proof theory with respect to the semantics.\n",
+    "authors": "James Brotherston, Cristiano Calcagno",
+    "bibtex": "@Article{Brotherston-Calcagno:10,\n  author    = \"James Brotherston and Cristiano Calcagno\",\n  title     = \"Classical {BI}: {I}ts Semantics and Proof Theory\",\n  journal   = \"Logical Methods in Computer Science\",\n  volume    = 6,\n  number    = 3,\n  year      = 2010\n}\n",
+    "pdf": "http://arxiv.org/pdf/1005.2340",
+    "ps": "http://arxiv.org/ps/1005.2340",
+    "pubdate": "2010-07-20",
+    "title": "Classical BI: Its Semantics and Proof Theory",
+    "venue": "Logical Methods in Computer Science, 2010"
+  },
+  {
+    "abstract": "We present a proof of safety and linearizability of a highly-concurrent\noptimistic set algorithm. The key step in our proof\nis the Hindsight Lemma, which allows a thread to infer the existence\nof a global state in which its operation can be linearized\nbased on limited local atomic observations about the shared state.\nThe Hindsight Lemma allows us to avoid one of the most complex\nand non-intuitive steps in reasoning about highly concurrent algorithms:\nconsidering the linearization point of an operation to be in\na different thread than the one executing it.\n\nThe Hindsight Lemma assumes that the algorithm maintains certain\nsimple invariants which are resilient to interference, and which\ncan themselves be verified using purely thread-local proofs. As a\nconsequence, the lemma allows us to unlock a perhaps-surprising\nintuition: a high degree of interference makes non-trivial highly-concurrent\nalgorithms in some cases much easier to verify than less\nconcurrent ones.\n",
+    "authors": "Peter W. O'Hearn, Noam Rinetzky, Martin T. Vechev, Eran Yahav, Greta Yorsh",
+    "bibtex": "@INPROCEEDINGS{ORV+10,\n  author = {O'Hearn, Peter W. and Rinetzky, Noam and Vechev, Martin T. and Yahav,\n\tEran and Yorsh, Greta},\n  title = {Verifying Linearizability with Hindsight},\n  booktitle = {Proceedings of the 29th ACM SIGACT-SIGOPS symposium on Principles\n\tof Distributed Computing},\n  year = {2010},\n  pages = {85--94},\n  address = {New York, NY, USA},\n  publisher = {ACM}\n}\n",
+    "pdf": "http://www0.cs.ucl.ac.uk/staff/p.ohearn/papers/podc2010.pdf",
+    "pubdate": "2010-07-25",
+    "title": "Verifying Linearizability with Hindsight",
+    "venue": "PODC 2010"
+  },
+  {
+    "abstract": "Modern object-oriented languages support higher-order implementations through function objects such as delegates\nin C#, agents in Eiffel, or closures in Scala. Function objects bring a new level of abstraction to the\nobject-oriented programming model, and require a comparable extension to specification and verification techniques.\nWe introduce a verification methodology that extends function objects with auxiliary side-effect free (pure)\nmethods to model logical artifacts: preconditions, postconditions and modifies clauses. These pure methods can be\nused to specify client code abstractly, that is, independently from specific instantiations of the function\nobjects. To demonstrate the feasibility of our approach, we have implemented an automatic prover, which verifies\nseveral non-trivial examples.\n",
+    "authors": "Martin Nordio, Cristiano Calcagno, Bertrand Meyer, Peter Müller, Julian Tschannen",
+    "bibtex": "@INPROCEEDINGS{NCM+10,\n  author = {Martin Nordio and Cristiano Calcagno and Bertrand Meyer and Peter M{\\\"u}ller and Julian Tschannen},\n  title = {Reasoning about Function Objects},\n  booktitle = {Proceedings of the 48th international conference on Objects, Models,\n\tComponents and Patterns},\n  year = {2010},\n  pages = {79--96},\n  address = {Berlin, Heidelberg},\n  publisher = {Springer-Verlag}\n}\n",
+    "pdf": "http://se.ethz.ch/~meyer/publications/proofs/agents.pdf",
+    "pubdate": "2010-06-28",
+    "title": "Reasoning about Function Objects",
+    "venue": "TOOLS Europe 2010"
+  },
+  {
+    "abstract": "Specifications of Object-Oriented programs conventionally\nemploy Boolean expressions of the programming language for assertions.\nProgramming errors can be discovered by checking at runtime whether\nan assertion, such as a precondition or class invariant, holds. In this work,\nwe show how separation logic can be used to verify that these executable\nspecifications will always hold at runtime. Both the program and its executable\nassertions are verified with respect to separation logic specifications.\nA novel notion called _relative purity_ embraces historically problematic\nside-effects in executable specifications, and verification boils down\nto proving _connecting implications_. Even model-based specifications can\nbe verified. The framework is also well-suited to separation logic proof\ntools and now implemented in jStar. Numerous automatically verified\nexamples illustrate the framework's use and utility.\n",
+    "authors": "Stephan van Staden, Cristiano Calcagno, Bertrand Meyer",
+    "bibtex": "@INPROCEEDINGS{vSCM10,\n  author = {Stephan van Staden and Cristiano Calcagno and Bertrand Meyer},\n  title = {Verifying Executable Object-Oriented Specifications with Separation\n\tLogic},\n  booktitle = {Proceedings of the 24th European conference on Object-oriented programming},\n  year = {2010},\n  pages = {151--174},\n  address = {Berlin, Heidelberg},\n  publisher = {Springer-Verlag}\n}\n",
+    "pdf": "http://se.ethz.ch/~meyer/publications/proofs/ooseparation.pdf",
+    "pubdate": "2010-06-21",
+    "title": "Verifying Executable Object-Oriented Specifications with Separation Logic",
+    "venue": "ECOOP 2010"
+  },
+  {
+    "abstract": "Abstraction is key to understanding and reasoning about large computer systems. Abstraction is simple to achieve\nif the relevant data structures are disjoint, but rather difficult when they are partially shared, as is often the\ncase for concurrent modules. We present a program logic for reasoning abstractly about data structures that\nprovides a fiction of disjointness and permits compositional reasoning. The internal details of a module are\ncompletely hidden from the client by _concurrent abstract predicates_. We reason about a module's\nimplementation using separation logic with permissions, and provide abstract specifications for use by client\nprograms using concurrent abstract predicates. We illustrate our abstract reasoning by building two\nimplementations of a lock module on top of hardware instructions, and two implementations of a concurrent set\nmodule on top of the lock module.\n",
+    "authors": "Thomas  Dinsdale-Young, Mike  Dodds, Philippa  Gardner, Matthew J.  Parkinson, Viktor  Vafeiadis",
+    "bibtex": "@INPROCEEDINGS{DDG+10,\n  author = {Dinsdale-Young, Thomas and Dodds, Mike and Gardner, Philippa and\n\tParkinson, Matthew J. and Vafeiadis, Viktor},\n  title = {Concurrent Abstract Predicates},\n  booktitle = {Proceedings of the 24th European conference on Object-oriented programming},\n  year = {2010},\n  pages = {504--528},\n  address = {Berlin, Heidelberg},\n  publisher = {Springer-Verlag}\n}\n",
+    "pdf": "http://www.doc.ic.ac.uk/~td202/papers/ecoop2010.pdf",
+    "pdflong": "http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-777.pdf",
+    "pubdate": "2010-06-21",
+    "title": "Concurrent Abstract Predicates",
+    "venue": "ECOOP 2010"
+  },
+  {
+    "abstract": "We present the first complete soundness proof of the antiframe\nrule, a recently proposed proof rule for capturing information hiding\nin the presence of higher-order store. Our proof involves solving a\nnon-trivial recursive domain equation, and it helps identify some of the\nkey ingredients for soundness.\n",
+    "authors": "Jan Schwinghammer, Hongseok Yang, Lars Birkedal, Francois Pottier, Bernhard Reus",
+    "bibtex": "@INPROCEEDINGS{SYB+10,\n  author = {Jan Schwinghammer and Hongseok Yang and Lars Birkedal and Fran\\c{c}ois\n\tPottier and Bernhard Reus},\n  title = {A Semantic Foundation for Hidden State},\n  booktitle = {Proceedings of the 13th international conference on Foundations of\n\tSoftware Science and Computational Structures},\n  year = {2010},\n  pages = {2--17},\n  address = {Berlin, Heidelberg},\n  publisher = {Springer-Verlag}\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/fossacs10.pdf",
+    "pdflong": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/CSL2009-full.pdf",
+    "pubdate": "2010-03-20",
+    "title": "A Semantic Foundation for Hidden State",
+    "venue": "FoSSaCS 2010"
+  },
+  {
+    "abstract": "This paper describes a compositional analysis algorithm for\nstatically detecting leaks in Java programs. The algorithm is based on\nseparation logic and exploits the concept of bi-abductive inference for\nidentifying the objects which are reachable but no longer used by the\nprogram.\n",
+    "authors": "Dino Distefano, Ivana Filipović",
+    "bibtex": "@INPROCEEDINGS{DF10,\n  author = {Dino Distefano and Ivana Filipovi{\\'c}},\n  title = {Memory Leaks Detection in Java by Bi-abductive Inference},\n  booktitle = {Proceedings of the 13th international conference on Fundamental Approaches\n\tto Software Engineering},\n  year = {2010},\n  pages = {278--292},\n  address = {Berlin, Heidelberg},\n  publisher = {Springer-Verlag}\n}\n",
+    "pdf": "http://www.eecs.qmul.ac.uk/~ddino/papers/FASE2010.pdf",
+    "pubdate": "2010-03-22",
+    "title": "Memory Leaks Detection in Java by Bi-Abductive Inference",
+    "venue": "FASE 2010"
+  },
+  {
+    "abstract": "Heap-Hop is a program prover for concurrent heap-manipulating programs\nthat use Hoare monitors and message-passing synchronization. Programs\nare annotated with pre and post-conditions and loop invariants, written in a fragment\nof separation logic. Communications are governed by a form of session\ntypes called _contracts_. Heap-Hop can prove safety and race-freedom and, thanks\nto contracts, absence of memory leaks and deadlock-freedom. It has been used\nin several case studies, including concurrent programs for copyless list transfer,\nservice provider protocols, and load-balancing parallel tree disposal.\n",
+    "authors": "Jules Villard, Étienne Lozes, Cristiano Calcagno",
+    "bibtex": "@INPROCEEDINGS{VLC10,\n  author = {Jules Villard and {\\'E}tienne Lozes and Cristiano Calcagno},\n  title = {Tracking Heaps That Hop with Heap-Hop},\n  booktitle = {Proceedings of the 16th international conference on Tools and Algorithms\n\tfor the Construction and Analysis of Systems},\n  year = {2010},\n  pages = {275--279},\n  address = {Berlin, Heidelberg},\n  publisher = {Springer-Verlag}\n}\n",
+    "pdf": "http://www.doc.ic.ac.uk/~jvillar1/pub/heap-hop-VLCtacas10.pdf",
+    "pubdate": "2010-03-20",
+    "title": "Tracking Heaps that Hop with Heap-Hop",
+    "venue": "TACAS 2010"
+  },
+  {
+    "abstract": "Over the last decade, there has been extensive research on\nmodelling challenging features in programming\nlanguages and program logics, such as higher-order store and storable\nresource invariants. A recent line of work has identified\na common solution to some of these challenges: Kripke models over\nworlds that are recursively defined in a category of metric spaces.\nIn this paper, we broaden the scope of this technique from\nthe original domain-theoretic setting to an elementary, operational one\nbased on step indexing. The resulting method is widely applicable and\nleads to simple, succinct models of complicated language features, as\nwe demonstrate in our semantics of Chargueraud and Pottier's\ntype-and-capability\nsystem for an ML-like higher-order language. Moreover, the method\nprovides a high-level understanding of the essence of recent approaches\nbased on step indexing.\n",
+    "authors": "Lars Birkedal, Bernhard Reus, Jan Schwinghammer, Kristian Støvring, Jacob Thamsborg, Hongseok Yang",
+    "bibtex": "@InProceedings{recursiveworlds-popl11,\n  Author    = \"Lars Birkedal and\n               Bernhard Reus and\n               Jan Schwinghammer and\n               Kristian St{\\o}vring and\n               Jacob Thamsborg and\n               Hongseok Yang\",\n  Title     = \"Step-Indexed Kripke Models over Recursive Worlds\",\n  Booktitle = \"Proceedings of the 38th ACM Symposium on Principles\n               of Programming Languages\",\n  Address   = \"Austin, USA\",\n  Publisher = \"ACM\",\n  Month     = \"January\",\n  Year      = \"2011\"\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/popl11-long.pdf",
+    "pubdate": "2011-01-27",
+    "title": "Step-Indexed Kripke Models over Recursive Worlds",
+    "venue": "POPL 2011"
+  },
+  {
+    "abstract": "Traditional transactional memory systems suffer from overly conservative conflict detection, yielding so-called\nfalse conflicts, because they are based on fine-grained, low-level read/write conflicts. In response, the recent\ntrend has been toward integrating various abstract data-type libraries using ad-hoc methods of high-level conflict\ndetection. These proposals have led to improved performance but a lack of a unified theory has led to confusion in\nthe literature.\n\nWe clarify these recent proposals by defining a generalization of transactional memory in which a transaction\nconsists of coarse-grained (abstract data-type) operations rather than simple memory read/write operations. We\nprovide semantics for both pessimistic (e.g. transactional boosting) and optimistic (e.g. traditional TMs and\nrecent alternatives) execution. We show that both are included in the standard atomic semantics, yet find that the\nchoice imposes different requirements on the coarse-grained operations: pessimistic requires operations be\nleft-movers, optimistic requires right-movers. Finally, we discuss how the semantics applies to numerous TM\nimplementation details discussed widely in the literature.\n",
+    "authors": "Eric Koskinen, Matthew Parkinson, Maurice Herlihy",
+    "bibtex": "@inproceedings{DBLP:conf/popl/KoskinenPH10,\n  author    = {Eric Koskinen and\n               Matthew J. Parkinson and\n               Maurice Herlihy},\n  title     = {Coarse-grained transactions},\n  booktitle = {POPL},\n  year      = {2010},\n  pages     = {19-30},\n  ee        = {http://doi.acm.org/10.1145/1706299.1706304},\n  crossref  = {DBLP:conf/popl/2010},\n  bibsource = {DBLP, http://dblp.uni-trier.de}\n}\n\n@proceedings{DBLP:conf/popl/2010,\n  editor    = {Manuel V. Hermenegildo and\n               Jens Palsberg},\n  title     = {Proceedings of the 37th ACM SIGPLAN-SIGACT Symposium on\n               Principles of Programming Languages, POPL 2010, Madrid,\n               Spain, January 17-23, 2010},\n  booktitle = {POPL},\n  publisher = {ACM},\n  year      = {2010},\n  isbn      = {978-1-60558-479-9},\n  bibsource = {DBLP, http://dblp.uni-trier.de}\n}\n",
+    "pdf": "http://cs.nyu.edu/~ejk/papers/cgt.pdf",
+    "pubdate": "2010-01-20",
+    "title": "Coarse-Grained Transactions",
+    "venue": "POPL 2010"
+  },
+  {
+    "abstract": "We propose a new formalisation of stability for Rely-Guarantee, in which an assertion’s stability is encoded into\nits syntactic form. This allows two advances in modular reasoning. Firstly, it enables Rely-Guarantee, for the\nﬁrst time, to verify concurrent libraries independently of their clients’ environments. Secondly, in a sequential\nsetting, it allows a module’s internal interference to be hidden while verifying its clients. We demonstrate our\napproach by verifying, using RGSep, the Version 7 Unix memory manager, uncovering a twenty-year-old bug in the\nprocess.\n",
+    "authors": "John Wickerson, Mike Dodds, Matthew Parkinson",
+    "bibtex": "@inproceedings{expstab:esop10,\n  author    = {John Wickerson and Mike Dodds and Matthew Parkinson},\n  title     = {Explicit {S}tabilisation for {M}odular {R}ely-{G}uarantee {R}easoning},\n  booktitle = {19th European Symposium on Programming (ESOP 2010), Paphos, Cyprus},\n  editor    = {Andrew D. Gordon},\n  pages     = {611-630},\n  year      = {2010},\n  month     = {mar},\n  series    = {Lecture Notes in Computer Science},\n  volume    = {6012},\n  publisher = {Springer-Verlag}\n}\n",
+    "pdf": "http://www.cl.cam.ac.uk/~md466/publications/ESOP.10.explicit_stabilisation.pdf",
+    "pdflong": "http://www.cl.cam.ac.uk/TechReports/UCAM-CL-TR-774.pdf",
+    "pubdate": "2010-03-23",
+    "title": "Explicit Stabilisation for Modular Rely-Guarantee Reasoning",
+    "venue": "ESOP 2010"
+  },
+  {
+    "abstract": "We present a framework for defining abstract interpreters for liveness properties, in particular program\ntermination. The framework makes use of the theory of metric spaces to define a concrete semantics, relates this\nsemantics with the usual order-theoretic semantics of abstract interpretation, and identifies a set of conditions\nfor determining when an abstract interpreter is sound for analysing liveness properties. Our soundness proof of\nthe framework is based on a novel relationship between unique fixpoints in metric semantics and post-fixpoints\ncomputed by abstract interpreters. We illustrate the power of the framework by providing an instance that can\nautomatically prove the termination of programs with general (not necessarily tail) recursion.\n",
+    "authors": "Aziem Chawdhary, Hongseok Yang",
+    "bibtex": "@inproceedings{ChawdharyYang:APLAS10,\n  author    = {Aziem Chawdhary and Hongseok Yang},\n  title     = {Metric Spaces and Termination Analyses},\n  booktitle = {APLAS},\n  year      = {2010},\n  pages     = {156-171},\n  ee        = {http://dx.doi.org/10.1007/978-3-642-17164-2_12}\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/aplas10.pdf",
+    "pdflong": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/aplas10-long.pdf",
+    "pubdate": "2010-11-28",
+    "title": "Metric Spaces and Termination Analyses",
+    "venue": "APLAS 2010"
+  },
+  {
+    "abstract": "Concurrent data structures are usually designed to satisfy correctness conditions such as sequential consistency or\nlinearizability. In this paper, we consider the following fundamental question: what guarantees are provided by these\nconditions for client programs? We formally show that these conditions can be _characterized_ in terms of\nobservational refinement. Our study also provides a new understanding of sequential consistency and linearizability\nin terms of abstraction of dependency between computation steps of client programs.\n",
+    "authors": "Ivana Filipovic, Peter W. O'Hearn, Noam Rinetzky, Hongseok Yang",
+    "bibtex": "@article{FilipovicORY:tcs10,\n  author    = {Ivana Filipovic and\n               Peter W. O'Hearn and\n               Noam Rinetzky and\n               Hongseok Yang},\n  title     = {Abstraction for concurrent objects},\n  journal   = {Theor. Comput. Sci.},\n  volume    = {411},\n  number    = {51-52},\n  year      = {2010},\n  pages     = {4379-4398},\n  ee        = {http://dx.doi.org/10.1016/j.tcs.2010.09.021}\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/TCS10-concurrent-objects.pdf",
+    "pubdate": "2010-12-04",
+    "title": "Abstraction for Concurrent Objects",
+    "venue": "Theoretical Computer Science, 2010"
+  },
+  {
+    "abstract": "Ranking function synthesis is a key aspect to the success of modern termination provers for imperative programs.\nWhile it is well-known how to generate linear ranking functions for relations over (mathematical) integers or\nrationals, efficient synthesis of ranking functions for machine-level integers (bit-vectors) is an open problem.\nThis is particularly relevant for the verification of low-level code. We propose several novel algorithms to\ngenerate ranking functions for relations over machine integers: a complete method based on a reduction to Presburger\narithmetic, and a template-matching approach for predefined classes of ranking functions based on reduction to\nSAT- and QBF-solving. The utility of our algorithms is demonstrated on examples drawn from Windows device drivers.\n",
+    "authors": "Byron Cook, Daniel Kroening, Philipp Rümmer, Christoph M. Wintersteiger",
+    "bibtex": "@inproceedings{CookKRW10,\n  author    = {Byron Cook and\n               Daniel Kroening and\n               Philipp R{\\\"u}mmer and\n               Christoph M. Wintersteiger},\n  title     = {Ranking Function Synthesis for Bit-Vector Relations},\n  booktitle = {Tools and Algorithms for the Construction and Analysis of\n               Systems, 16th International Conference, TACAS 2010, Held\n               as Part of the Joint European Conferences on Theory and\n               Practice of Software, ETAPS 2010, Paphos, Cyprus, March\n               2010. Springer LNCS 6015},\n  year      = {2010},\n  pages     = {236-250},\n  ee        = {http://dx.doi.org/10.1007/978-3-642-12002-2_19}\n}\n",
+    "pdf": "http://www.kroening.com/papers/tacas2010-qbf-ranking-draft.pdf",
+    "pubdate": "2010-03-20",
+    "title": "Ranking Function Synthesis for Bit-Vector Relations",
+    "venue": "TACAS 2010"
+  },
+  {
+    "abstract": "Separation logic has proven an effective formalism for the\nanalysis of memory-manipulating programs.\n\n\nWe show that the purely propositional fragment of separation\nlogic is undecidable. In fact, for _any_ choice of concrete\nheap-like model of separation logic, validity in that model\nremains undecidable. Besides its intrinsic technical interest,\nthis result also provides new insights into the nature of\ndecidable fragments of separation logic.\n\n\nIn addition, we show that a number of propositional systems\nwhich approximate separation logic are undecidable as well. In\nparticular, these include both Boolean BI and Classical BI.\n\n\nAll of our undecidability results are obtained by means of a\nsingle direct encoding of Minsky machines.\n",
+    "authors": "James Brotherston, Max Kanovich",
+    "bibtex": "@InProceedings{Brotherston-Kanovich:10,\n  author    = \"James Brotherston and Max Kanovich\",\n  title     = \"Undecidability of propositional separation logic and its neighbours\",\n  booktitle = \"Proceedings of {LICS-25}\",\n  pages     = \"137--146\",\n  year      = 2010\n}\n",
+    "pdf": "http://www0.cs.ucl.ac.uk/staff/J.Brotherston/LICS10/SL_undecidable.pdf",
+    "pubdate": "2010-07-01",
+    "title": "Undecidability of Propositional Separation Logic and its Neighbours",
+    "venue": "LICS 2010"
+  },
+  {
+    "abstract": "Serializability is a commonly used correctness condition in concurrent programming. When a concurrent module is serializable, certain other properties of the module can be verified by considering only its sequential executions. In many cases, concurrent modules guarantee serializability by using standard locking protocols, such as tree locking or two-phase locking. Unfortunately, according to the existing literature, verifying that a concurrent module adheres to these protocols requires considering concurrent interleavings.\n\nIn this paper, we show that adherence to a large class of locking protocols (including tree locking and two-phase locking) can be verified by considering only sequential executions. The main consequence of our results is that in many cases, the (manual or automatic) verification of serializability can itself be done using sequential reasoning.\n",
+    "authors": "Hagit Attiya, Ganesan Ramalingam, Noam Rinetzky",
+    "bibtex": "@INPROCEEDINGS{POPL:ARR10,\n  Author=  \"H. Attiya  and G. Ramalingam and N. Rinetzky\",\n  Title=\"Sequential Verification of Serializability\",\n  booktitle=\"37th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL)\",\n  year = 2010,\n  pages = {31--42}\n}\n",
+    "pdf": "http://www.cs.tau.ac.il/~maon/pubs/seqser-popl10.pdf",
+    "pubdate": "2010-01-20",
+    "title": "Sequential Verification of Serializability",
+    "venue": "POPL 2010"
+  },
+  {
+    "abstract": "Data refinement is a common approach to reasoning about programs, based on establishing that a concrete program indeed satisfies all the required properties imposed by an intended abstract pattern. Reasoning about programs in this setting becomes complex when use of pointers is assumed and, moreover, a well-known method for proving data refinement, namely the forward simulation method, becomes unsound in presence of pointers. The reason for unsoundness is the failure of the “lifting theorem” for simulations: that a simulation between abstract and concrete modules can be lifted to all client programs. The result is that simulation does not imply that a concrete can replace an abstract module in all contexts.\n\n\nOur diagnosis of this problem is that unsoundness is due to interference from the client programs. Rather than blaming a module for the unsoundness of lifting simulations, our analysis places the blame on the client programs which cause the interference: when interference is not present, soundness is recovered. Technically, we present a novel instrumented semantics which is capable of detecting interference between a module and its client. With use of special simulation relations, namely growing relations, and interpreting the simulation method using the instrumented semantics, we obtain a lifting theorem. We then show situations under which simulation does indeed imply refinement.\n",
+    "authors": "Ivana Filipović, Peter W. O'Hearn, Noah Torp-Smith, Hongseok Yang",
+    "bibtex": "@article{FilipovicOTY:fac10,\n  author    = {Ivana Filipovic and\n               Peter W. O'Hearn and\n               Noah Torp-Smith and\n               Hongseok Yang},\n  title     = {Blaming the client: on data refinement in the presence of\n               pointers},\n  journal   = {Formal Asp. Comput.},\n  volume    = {22},\n  number    = {5},\n  year      = {2010},\n  pages     = {547-583},\n  ee        = {http://dx.doi.org/10.1007/s00165-009-0125-8}\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/refinement-facs2009.pdf",
+    "pubdate": "2010-09-01",
+    "title": "Blaming the Client: on Data Refinement in the Presence of Pointers",
+    "venue": "Formal Aspects of Computing, 2010"
+  },
+  {
+    "abstract": "We formulate a unified display calculus proof theory for the\nfour principal varieties of bunched logic by combining display\ncalculi for their component logics. Our calculi satisfy\ncut-elimination, and are sound and complete with respect to\ntheir standard presentations. We show that the standard sequent\ncalculus for BI can be seen as a reformulation of its display\ncalculus, and argue that analogous sequent calculi for the\nother varieties of bunched logic seem very unlikely to exist.\n",
+    "authors": "James Brotherston",
+    "bibtex": "@InProceedings{Brotherston:10,\n  author    = \"James Brotherston\",\n  title     = \"A Unified Display Proof Theory for Bunched Logic\",\n  booktitle = \"Proceedings of {MFPS-26}\",\n  pages     = \"197--211\",\n  series    = \"ENTCS\",\n  volume    = 265,\n  publisher = \"Elsevier B.V.\",\n  year      = 2010\n}\n",
+    "pdf": "http://www0.cs.ucl.ac.uk/staff/J.Brotherston/MFPS10/display_bunched_logics.pdf",
+    "pubdate": "2010-05-10",
+    "title": "A Unified Display Proof Theory for Bunched Logic",
+    "venue": "MFPS 2010"
+  },
+  {
+    "abstract": "Activities such as clinical investigations or financial processes are subject to regulations to ensure quality of\nresults and avoid negative consequences. Regulations may be imposed by multiple governmental agencies as well as by\ninstitutional policies and protocols. Due to the complexity of both regulations and activities there is great\npotential for violation due to human error, misunderstanding, or even intent. Executable formal models of\nregulations, protocols, and activities can form the foundation for automated assistants to aid planning, monitoring,\nand compliance checking. We propose a model based on multiset rewriting where time is discrete and is specified by\ntimestamps attached to facts. Actions, as well as initial, goal and critical states may be constrained by means of\nrelative time constraints. Moreover, actions may have non-deterministic effects, that is, they may have different\noutcomes whenever applied. We demonstrate how specifications in our model can be straightforwardly mapped to the\nrewriting logic language Maude, and how one can use existing techniques to improve performance. Finally, we also\ndetermine the complexity of the plan compliance problem, that is, finding a plan that leads from an initial state to\na desired goal state without reaching any undesired critical state. We consider all actions to be balanced, that is,\ntheir pre and post-conditions have the same number of facts. Under this assumption on actions, we show that the plan\ncompliance problem is PSPACE-complete when all actions have only deterministic effects and is EXPTIME-complete when\nactions may have non-deterministic effects.\n",
+    "authors": "Max I. Kanovich, Tajana Ban Kirigin, Vivek Nigam, Andre Scedrov, Carolyn L. Talcott, Ranko Perovic",
+    "bibtex": "@inproceedings{DBLP:conf/rta/KanovichKNSTP12,\n  author    = {Max I. Kanovich and\n               Tajana Ban Kirigin and\n               Vivek Nigam and\n               Andre Scedrov and\n               Carolyn L. Talcott and\n               Ranko Perovic},\n  title     = {A Rewriting Framework for Activities Subject to Regulations},\n  booktitle = {RTA},\n  year      = {2012},\n  pages     = {305-322},\n  ee        = {http://dx.doi.org/10.4230/LIPIcs.RTA.2012.305},\n  crossref  = {DBLP:conf/rta/2012},\n  bibsource = {DBLP, http://dblp.uni-trier.de}\n}\n\n@proceedings{DBLP:conf/rta/2012,\n  editor    = {Ashish Tiwari},\n  title     = {23rd International Conference on Rewriting Techniques and\n               Applications (RTA'12) , RTA 2012, May 28 - June 2, 2012,\n               Nagoya, Japan},\n  booktitle = {RTA},\n  publisher = {Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik},\n  series    = {LIPIcs},\n  volume    = {15},\n  year      = {2012},\n  isbn      = {978-3-939897-38-5},\n  bibsource = {DBLP, http://dblp.uni-trier.de}\n}\n",
+    "pdf": "http://drops.dagstuhl.de/opus/volltexte/2012/3500/pdf/23.pdf",
+    "pubdate": "2012-07-01",
+    "title": "A Rewriting Framework for Activities Subject to Regulations",
+    "venue": "RTA 2012"
+  },
+  {
+    "abstract": "Statement _st_ transitively depends on statement _st<sub>seed</sub>_ if the execution of _st<sub>seed</sub>_ may affect the execution of _st_. Computing transitive program dependences is a fundamental operation in many automatic software analysis tools. Existing tools find it challenging to compute transitive dependences for programs manipulating large aggregate structure variables, and their limitations adversely affect analysis of certain important classes of software systems, e.g., large-scale _enterprise resource planning (ERP)_ systems.\n\nThis paper presents an efficient conservative interprocedural static analysis algorithm for computing field-sensitive transitive program dependences in the presence of large aggregate structure variables. Our key insight is that program dependences coming from operations on whole substructures can be precisely (i.e., field-sensitively) represented at the granularity of substructures instead of individual fields. Technically, we adapt the interval domain to concisely record dependences between _multiple_ pairs of fields of aggregate structure variables by exploiting the fields’ spatial arrangement.\n\nWe _prove_ that our algorithm is as precise as any algorithm which works at the granularity of individual fields, the most-precise known approach for this problem. Our empirical study, in which we analyzed industrial _ERP_ programs with over 100,000 lines of code in average, shows significant improvements in both the running times and memory consumption over existing approaches: The baseline is an efficient field-insensitive _whole-structure_ that incurs a 62% false error rate. An _atomization_-based algorithm, which disassemble every aggregate structure variable into the collection of its individual fields, can remove all these false errors at the cost of doubling the average analysis time, from 30 to 60 minutes. In contrast, our new precise algorithm removes all false errors by increasing the time only to 35 minutes. In terms of memory consumption, our algo- rithm increases the footprint by less than 10%, compared to 50% overhead of the atomizing algorithm.\n",
+    "authors": "Shay Litvak, Nurit Dor, Rastislav Bodik, Noam Rinetzky, Mooly Sagiv",
+    "bibtex": "@INPROCEEDINGS{FSE:LDBRS10,\n  Title=\"Field-Sensitive Program Dependence Analysis\",\n  Author=  \"S. Litvak and N. Dor and  R. Bodik and N. Rinetzky and M. Sagiv\",\n  booktitle=\"ACM SIGSOFT 18th International Symposium on the Foundations of Software Engineering (FSE)\",\n  year = {2010},\n  pages = {287--296},\n  publisher = {ACM},\n}\n",
+    "pdf": "http://www.cs.tau.ac.il/~maon/pubs/FSE10-ADAS.pdf",
+    "pubdate": "2010-11-07",
+    "title": "Field-Sensitive Program Dependence Analysis",
+    "venue": "FSE 2010"
+  },
+  {
+    "abstract": "We describe a new algorithm for proving temporal properties expressed in LTL of infinite-state programs. Our\napproach takes advantage of the fact that LTL properties can often be proved more efficiently using techniques\nusually associated with the branching-time logic CTL than they can with native LTL algorithms. The caveat is that,\nin certain instances, nondeterminism in the system’s transition relation can cause CTL methods to report\ncounterexamples that are spurious with respect to the original LTL formula. To address this problem we describe an\nalgorithm that, as it attempts to apply CTL proof methods, finds and then removes problematic nondeterminism via an\nanalysis on the potentially spurious counterexamples. Problematic nondeterminism is characterized using _decision\npredicates_, and removed using a partial, symbolic determinization procedure which introduces new prophecy variables\nto predict the future outcome of these choices. We demonstrate—using examples taken from the PostgreSQL database\nserver, Apache web server, and Windows OS kernel—that our method can yield enormous performance improvements in\ncomparison to known tools, allowing us to automatically prove properties of programs where we could not prove them\nbefore.\n",
+    "authors": "Byron Cook, Eric Koskinen",
+    "bibtex": "@inproceedings{CookK11,\n  author    = {Byron Cook and\n               Eric Koskinen},\n  title     = {Making prophecies with decision predicates},\n  pages     = {399-410},\nBooktitle = \"Proceedings of the 38th ACM Symposium on Principles\n               of Programming Languages\",\n  Address   = \"Austin, USA\",\n  Publisher = \"ACM\",\n  Month     = \"January\",\n  Year      = \"2011\"\n}\n",
+    "pdf": "http://research.microsoft.com/en-us/um/cambridge/projects/terminator/popl11.pdf",
+    "pubdate": "2011-01-26",
+    "title": "Making Prophecies with Decision Predicates",
+    "venue": "POPL 2011"
+  },
+  {
+    "abstract": "We formulate a unified display calculus proof theory for\nthe four principal varieties of bunched logic by combining\ndisplay calculi for their component logics. Our calculi\nsatisfy cut-elimination, and are sound and complete with\nrespect to their standard presentations. We show how to\nconstrain applications of display-equivalence in our calculi\nin such a way that an exhaustive proof search need be only\nfinitely branching, and establish a full deduction theorem\nfor the bunched logics with classical additives, BBI and\nCBI. We also show that the standard sequent calculus for BI\ncan be seen as a reformulation of its display calculus, and\nargue that analogous sequent calculi for the other varieties\nof bunched logic are very unlikely to exist.\n",
+    "authors": "James Brotherston",
+    "bibtex": "@Article{Brotherston:12,\n  author    = \"James Brotherston\",\n  title     = \"Bunched Logics Displayed\",\n  journal   = \"Studia Logica: Special Issue on Recent Developments related to Residuated Lattices and Substructural Logics\",\n  volume    = 100,\n  number    = 6,\n  pages     = \"1223--1254\",\n  publisher = \"Springer\",\n  year      = 2012\n}\n",
+    "pdf": "http://www0.cs.ucl.ac.uk/staff/J.Brotherston/StudiaLogica12/BL_display_SL_final.pdf",
+    "pubdate": "2012-10-20",
+    "title": "Bunched Logics Displayed",
+    "venue": "Studia Logica: Special Issue on Recent Developments related to Residuated Lattices and Substructural Logics, 2012"
+  },
+  {
+    "abstract": "Modern concurrent algorithms are usually encapsulated in libraries, and\ncomplex algorithms are often constructed using libraries of simpler ones.\nWe present the first theorem that allows harnessing this structure to give compositional liveness proofs to concurrent algorithms and their\nclients. We show that, while proving a liveness property of a client\nusing a concurrent library, we can soundly replace the library by\nanother one related to the original library by a generalisation\nof a well-known notion of linearizability. We apply this result\nto show formally that lock-freedom, an often-used liveness\nproperty of non-blocking algorithms, is compositional for\nlinearizable libraries, and provide an example\nillustrating our proof technique.\n",
+    "authors": "Alexey Gotsman, Hongseok Yang",
+    "bibtex": "@InProceedings{livlinear-icalp11,\n  author    = \"Alexey Gotsman and Hongseok Yang\",\n  title     = \"Liveness-preserving Atomicity Abstraction\",\n  booktitle = \"Proceedings of the 38th International\n               Colloquium on Automata, Languages and Programming\",\n  volume    = \"6756\",\n  series    = \"Lecture Notes in Computer Science\",\n  year      = \"2011\",\n  month     = \"July\",\n  pages     = \"453--465\",\n  publisher = \"Springer-Verlag\",\n  isbn      = \"978-3-642-22011-1\",\n  address   = \"Z\\{\"}urich, Switzerland\"\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/icalp11.pdf",
+    "pdflong": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/icalp11-full.pdf",
+    "pubdate": "2011-07-04",
+    "title": "Liveness-preserving Atomicity Abstraction",
+    "venue": "ICALP 2011"
+  },
+  {
+    "abstract": "We call a data structure overlaid, if a node in the structure includes\nlinks for multiple data structures and these links are intended to be\nused at the same time. In this paper, we present a static program\nanalysis for overlaid data structures. Our analysis implements two main\nideas. The first is to run multiple sub-analyses that track\ninformation about non-overlaid data structures, such as lists. Each sub-analysis infers shape properties of only one component of an\noverlaid data structure, but the results of these sub-analyses\nare later combined to derive the desired safety properties\nabout the whole overlaid data structure. The second idea is\nto control the communication among the sub-analyses using\nghost states and ghost instructions. The purpose of this control\nis to achieve a high level of efficiency by allowing only\nnecessary information to be transferred among sub-analyses and\nat as few program points as possible. Our analysis has been\nsuccessfully applied to prove the memory safety of the Linux\ndeadline IO scheduler and AFS server.\n",
+    "authors": "Oukseh Lee, Hongseok Yang, Rasmus Petersen",
+    "bibtex": "@InProceedings{multiview-cav11,\n   author    = \"Oukseh Lee and\n                Hongseok Yang and\n                Rasmus Petersen\",\n   title     = \"Program Analysis for Overlaid Data Structures\",\n   booktitle = \"Proceedings of the 23rd International Conference on\n                Computer Aided Verification\",\n   volume    = \"6806\",\n   series    = \"Lecture Notes in Computer Science\",\n   year      = \"2011\",\n   month     = \"July\",\n   pages     = \"592--608\",\n   publisher = \"Springer-Verlag\",\n   isbn      = \"978-3-642-22109-5\",\n   address   = \"Utah, USA\"\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/cav11.pdf",
+    "pubdate": "2011-07-14",
+    "title": "Program Analysis for Overlaid Data Structures",
+    "venue": "CAV 2011"
+  },
+  {
+    "abstract": "Separation logic is a Hoare-style logic for reasoning about programs with heap-allocated mutable data structures. As a step toward extending separation logic to high-level languages with ML-style general (higher-order) storage, we investigate the compatibility of nested Hoare triples with several variations of higher-order frame rules.\n\n\nThe interaction of nested triples and frame rules can be subtle, and the inclusion of certain frame rules is in fact unsound. A particular combination of rules can be shown consistent by means of a Kripke model where worlds live in a recursively defined ultrametric space. The resulting logic allows us to elegantly prove programs involving stored code. In particular, using recursively defined assertions, it leads to natural specifications and proofs of invariants required for dealing with recursion through the store.\n",
+    "authors": "Jan Schwinghammer, Lars Birkedal, Bernhard Reus, Hongseok Yang",
+    "bibtex": "@Article(deepframe-LMCS11,\n    Author    = \"Jan Schwinghammer and Lars Birkedal and Bernhard Reus and Hongseok Yang\",\n    Title     = \"Nested Hoare Triples and Frame Rule for Higher-order Store\",\n    Journal   = \"Logical Methods in Computer Science\",\n    Year      = \"2011\",\n    Volume    = \"7\",\n    Number    = \"3\"\n)\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/LMCS11-nested-final.pdf",
+    "pubdate": "2011-10-01",
+    "title": "Nested Hoare Triples and Frame Rule for Higher-order Store",
+    "venue": "LMCS 2011"
+  },
+  {
+    "abstract": "We give a general proof-theoretic method for proving Craig\ninterpolation for displayable logics, based on an analysis of the\nindividual proof rules of their display calculi.  Using this uniform\nmethod, we prove interpolation for a spectrum of display calculi\ndiffering in their structural rules, including those for\nmultiplicative linear logic, multiplicative additive linear logic\nand ordinary classical logic. Our analysis of proof\nrules also provides new insights into  why interpolation\nfails, or seems likely to fail, in many substructural logics.\nSpecifically, contraction appears particularly problematic for\ninterpolation except in special circumstances.\n",
+    "authors": "James Brotherston, Rajeev Goré",
+    "bibtex": "@InProceedings{Brotherston-Gore:11,\n  author    = \"James Brotherston and Rajeev Gor\\'e\",\n  title     = \"Craig Interpolation in Displayable Logics\",\n  booktitle = \"Proceedings of {TABLEAUX-20}\",\n  publisher = \"Springer\",\n  series    = \"LNAI\",\n  pages     = \"88--103\",\n  year      = 2011\n}\n",
+    "pdf": "http://www0.cs.ucl.ac.uk/staff/J.Brotherston/TABLEAUX11/interpolation.pdf",
+    "pdflong": "http://www0.cs.ucl.ac.uk/staff/J.Brotherston/TABLEAUX11/interpolation_long.pdf",
+    "pubdate": "2011-07-04",
+    "title": "Craig Interpolation in Displayable Logics",
+    "venue": "TABLEAUX 2011"
+  },
+  {
+    "abstract": "Most major OS kernels today run on multiprocessor systems and are preemptive: it is possible for a process running in the kernel mode to get descheduled. Existing modular techniques for verifying concurrent code are not directly applicable in this setting: they rely on scheduling being implemented correctly, and in a preemptive kernel, the correctness of the scheduler is interdependent with the correctness of the code it schedules. This interdependency is even stronger in mainstream kernels, such as Linux, FreeBSD or XNU, where the scheduler and processes interact in complex ways.\n\n\nWe propose the first logic that is able to decompose the verification of preemptive multiprocessor kernel code into verifying the scheduler and the rest of the kernel separately, even in the presence of complex interdependencies between the two components. The logic hides the manipulation of control by the scheduler when reasoning about preemptable code and soundly inherits proof rules from concurrent separation logic to verify it thread-modularly. This is achieved by establishing a novel form of refinement between an operational semantics of the real machine and an axiomatic semantics of OS processes, where the latter assumes an abstract machine with each process executing on a separate virtual CPU. The refinement is local in the sense that the logic focuses only on the relevant state of the kernel while verifying the scheduler. We illustrate the power of our logic by verifying an example scheduler, modelled on the one from Linux 2.6.11.\n",
+    "authors": "Alexey Gotsman, Hongseok Yang",
+    "bibtex": "@InProceedings{scheduler-icfp11,\n  author    = \"Alexey Gotsman and Hongseok Yang\",\n  title     = \"Modular verification of preemptive OS kernels\",\n  booktitle = \"Proceedings of the 16th ACM SIGPLAN International\n               Conference on Functional Programming\",\n  year      = \"2011\",\n  month     = \"September\",\n  pages     = \"404--417\",\n  publisher = \"ACM\",\n  ee        = \"http://doi.acm.org/10.1145/2034773.2034827\",\n  isbn      = \"978-1-4503-0865-6\",\n  address   = \"Tokyo, Japan\"\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/icfp11.pdf",
+    "pdflong": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/icfp11-full.pdf",
+    "pubdate": "2011-09-19",
+    "title": "Modular verification of preemptive OS kernels",
+    "venue": "ICFP 2011"
+  },
+  {
+    "abstract": "This paper studies algebraic models for concurrency, in light\nof recent work on Concurrent Kleene Algebra and Separation Logic. It\nclariﬁes that there is a strong connection between the Concurrency and\nFrame Rules of Separation Logic and a variants of the exchange law of\nCategory Theory. The algebraic laws admit two standard models: one\nuses sets of traces, and the other is state-based, using assertions and\nweakest preconditions. We relate the latter to standard models of the\nheap as a partial function. We exploit the power of algebra to unify\nmodels and classify their variations.\n",
+    "authors": "Tony Hoare, Akbar Hussain, Bernhard Möller,  Peter O'Hearn,  Rasmus Petersen, Georg Struth",
+    "bibtex": "@inproceedings{DBLP:conf/concur/HoareHMOPS11,\n  author    = {C. A. R. Hoare and\n               Akbar Hussain and\n               Bernhard M{\\\"o}ller and\n               Peter W. O'Hearn and\n               Rasmus Lerchedahl Petersen and\n               Georg Struth},\n  title     = {On Locality and the Exchange Law for Concurrent Processes},\n  booktitle = {22nd CONCUR, Springer LNCS 6901},\n  year      = {2011},\n  pages     = {250-264}\n}\n",
+    "pdf": "http://dx.doi.org/10.1007/978-3-642-23217-6_17",
+    "pubdate": "2011-09-08",
+    "title": "On Locality and the Exchange Law for Concurrent Processes",
+    "venue": "CONCUR 2011"
+  },
+  {
+    "abstract": "Abduction, the problem of discovering hypotheses that support a conclusion, has mainly been studied in the context of philosophical logic and Artificial Intelligence. Recently, it was used in a compositional program analysis based on separation logic that discovers (partial) pre/post specifications for un-annotated code which approximates\nmemory requirements. Although promising practical results have been\nobtained, completeness issues and the computational hardness of the\nproblem have not been studied. We consider a fragment of separation\nlogic that is representative of applications in program analysis, and we\nstudy the complexity of searching for feasible solutions to abduction. We\nshow that standard entailment is decidable in polynomial time, while abduction ranges from NP-complete to polynomial time for different subproblems.\n",
+    "authors": "Nikos Gorogiannis, Max Kanovich, Peter O'Hearn",
+    "bibtex": "@inproceedings{Gorogiannis2011b,\n  author = {Nikos Gorogiannis and Max Kanovich and Peter W. O'Hearn},\n  title = {The Complexity of Abduction for Separated Heap Abstractions},\n  booktitle = {The 18th International Static Analysis Symposium, SAS 2011},\n  year = {2011},\n  pdf = {publications/2011-sas.pdf},\n  series = {Lecture Notes in Computer Science},\n  publisher = {Springer},\n  volume = {6887},\n  pages = {25--42},\n  doi = {10.1007/978-3-642-23702-7_7}\n}\n",
+    "pdf": "http://www.eis.mdx.ac.uk/staffpages/nikosgkorogiannis/publications/2011-sas.pdf",
+    "pubdate": "2011-09-12",
+    "title": "The Complexity of Abduction for  Separated Heap Abstractions",
+    "venue": "SAS 2011"
+  },
+  {
+    "abstract": "This paper formalises and compares two different styles of\nreasoning with inductively defined predicates, each style being\nencapsulated by a corresponding sequent calculus proof system.\n\n\nThe first system, LKID, supports traditional proof by\ninduction, with induction rules formulated as rules for\nintroducing inductively defined predicates on the left of\nsequents. We show LKID to be cut-free complete with respect to\na natural class of Henkin models; the eliminability of cut\nfollows as a corollary.\n\n\nThe second system, LKID<sup>ω</sup>, uses infinite (non-well-founded)\nproofs to represent arguments by infinite descent. In this\nsystem, the left-introduction rules for inductively defined\npredicates are simple case-split rules, and an infinitary,\nglobal condition on proof trees is required in order to ensure\nsoundness. We show LKID<sup>ω</sup> to be cut-free complete with respect\nto standard models, and again infer the eliminability of cut.\n\n\nThe infinitary system LKID<sup>ω</sup> is unsuitable for formal reasoning.\nHowever, it has a natural restriction to proofs given by\nregular trees, i.e. to those proofs representable by finite\ngraphs, which is so suited. We demonstrate that this restricted\n\"cyclic\" system, CLKID<sup>ω</sup>, subsumes LKID, and conjecture that\nCLKID<sup>ω</sup> and LKID are in fact equivalent, i.e., that proof by\ninduction is equivalent to regular proof by infinite descent.\n",
+    "authors": "James Brotherston, Alex Simpson",
+    "bibtex": "@Article{Brotherston-Simpson:10,\n  author    = \"James Brotherston and Alex Simpson\",\n  title     = \"Sequent Calculi for Induction and Infinite Descent\",\n  journal   = \"Journal of Logic and Computation\",\n  volume    = 21,\n  issue     = 6,\n  year      = 2011\n}\n",
+    "pdf": "http://logcom.oxfordjournals.org/content/early/2010/09/30/logcom.exq052.full.pdf?ijkey=Iv8ztXdIy6Hc6d6&keytype=ref",
+    "pubdate": "2011-12-06",
+    "title": "Sequent Calculi for Induction and Infinite Descent",
+    "venue": "Journal of Logic and Computation"
+  },
+  {
+    "abstract": "We describe an efficient procedure for proving stabilization of biological systems modeled as qualitative networks\nor genetic regulatory networks. For scalability, our procedure uses modular proof techniques, where state-space\nexploration is applied only locally to small pieces of the system rather than the entire system as a whole. Our\nprocedure exploits the observation that, in practice, the form of modular proofs can be restricted to a very limited\nset. For completeness, our technique falls back on a non-compositional counterexample search. Using our new procedure,\nwe have solved a number of challenging published examples, including: a 3-D model of the mammalian epidermis; a model of\nmetabolic networks operating in type-2 diabetes; a model of fate determination of vulval precursor cells in the C.\nelegans worm; and a model of pair-rule regulation during segmentation in the Drosophila embryo. Our results show many\norders of magnitude speedup in cases where previous stabilization proving techniques were known to succeed, and new\nresults in cases where tools had previously failed.\n",
+    "authors": "Byron Cook, Jasmin Fisher, Elzbieta Krepska, Nir Piterman",
+    "bibtex": "@inproceedings{DBLP:conf/vmcai/CookFKP11,\n  author    = {Byron Cook and\n               Jasmin Fisher and\n               Elzbieta Krepska and\n               Nir Piterman},\n  title     = {Proving Stabilization of Biological Systems},\n  booktitle = {12th VMCAI, Springer LNCS 6538},\n  year      = {2011},\n  pages     = {134-149}\n}\n",
+    "pdf": "http://research.microsoft.com/pubs/139258/vmcai_11.pdf",
+    "pubdate": "2011-01-23",
+    "title": "Proving Stabilization of Biological Systems",
+    "venue": "VMCAI 2011"
+  },
+  {
+    "abstract": "The accurate and efficient treatment of mutable data structures is one of the outstanding problem\nareas in automatic program verification and analysis. Shape analysis is a form of program analysis\nthat attempts to infer descriptions of the data structures in a program, and to prove that these\nstructures are not misused or corrupted. It is one of the more challenging and expensive forms\nof program analysis, due to the complexity of aliasing and the need to look arbitrarily deeply\ninto the program heap. This paper describes a method of boosting shape analyses by deﬁning a\ncompositional method, where each procedure is analyzed independently of its callers. The analysis\nalgorithm uses a restricted fragment of separation logic, and assigns a collection of Hoare triples\nto each procedure; the triples provide an over-approximation of data structure usage. Our method\nbrings the usual beneﬁts of compositionality – increased potential to scale, ability to deal with\nincomplete programs, graceful way to deal with imprecision – to shape analysis, for the first time.\n\n\nThe analysis rests on a generalized form of abduction (inference of explanatory hypotheses)\nwhich we call bi-abduction. Bi-abduction displays abduction as a kind of inverse to the frame\nproblem: it jointly infers anti-frames (missing portions of state) and frames (portions of state not\ntouched by an operation), and is the basis of a new analysis algorithm. We have implemented\nour analysis and we report case studies on smaller programs to evaluate the quality of discovered\nspeciﬁcations, and larger code bases (e.g. sendmail, an imap server, a Linux distribution) to\nillustrate the level of automation and scalability that we obtain from our compositional method.\nThe paper makes number of specific technical contributions on proof procedures and analysis algorithms, but in a sense its more important contribution is holistic: the explanation and\ndemonstration of how a massive increase in automation is possible using abductive inference. \n",
+    "authors": "Cristiano Calcagno, Dino Distefano, Peter O'Hearn, Hongseok Yang",
+    "bibtex": "@article{DBLP:journals/jacm/CalcagnoDOY11,\n  author    = {Cristiano Calcagno and\n               Dino Distefano and\n               Peter W. O'Hearn and\n               Hongseok Yang},\n  title     = {Compositional Shape Analysis by Means of Bi-Abduction},\n  journal   = {J. ACM},\n  volume    = {58},\n  number    = {6},\n  year      = {2011},\n  pages     = {26}\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/files/4078/jacm11-biabduction-submitted.pdf",
+    "pubdate": "2011-12-12",
+    "title": "Compositional Shape Analysis by Means of  Bi-Abduction",
+    "venue": "Journal of the ACM"
+  },
+  {
+    "abstract": "We describe a reduction from temporal property veriﬁcation to a program analysis problem. We produce an encoding\nwhich, with the use of recursion and nondeterminism, enables off-the-shelf program analysis tools to naturally\nperform the reasoning necessary for proving temporal properties (e.g. backtracking, eventuality checking, tree\ncounterexamples for branching-time properties, abstraction refinement, etc.).  Using examples drawn from the\nPostgreSQL database server, Apache web server, and Windows OS kernel, we demonstrate the practical via- bility of\nour work.\n",
+    "authors": "Byron Cook, Eric Koskinen, Moshe Vardi",
+    "bibtex": "@inproceedings{DBLP:conf/cav/CookKV11,\n  author    = {Byron Cook and\n               Eric Koskinen and\n               Moshe Y. Vardi},\n  title     = {Temporal Property Verification as a Program Analysis Task},\n  booktitle = {23rd CAV, Springer LNCS 6806},\n  year      = {2011},\n  pages     = {333-348},\n  ee        = {http://dx.doi.org/10.1007/978-3-642-22110-1_26}\n}\n",
+    "pdf": "http://www.cs.ucl.ac.uk/staff/b.cook/cav11a.pdf",
+    "pubdate": "2011-07-05",
+    "title": "Temporal property verification  as a program analysis task",
+    "venue": "CAV 2011"
+  },
+  {
+    "abstract": "JavaScript has become the most widely used language for client-side web programming. The dynamic nature of JavaScript makes understanding its code notoriously difficult, leading to buggy programs and a lack of adequate static-analysis tools. We believe that logical reasoning has much to offer JavaScript: a simple description of program behaviour, a clear understanding of module boundaries, and the ability to verify security contracts.\n\n\nWe introduce a program logic for reasoning about a broad subset of JavaScript, including challenging features such as prototype inheritance and with. We adapt ideas from separation logic to provide tractable reasoning about JavaScript code: reasoning about easy programs is easy; reasoning about hard programs is possible. We prove a strong soundness result. All libraries written in our subset and proved correct with respect to their specifications will be well-behaved, even when called by arbitrary JavaScript code.\n",
+    "authors": "Philippa Gardner, Sergio Maffeis, Gareth Smith",
+    "bibtex": "@inproceedings{DBLP:conf/popl/GardnerMS12,\n  author    = {Philippa Gardner and\n               Sergio Maffeis and\n               Gareth David Smith},\n  title     = {Towards a Program Logic for JavaScript},\n  booktitle = {POPL},\n  year      = {2012},\n  pages     = {31--44},\n  ee        = {http://doi.acm.org/10.1145/2103656.2103663},\n  bibsource = {DBLP, http://dblp.uni-trier.de}\n}\n",
+    "pdf": "http://www.doc.ic.ac.uk/~gds/TowardsProgramLogicJavaScriptPOPL2012.pdf",
+    "pdflong": "http://www.doc.ic.ac.uk/~gds/javascript_techrep.pdf",
+    "pubdate": "2012-01-25",
+    "title": "Towards a Program Logic for JavaScript",
+    "venue": "POPL 2012"
+  },
+  {
+    "abstract": "In 2004, Berdine, Calcagno and O'Hearn introduced a fragment of separation logic that allows for reasoning about\nprograms with pointers and linked lists. They showed that entailment in this fragment is in coNP, but the precise\ncomplexity of this problem has been open since. In this paper, we show that the problem can actually be solved in\npolynomial time. To this end, we represent separation logic formulae as graphs and show that every satisﬁable\nformula is equivalent to one whose graph is in a particular normal form. Entailment between two such for- mulae then\nreduces to a graph homomorphism problem. We also discuss natural syntactic extensions that render entailment\nintractable.\n",
+    "authors": "Byron Cook, Christoph Haase, Joël Ouaknine, Matthew Parkinson, James Worrell",
+    "bibtex": "@inproceedings{DBLP:conf/concur/CookHOPW11,\n   author    = {Byron Cook and\n                Christoph Haase and\n                Jo{\\\"e}l Ouaknine and\n                Matthew J. Parkinson and\n                James Worrell},\n   title     = {Tractable Reasoning in a Fragment of Separation Logic},\n   booktitle = {22nd CONCUR, SPRINGER LNCS 6901},\n   year      = {2011},\n   pages     = {235-249},\n   ee        = {http://dx.doi.org/10.1007/978-3-642-23217-6_16},\n   crossref  = {DBLP:conf/concur/2011},\n   bibsource = {DBLP, http://dblp.uni-trier.de}\n }\n",
+    "pdf": "http://www.cs.ox.ac.uk/files/4048/sl.pdf",
+    "pubdate": "2011-09-08",
+    "title": "Tractable Reasoning in a Fragment of Separation  Logic  ",
+    "venue": "CONCUR 2011"
+  },
+  {
+    "abstract": "We present a framework for leveraging dynamic analysis to find good abstractions\nfor static analysis.  A static analysis in our framework is parametrised.  Our\nmain insight is to directly and efficiently compute from a concrete trace, a\nnecessary condition on the parameter configurations to prove a given query, and\nthereby prune the space of parameter configurations that the static analysis must\nconsider.  We provide constructive algorithms for two instance analyses in our\nframework: a flow- and context-sensitive thread-escape analysis and a flow- and\ncontext-insensitive points-to analysis.  We show the efficacy of these analyses,\nand our approach, on six Java programs comprising two million bytecodes: the\nthread-escape analysis resolves 80% of queries on average, disproving 28% and\nproving 52%; the points-to analysis resolves 99% of queries on average,\ndisproving 29% and proving 70%.\n",
+    "authors": "Mayur Naik, Hongseok Yang, Ghila Castelnuovo, Mooly Sagiv",
+    "bibtex": "@inproceedings{NaikYCS-POPL12,\n  author    = {Mayur Naik and\n               Hongseok Yang and\n               Ghila Castelnuovo and\n               Mooly Sagiv},\n  title     = {Abstractions from tests},\n  booktitle = {POPL},\n  year      = {2012},\n  pages     = {373-386},\n  ee        = {http://doi.acm.org/10.1145/2103656.2103701}\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/popl12.pdf",
+    "pubdate": "2012-01-22",
+    "title": "Abstractions from Tests",
+    "venue": "POPL 2012"
+  },
+  {
+    "abstract": "We present ribbon proofs, a diagrammatic proof system for separation logic. Inspired by an eponymous system due to\nBean, ribbon proofs emphasise the structure of a proof, so are intelligible and hence useful pedagogically. Because\nthey contain less redundancy than proof outlines, and allow each proof step to be checked locally, they are highly\nscalable (and we illustrate this with a ribbon proof of the Version 7 Unix memory manager). Where proof outlines are\ncumbersome to modify, ribbon proofs can be visually manoeuvred to yield proofs of variant programs. This paper\nintroduces the ribbon proof system, proves its soundness and completeness, and outlines a prototype tool for\nvalidating the diagrams in Isabelle.\n",
+    "authors": "John Wickerson, Mike Dodds, Matthew Parkinson",
+    "pdf": "http://www.cl.cam.ac.uk/~jpw48/ribbons_lics12.pdf",
+    "pdflong": "http://www.cl.cam.ac.uk/~jpw48/ribbon_proofs_for_separation_logic.pdf",
+    "pubdate": "2012-06-27",
+    "title": "Ribbon Proofs for Separation Logic",
+    "venue": "LICS 2012 (short paper)"
+  },
+  {
+    "abstract": "We present a static program analysis for overlaid data structures such\nthat a node in the structure includes links for multiple data\nstructures and these links are intended to be used at the same time.\nThese overlaid data structures are frequently used in systems code, in\norder to impose multiple types of indexing structures over the same\nset of nodes.  Our analysis implements two main ideas. The first is to\nrun multiple sub-analyses that track information about non-overlaid\ndata structures, such as lists.  The second idea is to control the\ncommunication among the sub-analyses using ghost states and ghost\ninstructions. The purpose of this control is to achieve a high level\nof efficiency by allowing only necessary information to be transferred\namong sub-analyses and at as few program points as possible.  Our\nanalysis has been successfully applied to prove the memory safety of\nthe Linux deadline IO scheduler and AFS server.\n",
+    "authors": "Oukseh Lee, Hongseok Yang, Rasmus Petersen",
+    "bibtex": "@article{LeeYP-FMSD12,\n  author    = {Oukseh Lee and\n               Hongseok Yang and\n               Rasmus Petersen},\n  title     = {A divide-and-conquer approach for analysing overlaid data\n               structures},\n  journal   = {Formal Methods in System Design},\n  volume    = {41},\n  number    = {1},\n  year      = {2012},\n  pages     = {4-24}\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/fmsd11.pdf",
+    "pubdate": "2012-01-01",
+    "title": "A divide-and-conquer approach for analysing overlaid data structures",
+    "venue": "Formal Methods in System Design"
+  },
+  {
+    "abstract": "Linearizability is a commonly accepted notion of correctness for libraries of concurrent algorithms. Unfortunately,\nit is only appropriate for sequentially consistent memory models, while the hardware and software platforms that\nalgorithms run on provide weaker consistency guarantees. In this paper, we present the first definition of\nlinearizability on a weak memory model, Total Store Order (TSO), implemented by x86 processors. We establish that\nour definition is a correct one in the following sense: while proving a property of a client of a concurrent library,\nwe can soundly replace the library by its abstract implementation related to the original one by our generalisation\nof linearizability. This allows abstracting from the details of the library implementation while reasoning about the\nclient. We have developed a tool for systematically testing concurrent libraries against our definition and applied\nit to several challenging algorithms.\n",
+    "authors": "Sebastian Burckhardt, Alexey Gotsman, Madanlal Musuvathi, Hongseok Yang",
+    "bibtex": "@inproceedings{BurckhardtGMY-ESOP12,\n  author    = {Sebastian Burckhardt and\n               Alexey Gotsman and\n               Madanlal Musuvathi and\n               Hongseok Yang},\n  title     = {Concurrent Library Correctness on the TSO Memory Model},\n  booktitle = {ESOP},\n  year      = {2012},\n  pages     = {87-107}\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/esop12.pdf",
+    "pdflong": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/esop12-full.pdf",
+    "pubdate": "2012-03-24",
+    "title": "Concurrent Library Correctness on the TSO Memory Model",
+    "venue": "ESOP 2012"
+  },
+  {
+    "abstract": "Collaboration among organizations or individuals is common.While these participants are often unwilling to share all\ntheir information with each other, some information sharing is unavoidable when achieving a common goal. The need to\nshare information and the desire to keep it confidential are two competing notions which affect the outcome of a\ncollaboration. This paper proposes a formal model of collaboration which addresses confidentiality concerns. We draw\non the notion of a plan which originates in the AI literature. We use data confidentiality policies to assess\nconfidentiality in transition systems whose actions have an equal number of predicates in their pre- and\npost-conditions. Under two natural notions of policy compliance, we show that it is PSPACE-complete to schedule a\nplan leading from a given initial state to a desired goal state while simultaneously deciding compliance with\nrespect to the agents’ policies.\n",
+    "authors": "Max I. Kanovich, Paul Rowe, Andre Scedrov",
+    "bibtex": "@article{DBLP:journals/jar/KanovichRS11,\n  author    = {Max I. Kanovich and\n               Paul Rowe and\n               Andre Scedrov},\n  title     = {Collaborative Planning with Confidentiality},\n  journal   = {J. Autom. Reasoning},\n  volume    = {46},\n  number    = {3-4},\n  year      = {2011},\n  pages     = {389-421},\n  ee        = {http://dx.doi.org/10.1007/s10817-010-9190-1},\n  bibsource = {DBLP, http://dblp.uni-trier.de}\n}\n",
+    "pdf": "http://dx.doi.org/10.1007/s10817-010-9190-1",
+    "pubdate": "2011-07-01",
+    "title": "Collaborative Planning with Confidentiality",
+    "venue": "Journal of Automated Reasoning"
+  },
+  {
+    "abstract": "This paper extends existing models for collaborative systems. We investigate how much damage can be done by insiders alone, without collusion with\nan outside adversary. In contrast to traditional intruder models, such as in protocol security, all the players inside our system, including potential adversaries, have\nsimilar capabilities. They have bounded storage capacity, that is, they can only remember at any moment a bounded number of facts. This is technically imposed\nby only allowing balanced actions, that is, actions that have the same number of\nfacts in their pre and post conditions. On the other hand, the adversaries inside\nour system have many capabilities of the standard Dolev-Yao intruder, namely,\nthey are able, within their bounded storage capacity, to compose, decompose,\noverhear, and intercept messages as well as update values with fresh ones. We investigate the complexity of the decision problem of whether or not an adversary\nis able to discover secret data. We show that this problem is PSPACE-complete\nwhen all actions are balanced and can update values with fresh ones. As an application we turn to security protocol analysis and demonstrate that many protocol\nanomalies, such as the Lowe anomaly in the Needham-Schroeder public key exchange protocol, can also occur when the intruder is one of the insiders with\nbounded memory.\n",
+    "authors": "Max I. Kanovich, Tajana Ban Kirigin, Vivek Nigam, Andre Scedrov",
+    "bibtex": "@inproceedings{DBLP:conf/ifip1-7/KanovichKNS10,\n  author    = {Max I. Kanovich and\n               Tajana Ban Kirigin and\n               Vivek Nigam and\n               Andre Scedrov},\n  title     = {Bounded Memory Dolev-Yao Adversaries in Collaborative Systems},\n  booktitle = {Formal Aspects in Security and Trust},\n  year      = {2010},\n  pages     = {18-33},\n  ee        = {http://dx.doi.org/10.1007/978-3-642-19751-2_2},\n  crossref  = {DBLP:conf/ifip1-7/2010},\n  bibsource = {DBLP, http://dblp.uni-trier.de}\n}\n\n@proceedings{DBLP:conf/ifip1-7/2010,\n  editor    = {Pierpaolo Degano and\n               Sandro Etalle and\n               Joshua D. Guttman},\n  title     = {Formal Aspects of Security and Trust - 7th International\n               Workshop, FAST 2010, Pisa, Italy, September 16-17, 2010.\n               Revised Selected Papers},\n  booktitle = {Formal Aspects in Security and Trust},\n  publisher = {Springer},\n  series    = {Lecture Notes in Computer Science},\n  volume    = {6561},\n  year      = {2011},\n  isbn      = {978-3-642-19750-5},\n  ee        = {http://dx.doi.org/10.1007/978-3-642-19751-2},\n  bibsource = {DBLP, http://dblp.uni-trier.de}\n}\n",
+    "pdf": "ftp://ftp.cis.upenn.edu/pub/papers/scedrov/FAST2010-proc.pdf",
+    "pubdate": "2010-12-15",
+    "title": "Bounded Memory Dolev-Yao Adversaries in Collaborative Systems",
+    "venue": "FAST 2010"
+  },
+  {
+    "abstract": "The typical AI problem is that of making a plan of the actions to be performed by a controller so that it could get into a set of _final_ situations, if it started with a certain _initial_ situation.\n\n\nThe plans, and related winning strategies, happen to be finite in the case of a finite number of states and a finite number of _instant_ actions.\n\n\nThe situation becomes much more complex when we deal with planning under _temporal uncertainty_ caused by actions with _delayed effects_.\n\n\nHere we introduce a tree-based formalism to express plans, or winning strategies, in finite state systems in which actions may have _quantitatively delayed effects_. Since the delays are non-deterministic and continuous, we need an infinite branching to display all possible delays. Nevertheless, under reasonable assumptions, we show that infinite winning strategies which may arise in this context can be captured by finite plans.\n\n\nThe above planning problem is specified in logical terms within a Horn fragment of affine logic. Among other things, the advantage of linear logic approach is that we can easily capture ‘preemptive/anticipative’ plans (in which a new action _β_ may be taken at some moment within the running time of an action _α_ being carried out, in order to be prepared before completion of action _α_).\n\n\nIn this paper we propose a comprehensive and adequate logical model of strong planning under temporal uncertainty which addresses infinity concerns. In particular, we establish a direct correspondence between linear logic proofs and plans, or winning strategies, for the actions with quantitative delayed effects.\n",
+    "authors": "Max I. Kanovich, Jacqueline Vauzeilles",
+    "bibtex": "@article{DBLP:journals/tcs/KanovichV11,\n  author    = {Max I. Kanovich and\n               Jacqueline Vauzeilles},\n  title     = {Linear logic as a tool for planning under temporal uncertainty},\n  journal   = {Theor. Comput. Sci.},\n  volume    = {412},\n  number    = {20},\n  year      = {2011},\n  pages     = {2072-2092},\n  ee        = {http://dx.doi.org/10.1016/j.tcs.2010.12.027},\n  bibsource = {DBLP, http://dblp.uni-trier.de}\n}\n",
+    "pdf": "http://dx.doi.org/10.1016/j.tcs.2010.12.027",
+    "pubdate": "2011-07-01",
+    "title": "Linear logic as a tool for planning under temporal uncertainty",
+    "venue": "Theoretical Computer Science, 2011"
+  },
+  {
+    "abstract": "Before a drug can be made available to the general public, its effectiveness has to be experimentally evaluated.\nExperiments that involve human subjects are called Clinical Investigations (CIs). Since human subjects are involved,\nprocedures for CIs are elaborated so that data required for validating the drug can be collected while ensuring the\nsafety of subjects. Moreover, CIs are heavily regulated by public agencies, such as the Food and Drug Administration\n(FDA). Violations of regulations or deviations from procedures should be avoided as they may incur heavy penalties\nand more importantly may compromise the health of subjects. However, CIs are prone to human error, since CIs are\ncarried out by the study team, which might be overloaded with other tasks, such as hospital and/or pharmacy duties,\nother trials, etc. In order to avoid discrepancies, we propose developing an automated assistant for helping all the\nparties to correctly carry out CIs as well as to detect and prevent discrepancies as early as possible. This way the\nproposed automated assistant would minimize error, and therefore increase the safety of the involved subjects. This\npaper takes the first steps towards that direction. In particular, we propose a model for collaborative systems with\nexplicit time, called Timed Local State Transition Systems (TLSTS), and argue that it can be used for specifying\nprocedures and regulations for CIs, which mention time explicitly. Finally we show how to implement a TLSTS\nspecification using Maude, an existing computational tool based on rewriting.\n",
+    "authors": "Vivek Nigam, Tajana Ban Kirigin, Andre Scedrov, Carolyn L. Talcott, Max I. Kanovich, Ranko Perovic",
+    "bibtex": "@inproceedings{DBLP:conf/ihi/NigamKSTKP12,\n  author    = {Vivek Nigam and\n               Tajana Ban Kirigin and\n               Andre Scedrov and\n               Carolyn L. Talcott and\n               Max I. Kanovich and\n               Ranko Perovic},\n  title     = {Towards an automated assistant for clinical investigations},\n  booktitle = {IHI},\n  year      = {2012},\n  pages     = {773-778},\n  ee        = {http://doi.acm.org/10.1145/2110363.2110456},\n  crossref  = {DBLP:conf/ihi/2012},\n  bibsource = {DBLP, http://dblp.uni-trier.de}\n}\n\n@proceedings{DBLP:conf/ihi/2012,\n  editor    = {Gang Luo and\n               Jiming Liu and\n               Christopher C. Yang},\n  title     = {ACM International Health Informatics Symposium, IHI '12,\n               Miami, FL, USA, January 28-30, 2012},\n  booktitle = {IHI},\n  publisher = {ACM},\n  year      = {2012},\n  isbn      = {978-1-4503-0781-9},\n  ee        = {http://dl.acm.org/citation.cfm?id=2110363},\n  bibsource = {DBLP, http://dblp.uni-trier.de}\n}\n",
+    "pdf": "ftp://ftp.cis.upenn.edu/pub/papers/scedrov/IHI-2012-nigam.pdf",
+    "pubdate": "2012-07-01",
+    "title": "Towards an Automated Assistant for Clinical Investigations.",
+    "venue": "IHI 2012"
+  },
+  {
+    "abstract": "Starting from Girard’s seminal paper on light linear logic (LLL), a number of works investigated systems derived from linear logic to capture polynomial time computation within the _computation-as-cut-elimination_ paradigm.\n\n\nThe original syntax of LLL is too complicated, mainly because one has to deal with sequents which do not just consist of formulas but also of ‘blocks’ of formulas.\n\n\nWe circumvent the complications of ‘blocks’ by introducing a new modality _∇_ which is exclusively in charge of ‘additive blocks’. One of the most interesting features of this purely multiplicative _∇_ is the possibility of the second-order encodings of additive connectives.\n\n\nThe resulting system (with the traditional syntax), called Easy-LLL, is still powerful to represent any deterministic polynomial time computations in purely logical terms.\n\n\nUnlike the original LLL, Easy-LLL admits polynomial time strong normalization together with the Church–Rosser property, namely, cut elimination terminates in a _unique_ way in polytime by any choice of cut reduction strategies.\n",
+    "authors": "Max I. Kanovich",
+    "bibtex": "@article{DBLP:journals/apal/Kanovich12,\n  author    = {Max I. Kanovich},\n  title     = {Light linear logics with controlled weakening: Expressibility,\n               confluent strong normalization},\n  journal   = {Ann. Pure Appl. Logic},\n  volume    = {163},\n  number    = {7},\n  year      = {2012},\n  pages     = {854-874},\n  ee        = {http://dx.doi.org/10.1016/j.apal.2011.09.012},\n  bibsource = {DBLP, http://dblp.uni-trier.de}\n}\n",
+    "pdf": "http://dx.doi.org/10.1016/j.apal.2011.09.012",
+    "pubdate": "2012-07-01",
+    "title": "Light linear logics with controlled weakening: Expressibility, confluent strong normalization",
+    "venue": "Annals of Pure and Applied Logic, 2012"
+  },
+  {
+    "abstract": "The termination method of weakly monotonic algebras, which has been defined for higher-order rewriting in the HRS\nformalism, offers a lot of power, but has seen little use in recent years. We adapt and extend this method to the\nalternative formalism of algebraic functional systems, where the simply-typed lambda-calculus is combined with\nalgebraic reduction. Using this theory, we define higher-order polynomial interpretations, and show how the\nimplementation challenges of this technique can be tackled. A full implementation is provided in the termination\ntool WANDA.\n",
+    "authors": "Carsten Fuhs, Cynthia Kop",
+    "bibtex": "@inproceedings{fuh:kop:12,\n  author    = {Carsten Fuhs and Cynthia Kop},\n  title     = {Polynomial Interpretations for Higher-Order Rewriting},\n  booktitle = {Proc.\\ RTA~'12},\n  editor    = {Ashish Tiwari},\n  series    = {LIPIcs},\n  publisher = {Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik},\n  volume    = {15},\n  year      = {2012},\n  pages     = {176-192},\n}\n",
+    "pdf": "http://www0.cs.ucl.ac.uk/staff/C.Fuhs/papers/RTA12-hopolo.pdf",
+    "pdflong": "http://arxiv.org/pdf/1203.5754v1",
+    "pubdate": "2012-05-30",
+    "title": "Polynomial Interpretations for Higher-Order Rewriting",
+    "venue": "RTA 2012"
+  },
+  {
+    "abstract": "There exist many powerful techniques to analyze termination and complexity of term rewrite systems (TRSs). Our goal is to use these techniques for the analysis of other programming languages as well. For instance, approaches to prove termination of definite logic programs by a transformation to TRSs have been studied for decades. However, a challenge is to handle languages with more\ncomplex evaluation strategies (such as Prolog, where predicates like the cut influence the control flow). In this paper, we present a general methodology for the analysis of such programs. Here, the logic program is first transformed into a symbolic evaluation graph which represents all possible evaluations in a finite way. Afterwards, different analyses can be performed on these graphs. In particular, one can generate TRSs from such graphs and apply existing tools for termination or complexity analysis of TRSs to infer information on the termination or complexity of the original logic program.\n",
+    "authors": "Jürgen Giesl, Thomas Ströder, Peter Schneider-Kamp, Fabian Emmes, Carsten Fuhs",
+    "bibtex": "@inproceedings{gie:str:sch:emm:fuh:12,\n  author    = {J\\\"urgen Giesl and Thomas Str\\\"oder and Peter {Schneider-Kamp} and Fabian Emmes and Carsten Fuhs},\n  title     = {Symbolic Evaluation Graphs and Term Rewriting: A General Methodology for Analyzing Logic Programs},\n  booktitle = {Proc.\\ PPDP~'12},\n  editor    = {Danny De Schreye and Gerda Janssens and Andy King},\n  pages     = {1-12},\n  year      = {2012},\n  publisher = {ACM Press},\n}\n",
+    "pdf": "http://www0.cs.ucl.ac.uk/staff/C.Fuhs/papers/PPDP12-lpgraphs.pdf",
+    "pdflong": "http://sunsite.informatik.rwth-aachen.de/Publications/AIB/2012/2012-12.pdf",
+    "pubdate": "2012-09-19",
+    "title": "Symbolic Evaluation Graphs and Term Rewriting: A General Methodology for Analyzing Logic Programs",
+    "venue": "PPDP 2012"
+  },
+  {
+    "abstract": "We present an algorithm and a system for generating input events to\nexercise smartphone apps.  Our approach is based on concolic testing and\ngenerates sequences of events automatically and systematically.  It alleviates\nthe path-explosion problem by checking a condition on program executions that\nidentifies subsumption between different event sequences.\nWe also describe our implementation of the approach for Android, the most\npopular smartphone app platform, and the results of an evaluation that\ndemonstrates its effectiveness on five Android apps.\n",
+    "authors": "Saswat Anand, Mayur Naik, Hongseok Yang, Mary Jean Harrold",
+    "bibtex": "@inproceedings{AnandNHY12,\n  author    = {Saswat Anand and\n               Mayur Naik and\n               Mary Jean Harrold and\n               Hongseok Yang},\n  title     = {Automated concolic testing of smartphone apps},\n  booktitle = {SIGSOFT FSE},\n  year      = {2012},\n  pages     = {59},\n  ee        = {http://doi.acm.org/10.1145/2393596.2393666},\n  bibsource = {DBLP, http://dblp.uni-trier.de}\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/fse12.pdf",
+    "pdflong": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/fse12-full.pdf",
+    "pubdate": "2012-11-11",
+    "title": "Automated Concolic Testing of Smartphone Apps",
+    "venue": "FSE 2012"
+  },
+  {
+    "abstract": "Linearizability is a commonly accepted notion of correctness for libraries of concurrent algorithms. Unfortunately,\nit assumes a complete isolation between a library and its client, with interactions limited to passing values of a\ngiven data type. This is inappropriate for common programming languages, where libraries and their clients can\ncommunicate via the heap, transferring the ownership of data structures, and can even run in a shared address space\nwithout any memory protection.\n\nIn this paper, we present the first definition of linearizability that lifts this limitation and establish an\nAbstraction Theorem: while proving a property of a client of a concurrent library, we can soundly replace the library\nby its abstract implementation related to the original one by our generalisation of linearizability. We also prove\nthat linearizability with ownership transfer can be derived from the classical one if the library does not access\nsome of data structures transferred to it by the client.\n",
+    "authors": "Alexey Gotsman, Hongseok Yang",
+    "bibtex": "@inproceedings{GotsmanY12,\n  author    = {Alexey Gotsman and Hongseok Yang},\n  title     = {Linearizability with Ownership Transfer},\n  booktitle = {CONCUR},\n  year      = {2012},\n  pages     = {256-271},\n  ee        = {http://dx.doi.org/10.1007/978-3-642-32940-1_19},\n  bibsource = {DBLP, http://dblp.uni-trier.de}\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/concur12.pdf",
+    "pdflong": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/concur12-full.pdf",
+    "pubdate": "2012-09-03",
+    "title": "Linearizability with Ownership Transfer",
+    "venue": "CONCUR 2012"
+  },
+  {
+    "abstract": "Modern programming languages, such as C++ and Java, provide a\nsequentially consistent (SC) memory model for well-behaved programs\nthat follow a certain synchronisation discipline, e.g., for those that\nare data-race free (DRF). However, performance-critical libraries\noften violate the discipline by using low-level hardware primitives,\nwhich have a weaker semantics. In such scenarios, it is important for\nthese libraries to protect their otherwise well-behaved clients from\nthe weaker memory model.\n\n\nIn this paper, we demonstrate that a variant of linearizability can be\nused to reason formally about the interoperability between a\nhigh-level DRF client and a low-level library written for the Total\nStore Order (TSO) memory model, which is implemented by x86\nprocessors. Namely, we present a notion of linearizability that\nrelates a concrete library implementation running on TSO to an\nabstract specification running on an SC machine. A client of this\nlibrary is said to be DRF if its SC executions calling the abstract\nlibrary specification do not contain data races. We then show how to\ncompile a DRF client to TSO such that it only exhibits SC behaviours,\ndespite calling into a racy library.\n",
+    "authors": "Alexey Gotsman, Madanlal Musuvathi, Hongseok Yang",
+    "bibtex": "@inproceedings{GotsmanMY12,\n  author    = {Alexey Gotsman and\n               Madanlal Musuvathi and\n               Hongseok Yang},\n  title     = {Show No Weakness: Sequentially Consistent Specifications\n               of TSO Libraries},\n  booktitle = {DISC},\n  year      = {2012},\n  pages     = {31-45},\n  ee        = {http://dx.doi.org/10.1007/978-3-642-33651-5_3},\n  bibsource = {DBLP, http://dblp.uni-trier.de}\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/disc12.pdf",
+    "pdflong": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/disc12-full.pdf",
+    "pubdate": "2012-10-16",
+    "title": "Show No Weakness: Sequentially Consistent Specifications of TSO Libraries",
+    "venue": "DISC 2012"
+  },
+  {
+    "abstract": "One of the difficulties of proving program termination is managing the subtle interplay between the finding of a\ntermination argument and the finding of the argument's supporting invariant. In this paper we propose a new\nmechanism that facilitates better cooperation between these two types of reasoning. In an experimental evaluation we\nfind that our new method leads to dramatic performance improvements.\n",
+    "authors": "Marc Brockschmidt, Byron Cook, Carsten Fuhs",
+    "bibtex": "@inproceedings{bro:coo:fuh:13,\n  author    = {Marc Brockschmidt and Byron Cook and Carsten Fuhs},\n  title     = {Better termination proving through cooperation},\n  booktitle = {Proc.\\ CAV~'13},\n  series    = {LNCS},\n  year      = {2013},\n  volume    = {8044},\n  pages     = {413-429},\n}\n",
+    "pdf": "http://www0.cs.ucl.ac.uk/staff/C.Fuhs/papers/CAV13-T2-Cooperating.pdf",
+    "pdflong": "http://sunsite.informatik.rwth-aachen.de/Publications/AIB/2013/2013-06.pdf",
+    "pubdate": "2013-07-19",
+    "title": "Better termination proving through cooperation",
+    "venue": "CAV 2013"
+  },
+  {
+    "abstract": "Frame and anti-frame rules have been proposed as proof rules for modular reasoning about programs.  Frame rules\nallow one to hide irrelevant parts of the state during verification, whereas the anti-frame rule allows one to hide\nlocal state from the context.\n\nWe discuss the semantic foundations of frame and anti-frame rules, and present the first sound model for\nChargueraud and Pottier's type and capability system including both of these  rules.  The model is a possible\nworlds model based on the operational semantics and step-indexed heap relations, and the worlds are given by a\nrecursively defined metric space.  We also extend the model to account for Pottier's  generalized frame and\nanti-frame rules, where invariants are generalized to families of invariants  indexed over preorders.  This\ngeneralization enables reasoning about some well-bracketed as well as (locally) monotone uses of local state.\n",
+    "authors": "Jan Schwinghammer, Lars Birkedal, Francois Pottier, Bernhard Reus, Kristian Stovring, Hongseok Yang",
+    "bibtex": "@article{SchwinghammerBPRSY13,\n  author    = {Jan Schwinghammer and\n               Lars Birkedal and\n               Fran\\c{c}ois Pottier and\n               Bernhard Reus and\n               Kristian St{\\o}vring and\n               Hongseok Yang},\n  title     = {A step-indexed Kripke model of hidden state A step-indexed\n               Kripke model of hidden state},\n  journal   = {Mathematical Structures in Computer Science},\n  volume    = {23},\n  number    = {1},\n  year      = {2013},\n  pages     = {1-54},\n  ee        = {http://journals.cambridge.org/action/displayAbstract?aid=8782519},\n  bibsource = {DBLP, http://dblp.uni-trier.de}\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/MSCS12-antiframe.pdf",
+    "pubdate": "2013-02-01",
+    "title": "A Step-Indexed Kripke Model of Hidden State",
+    "venue": "Mathematical Structures in Computer Science, 2013"
+  },
+  {
+    "abstract": "Recently, data abstraction has been studied in the context of\nseparation logic, with noticeable practical successes: the developed\nlogics have enabled clean proofs of tricky challenging programs, such\nas subject-observer patterns, and they have become the basis of\nefficient verification tools for Java (jStar), C (VeriFast) and\nHoare Type Theory (Ynot). In this paper, we give a new semantic\nanalysis of such logic-based approaches using Reynolds's\nrelational parametricity. The core of the analysis is our lifting theorems,\nwhich give a sound and complete condition for\nwhen a true implication between assertions in the standard\ninterpretation entails that the same implication holds\nin a relational interpretation. Using these theorems,\nwe provide an algorithm for identifying abstraction-respecting\nclient-side proofs; the proofs ensure that clients cannot\ndistinguish two appropriately-related module implementations.\n",
+    "authors": "Jacob Thamsborg, Lars Birkedal, Hongseok Yang",
+    "bibtex": "@article{ThamsborgBY-LMCS12,\n  author    = {Jacob Thamsborg and\n               Lars Birkedal and\n               Hongseok Yang},\n  title     = {Two for the Price of One: Lifting Separation Logic Assertions},\n  journal   = {Logical Methods in Computer Science},\n  volume    = {8},\n  number    = {3},\n  year      = {2012},\n  bibsource = {DBLP, http://dblp.uni-trier.de}\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/LMCS12-lifting.pdf",
+    "pubdate": "2012-12-01",
+    "title": "Two for the Price of One: Lifting Separation Logic Assertions",
+    "venue": "Logical Methods in Computer Science, 2012"
+  },
+  {
+    "abstract": "Programs manipulating mutable data structures with intrinsic sharing present a challenge for modular verification.\nDeep aliasing inside data structures dramatically complicates reasoning in isolation over parts of these objects\nbecause changes to one part of the structure (say, the left child of a dag node) can affect other parts (the right\nchild or some of its descendants) that may point into it. The result is that finding intuitive and compositional\nproofs of correctness is usually a struggle. We propose a compositional proof system that enables local reasoning\nin the presence of sharing.\n\n\nWhile the AI \"frame problem\" elegantly captures the reasoning required to verify programs without sharing, we\ncontend that natural reasoning about programs with sharing instead requires an answer to a different and more\nchallenging AI problem, the \"ramification problem\": reasoning about the indirect consequences of actions. Accordingly,\nwe present a RAMIFY proof rule that attacks the ramification problem head-on and show how to reason with it. Our\nframework is valid in any separation logic and permits sound compositional and local reasoning in the context of both\nspecified and unspecified sharing. We verify the correctness of a number of examples, including programs that\nmanipulate dags, graphs, and overlaid data structures in nontrivial ways.\n",
+    "authors": "Aquinas Hobor, Jules Villard",
+    "bibtex": "@inproceedings{Hobor:2013:RSD:2429069.2429131,\n  author = {Hobor, Aquinas and Villard, Jules},\n  title = {The ramifications of sharing in data structures},\n  booktitle = {Proceedings of the 40th annual ACM SIGPLAN-SIGACT symposium on Principles of programming languages},\n  series = {POPL '13},\n  year = {2013},\n  isbn = {978-1-4503-1832-7},\n  location = {Rome, Italy},\n  pages = {523--536},\n  numpages = {14},\n  url = {http://doi.acm.org/10.1145/2429069.2429131},\n  doi = {10.1145/2429069.2429131},\n  acmid = {2429131},\n  publisher = {ACM},\n  address = {New York, NY, USA},\n  keywords = {aliasing, heap/shape, modularity, separation logic},\n}\n",
+    "pdf": "http://www.doc.ic.ac.uk/~jvillar1/pub/ramification-HVpopl13.pdf",
+    "pubdate": "2013-01-22",
+    "title": "The Ramifications of Sharing in Data Structures",
+    "venue": "POPL 2013"
+  },
+  {
+    "abstract": "Multiprocessors implement weak memory models, but program verifiers often\nassume Sequential Consistency (SC), and thus may miss bugs due to\nweak memory.  We propose a sound transformation of the program to verify,\nenabling SC tools to perform verification w.r.t. weak memory.  We present\nexperiments for a broad variety of models (from x86-TSO to Power) and a vast\nrange of verification tools, quantify the additional cost of the\ntransformation and highlight the cases when we can drastically reduce it.\nOur benchmarks include work-queue management code from PostgreSQL.\n",
+    "authors": "Jade Alglave, Daniel Kroening, Vincent Nimal, Michael Tautschnig",
+    "pdf": "http://www0.cs.ucl.ac.uk/staff/j.alglave/papers/esop13.pdf",
+    "pubdate": "2013-02-28",
+    "title": "Software Verification for Weak Memory via Program Transformation",
+    "venue": "ESOP 2013"
+  },
+  {
+    "abstract": "Compositional abstractions underly many reasoning principles for concurrent programs: the concurrent environment is abstracted in order to reason about a thread in isolation; and these abstractions are composed to reason about a program consisting of many threads.\nFor instance, separation logic uses formulae that describe part of the state, abstracting the rest; when two threads use disjoint state, their specifications can be composed with the separating conjunction.\nType systems abstract the state to the types of variables; threads may be composed when they agree on the types of shared variables.\n\n\n\nIn this paper, we present the \"Concurrent Views Framework\", a metatheory of concurrent reasoning principles.\nThe theory is parameterised by an abstraction of state with a notion of composition, which we call _views_.\nThe metatheory is remarkably simple, but highly applicable: the rely-guarantee method, concurrent separation logic, concurrent abstract predicates, type systems for recursive references and for unique pointers, and even an adaptation of the Owicki-Gries method can all be seen as instances of the Concurrent Views Framework.\nMoreover, our metatheory proves each of these systems is sound without requiring induction on the operational semantics.\n",
+    "authors": "Thomas Dinsdale-Young, Lars Birkedal, Philippa Gardner, Matthew Parkinson, Hongseok Yang",
+    "bibtex": "@inproceedings{Dinsdale-Young:2013:VCR:2429069.2429104,\n author = {Dinsdale-Young, Thomas and Birkedal, Lars and Gardner, Philippa and Parkinson, Matthew and Yang, Hongseok},\n title = {Views: compositional reasoning for concurrent programs},\n booktitle = {Proceedings of the 40th annual ACM SIGPLAN-SIGACT symposium on Principles of programming languages},\n series = {POPL '13},\n year = {2013},\n isbn = {978-1-4503-1832-7},\n location = {Rome, Italy},\n pages = {287--300},\n numpages = {14},\n url = {http://doi.acm.org/10.1145/2429069.2429104},\n doi = {10.1145/2429069.2429104},\n acmid = {2429104},\n publisher = {ACM},\n address = {New York, NY, USA},\n keywords = {axiomatic semantics, compositional reasoning, concurrency},\n}\n",
+    "pdf": "http://www.doc.ic.ac.uk/~td202/papers/views.pdf",
+    "pubdate": "2013-01-22",
+    "title": "Views: Compositional Reasoning for Concurrent Programs",
+    "venue": "POPL 2013"
+  },
+  {
+    "abstract": "Memory management is one of the most complex aspects of modern concurrent\nalgorithms, and various techniques proposed for it---such as hazard pointers,\nread-copy-update and epoch-based reclamation---have proved very challenging\nfor formal reasoning. In this paper, we show that different memory reclamation\ntechniques actually rely on the same implicit synchronisation pattern, not\nclearly reflected in the code, but only in the form of assertions used to\nargue its correctness. The pattern is based on the key concept of a grace\nperiod, during which a thread can access certain shared memory cells\nwithout fear that they get deallocated. We propose a modular reasoning method,\nmotivated by the pattern, that handles all three of the above memory\nreclamation techniques in a uniform way. By explicating their fundamental\ncore, our method achieves clean and simple proofs, scaling even to\nrealistic implementations of the algorithms without a significant increase in\nproof complexity. We formalise the method using a combination of separation\nlogic and temporal logic and use it to verify example instantiations of the\nthree approaches to memory reclamation.\n",
+    "authors": "Alexey Gotsman, Noam Rinetzky, Hongseok Yang",
+    "bibtex": "@inproceedings{GotsmanRY13,\n  author    = {Alexey Gotsman and\n               Noam Rinetzky and\n               Hongseok Yang},\n  title     = {Verifying Concurrent Memory Reclamation Algorithms with\n               Grace},\n  booktitle = {ESOP},\n  year      = {2013},\n  pages     = {249-269},\n  ee        = {http://dx.doi.org/10.1007/978-3-642-37036-6_15}\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/esop13.pdf",
+    "pdflong": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/esop13-full.pdf",
+    "pubdate": "2013-03-16",
+    "title": "Verifying Concurrent Memory Reclamation Algorithms with Grace",
+    "venue": "ESOP 2013"
+  },
+  {
+    "abstract": "We present a formal framework for static specification mining. The main\nidea is to represent partial temporal specifications as symbolic automata -- automata where transitions may be labeled by variables, and a variable can\nbe substituted by a letter, a word, or a regular language. Using symbolic\nautomata, we construct an abstract domain for static specification mining,\ncapturing both the partialness of a specification and the precision of a\nspecification. We show interesting relationships between lattice operations\nof this domain and common operators for manipulating partial temporal\nspecifications, such as building a more informative specification by\nconsolidating two partial specifications.\n",
+    "authors": "Hila Peleg and Sharon Shoham and Eran Yahav and Hongseok Yang",
+    "bibtex": "@inproceedings{PelegSYY13,\n  author    = {Hila Peleg and\n               Sharon Shoham and\n               Eran Yahav and\n               Hongseok Yang},\n  title     = {Symbolic Automata for Static Specification Mining},\n  booktitle = {SAS},\n  year      = {2013},\n  pages     = {63-83},\n  ee        = {http://dx.doi.org/10.1007/978-3-642-38856-9_6}\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/sas13.pdf",
+    "pdflong": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/sas13-full.pdf",
+    "pubdate": "2013-06-20",
+    "title": "Symbolic Automata for Static Specification Mining",
+    "venue": "SAS 2013"
+  },
+  {
+    "abstract": "Linearizability is a commonly accepted notion of correctness for libraries of concurrent algorithms. Unfortunately,\nit assumes a complete isolation between a library and its client, with interactions limited to passing values of a\ngiven data type. This is inappropriate for common programming languages, where libraries and their clients can\ncommunicate via the heap, transferring the ownership of data structures, and can even run in a shared address space\nwithout any memory protection. In this paper, we present the first definition of linearizability that lifts this\nlimitation and establish an Abstraction Theorem: while proving a property of a client of a concurrent library, we can\nsoundly replace the library by its abstract implementation related to the original one by our generalisation of\nlinearizability. This allows abstracting from the details of the library implementation while reasoning about the\nclient. We also prove that linearizability with ownership transfer can be derived from the classical one if the\nlibrary does not access some of data structures transferred to it by the client.\n",
+    "authors": "Alexey Gotsman and Hongseok Yang",
+    "bibtex": "@article{GotsmanYang-LMCS13,\n  author    = {Alexey Gotsman and\n               Hongseok Yang},\n  title     = {Linearizability with Ownership Transfer},\n  journal   = {Logical Methods in Computer Science},\n  volume    = {9},\n  number    = {3},\n  year      = {2013}\n}\n",
+    "pdf": "http://arxiv.org/pdf/1308.2507.pdf",
+    "pubdate": "2013-09-09",
+    "title": "Linearizability with Ownership Transfer",
+    "venue": "Logical Methods in Computer Science"
+  },
+  {
+    "abstract": "JavaScript is the most widely used web language for client-side\napplications. Whilst the development of JavaScript was initially just\nled by implementation, there is now increasing momentum behind the\nECMA standardisation process. The time is ripe for a formal,\nmechanised specification of JavaScript, to clarify ambiguities in the\nECMA standards, to serve as a trusted reference for high-level\nlanguage compilation and JavaScript implementations, and to provide a\nplatform for high-assurance proofs of language properties.\n\n\nWe present JSCert, a formalisation of the current ECMA standard in the\nCoq proof assistant, and JSRef, a reference interpreter for JavaScript\nextracted from Coq to OCaml. We give a Coq proof that JSRef is\ncorrect with respect to JSCert and assess JSRef using test262, the\nECMA conformance test suite. Our methodology ensures that JSCert is a\ncomparatively accurate formulation of the English standard, which will\nonly improve as time goes on. We have demonstrated that modern\ntechniques of mechanised specification can handle the complexity of\nJavaScript.\n",
+    "authors": "Martin Bodin, Arthur Chargueraud, Daniele Filaretti, Philippa Gardner, Sergio Maffeis, Daiva Naudziuniene, Alan Schmitt, Gareth Smith",
+    "bibtex": "@inproceedings{jscert,\n  author    = {Martin Bodin and\n               Arthur Chargu\\'eraud and\n               Daniele Filaretti and\n               Philippa Gardner and\n               Sergio Maffeis and\n               Daiva Naud\\v{z}i\\={u}nien\\.{e} and\n               Alan Schmitt and\n               Gareth Smith},\n  title     = {A Trusted Mechanised {JavaScript} Specification},\n  booktitle = {POPL},\n  year      = {2014},\n }\n",
+    "pdf": "http://www.doc.ic.ac.uk/~gds/jscert_popl14.pdf",
+    "pubdate": "2014-01-22",
+    "title": "A Trusted Mechanised JavaScript Specification",
+    "venue": "POPL 2014"
+  },
+  {
+    "abstract": "In this paper, we close the logical gap between provability in the logic BBI,\nwhich is the propositional basis for separation logic, and validity in an\nintended class of separation models, as employed in applications of separation\nlogic such as program verification.  An intended class of separation models is\nusually specified by a collection of axioms describing the specific model\nproperties that are expected to hold, which we call a separation theory.\n\n\nOur main contributions are as follows. First, we show that several typical\nproperties of separation theories are not definable in BBI. Second, we show\nthat these properties become definable in a suitable hybrid extension of BBI,\nobtained by adding a theory of naming to BBI in the same way that hybrid logic\nextends normal modal logic. The binder-free extension HyBBI captures most of\nthe properties we consider, and the full extension HyBBI(\\downarrow) with the\nusual  binder of hybrid logic covers all these properties. Third, we present an\naxiomatic proof system for our hybrid logic whose extension with any set of\n\"pure\" axioms is sound and complete with respect to the models satisfying those\naxioms. As a corollary of this general result, we obtain, in a parametric\nmanner, a sound and complete axiomatic proof system for any separation theory\nfrom our considered class. To the best of our knowledge, this class includes\nall separation theories appearing in the published literature.\n",
+    "authors": "J. Brotherston and J. Villard",
+    "bibtex": "@inproceedings{BV-popl14,\n        author =        {Brotherston, James and Villard, Jules},\n        booktitle =     {POPL},\n        publisher =     {ACM},\n        title = {Parametric Completeness for Separation Theories},\n        year =  {2014},\n        ee = {http://dx.doi.org/10.1145/2535838.2535844},\n}\n",
+    "pdf": "http://www.doc.ic.ac.uk/~jvillar1/pub/hybbi-BVpopl14.pdf",
+    "pubdate": "2014-01-01",
+    "title": "Parametric Completeness for Separation Theories",
+    "venue": "POPL 2014"
+  },
+  {
+    "abstract": "We propose a technique to efficiently search a large family of abstractions in order to prove a query using a parametric dataflow analysis.\nOur technique either finds the cheapest such abstraction or shows that none exists.\nIt is based on counterexample-guided abstraction refinement but applies a novel meta-analysis\non abstract counterexample traces to efficiently find abstractions that are incapable of proving the query.\nWe formalize the technique in a generic framework and apply it to two analyses: a type-state analysis and a thread-escape analysis.\nWe demonstrate the effectiveness of the technique on a suite of Java benchmark programs.\n",
+    "authors": "Xin Zhang and Mayur Naik and Hongseok Yang",
+    "bibtex": "@inproceedings{ZhangNY13,\n  author    = {Xin Zhang and\n               Mayur Naik and\n               Hongseok Yang},\n  title     = {Finding optimum abstractions in parametric dataflow analysis},\n  booktitle = {PLDI},\n  year      = {2013},\n  pages     = {365-376},\n  ee        = {http://doi.acm.org/10.1145/2462156.2462185}\n}\n",
+    "pdf": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/pldi13.pdf",
+    "pdflong": "http://www.cs.ox.ac.uk/people/hongseok.yang/paper/pldi13-full.pdf",
+    "pubdate": "2013-06-16",
+    "title": "Finding optimum abstractions in parametric dataflow analysis",
+    "venue": "PLDI 2013"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Papers",
+
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "authors": {
+        "type": "string"
+      },
+      "abstract": {
+        "type": "string",
+        "format": "markdown"
+      },
+      "bibtex": {
+        "type": "string"
+      },
+      "pubdate": {
+        "type": "string",
+        "format": "date"
+      },
+      "venue": {
+        "type": "string"
+      },
+      "pdf": {
+        "type": "string",
+        "format": "url"
+      },
+      "pdflong": {
+        "type": "string",
+        "format": "url"
+      },
+      "ps": {
+        "type": "string",
+        "format": "url"
+      },
+      "pslong": {
+        "type": "string",
+        "format": "url"
+      }
+    },
+    "additionalProperties": false,
+    "required": ["title", "authors", "abstract", "pubdate", "venue"],
+    "anyOf": [
+      { "required": ["pdf"] },
+      { "required": ["pdflong"] },
+      { "required": ["ps"] },
+      { "required": ["pslong"] }
+    ],
+
+    "options": {
+      "remove_empty_properties": true
+    }
+  },
+
+  "additionalItems": false,
+  "format": "tabs"
+}
