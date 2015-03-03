@@ -1,6 +1,7 @@
 {
   "current": [
-    { "affiliations": [
+    {
+      "affiliations": [
         "UCL"
       ],
       "firstname": "David",
@@ -69,31 +70,32 @@
         "Imperial College London"
       ],
       "firstname": "Cristiano",
-      "lastname": "Calcagno"
+      "lastname": "Calcagno",
+      "url": ""
     },
     {
       "affiliations": [
         "UCL"
       ],
-        "firstname": "Tristan",
-        "lastname": "Caulfield",
-        "url": "http://www0.cs.ucl.ac.uk/people/T.Caulfield/"
+      "firstname": "Tristan",
+      "lastname": "Caulfield",
+      "url": "http://www0.cs.ucl.ac.uk/people/T.Caulfield/"
     },
     {
       "affiliations": [
         "UCL"
       ],
-        "firstname": "Nathan",
-        "lastname": "Chong",
-        "url": "http://www0.cs.ucl.ac.uk/people/N.Chong.html"
+      "firstname": "Nathan",
+      "lastname": "Chong",
+      "url": "http://www0.cs.ucl.ac.uk/people/N.Chong.html"
     },
     {
-    "affiliations": [
+      "affiliations": [
         "UCL"
       ],
-        "firstname": "Fredrik",
-        "lastname": "Dahlqvist",
-        "url": "http://www0.cs.ucl.ac.uk/people/F.Dahlqvist.html"
+      "firstname": "Fredrik",
+      "lastname": "Dahlqvist",
+      "url": "http://www0.cs.ucl.ac.uk/people/F.Dahlqvist.html"
     },
     {
       "affiliations": [
@@ -196,14 +198,16 @@
         "UCL"
       ],
       "firstname": "Kaustubh",
-      "lastname": "Nimkar"
+      "lastname": "Nimkar",
+      "url": ""
     },
     {
       "affiliations": [
         "Imperial College London"
       ],
       "firstname": "Gian",
-      "lastname": "Ntzik"
+      "lastname": "Ntzik",
+      "url": ""
     },
     {
       "affiliations": [
@@ -226,7 +230,8 @@
         "Queen Mary"
       ],
       "firstname": "Rasmus",
-      "lastname": "Petersen"
+      "lastname": "Petersen",
+      "url": ""
     },
     {
       "affiliations": [
@@ -249,7 +254,16 @@
         "Queen Mary"
       ],
       "firstname": "Mark",
-      "lastname": "Schellhase"
+      "lastname": "Schellhase",
+      "url": ""
+    },
+    {
+      "affiliations": [
+        "Oxford University"
+      ],
+      "firstname": "Abhishek",
+      "lastname": "Thakur",
+      "url": "http://www.cs.ox.ac.uk/people/abhishek.thakur/"
     },
     {
       "affiliations": [
@@ -263,17 +277,9 @@
       "affiliations": [
         "Oxford University"
       ],
-      "firstname": "Abhishek",
-      "lastname": "Thakur",
-      "url": "http://www.cs.ox.ac.uk/people/abhishek.thakur/"
-    },
-    {
-      "affiliations": [
-        "Cambridge University"
-      ],
-      "firstname": "Thomas",
-      "lastname": "Tuerk",
-      "url": "http://www.cl.cam.ac.uk/~tt291/"
+      "firstname": "Hongseok",
+      "lastname": "Yang",
+      "url": "http://www.cs.ox.ac.uk/people/hongseok.yang/Public/Home.html"
     },
     {
       "affiliations": [
@@ -286,34 +292,37 @@
     },
     {
       "affiliations": [
+        "Cambridge University"
+      ],
+      "firstname": "Thomas",
+      "lastname": "Tuerk",
+      "url": "http://www.cl.cam.ac.uk/~tt291/"
+    },
+    {
+      "affiliations": [
         "Imperial College London"
       ],
       "firstname": "Thomas",
       "lastname": "Wood",
       "url": "http://www.doc.ic.ac.uk/~tw1509"
-    },
-    {
-      "affiliations": [
-        "Oxford University"
-      ],
-      "firstname": "Hongseok",
-      "lastname": "Yang",
-      "url": "http://www.cs.ox.ac.uk/people/hongseok.yang/Public/Home.html"
     }
   ],
-
-
-
-
-
-
   "former": [
+    {
+      "affiliations": [
+        "UCL"
+      ],
+      "firstname": "Hasiba",
+      "lastname": "Afzalzada",
+      "url": "http://www0.cs.ucl.ac.uk/people/H.Afzalzada.html"
+    },
     {
       "affiliations": [
         "Queen Mary"
       ],
       "firstname": "Oukseh",
-      "lastname": "Lee"
+      "lastname": "Lee",
+      "url": ""
     },
     {
       "affiliations": [
@@ -328,7 +337,8 @@
         "Microsoft Research Cambridge"
       ],
       "firstname": "Mohammad",
-      "lastname": "Raza"
+      "lastname": "Raza",
+      "url": ""
     },
     {
       "affiliations": [
@@ -349,18 +359,19 @@
     },
     {
       "affiliations": [
+        "Queen Mary"
+      ],
+      "firstname": "Akbar",
+      "lastname": "Hussain",
+      "url": ""
+    },
+    {
+      "affiliations": [
         "Cambridge University"
       ],
       "firstname": "Eric",
       "lastname": "Koskinen",
       "url": "http://cs.nyu.edu/~ejk/"
-    },
-    {
-      "affiliations": [
-        "Queen Mary"
-      ],
-      "firstname": "Akbar",
-      "lastname": "Hussain"
     },
     {
       "affiliations": [
