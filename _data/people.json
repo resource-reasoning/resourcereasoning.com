@@ -223,18 +223,18 @@
     },
     {
       "affiliations": [
+        "Queen Mary"
+      ],
+      "firstname": "Rasmus",
+      "lastname": "Petersen"
+    },
+    {
+      "affiliations": [
         "Imperial College London"
       ],
       "firstname": "Azalea",
       "lastname": "Raad",
       "url": "http://www.doc.ic.ac.uk/~azalea/"
-    },
-    {
-      "affiliations": [
-        "Queen Mary"
-      ],
-      "firstname": "Rasmus",
-      "lastname": "Petersen"
     },
     {
       "affiliations": [
