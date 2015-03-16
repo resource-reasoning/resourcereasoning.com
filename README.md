@@ -24,21 +24,18 @@ The main files of interest for editing are:
     The house style is reasonably formal, including links where available.
     All entries should be in the _present tense_.
 
-  * Inside the folder **_data**:
-    * **people.json** ([edit](https://github.com/resource-reasoning/resourcereasoning.com/edit/gh-pages/_data/people.json)) The people page data
-      This file contains the people directly associated with the Resource Reasoning grant at present and in the past.
-      It should be quite easy to see how to change this to add and remove people, change institutions, websites _etc._.
-     
-      Template person record:
-       ```json
-        {
-          "affiliations": ["First", "Second"],
-          "firstname": "First",
-          "lastname": "Second",
-          "url": "http://www.example.com/~first.second/"
-        },
-       ```
+  * **people.md** ([edit](https://github.com/resource-reasoning/resourcereasoning.com/edit/gh-pages/people.md)) The people page
+    This file contains the people directly associated with the Resource Reasoning grant at present and in the past.
+    It should be quite easy to see how to change this to add and remove people, change institutions, websites _etc._.
+    People should be ordered alphabetically by surname.
 
+    Template person record, use the second format if they have no website.
+     ```md
+     * [Name Name](http://www.example.com/) (Institution A, Institution B)
+     * Name Name (Institution A, Institution B)
+     ```
+
+  * Inside the folder **_data**:
     * **papers.yaml** ([edit](https://github.com/resource-reasoning/resourcereasoning.com/edit/gh-pages/_data/papers.yaml)) The publications page data
     
       This file contains the data of publications, fields should be reasonably obvious from the data already in the file.
