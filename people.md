@@ -16,6 +16,7 @@ The people currently researching Resource Reasoning in London, Cambridge and Oxf
 * [Byron Cook](http://www0.cs.ucl.ac.uk/staff/b.cook/) (UCL, Microsoft Research Cambridge)
 * [Fredrik Dahlqvist](http://www0.cs.ucl.ac.uk/people/F.Dahlqvist.html) (UCL)
 * [Dino Distefano](http://www.eecs.qmul.ac.uk/~ddino/ddino_homepage/About_me.html) (Queen Mary)
+* [Simon Docherty] (http://www0.cs.ucl.ac.uk/people/S.Docherty.html) (UCL)
 * [Mike Dodds](http://www.cl.cam.ac.uk/~md466/) (Cambridge University)
 * [Carsten Fuhs](http://www.cs.ucl.ac.uk/staff/C.Fuhs/) (UCL)
 * [Philippa Gardner](http://www.doc.ic.ac.uk/~pg) (Imperial College London)
