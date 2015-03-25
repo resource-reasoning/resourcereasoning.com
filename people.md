@@ -27,7 +27,7 @@ The people currently researching Resource Reasoning in London, Cambridge and Oxf
 * [Samin Ishtiaq](http://research.microsoft.com/en-us/people/sishtiaq/) (Microsoft Research Cambridge)
 * [Max Kanovich](http://www.eecs.qmul.ac.uk/~mik/) (UCL)
 * [Kareem Khazem](http://www.karkhaz.com/) (UCL)
-* [Heidy Khlaff](http://heidykhlaaf.com/] (UCL)
+* [Heidy Khlaff](http://heidykhlaaf.com/) (UCL)
 * [Sergio Maffeis](http://www.doc.ic.ac.uk/~maffeis) (Imperial College London)
 * [Juan Antonio Navarro Pérez](http://navarroj.com/research/) (UCL)
 * Kaustubh Nimkar (UCL)
