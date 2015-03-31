@@ -15,6 +15,7 @@ The people currently researching Resource Reasoning in London, Cambridge and Oxf
 * [Tristan Caulfield](http://www0.cs.ucl.ac.uk/people/T.Caulfield/) (UCL)
 * [Nathan Chong](http://www0.cs.ucl.ac.uk/people/N.Chong.html) (UCL)
 * [Byron Cook](http://www0.cs.ucl.ac.uk/staff/b.cook/) (UCL, Microsoft Research Cambridge)
+* [Pedro da Rocha Pinto](http://www.doc.ic.ac.uk/~pmd09/) (Imperial College London)
 * [Fredrik Dahlqvist](http://www0.cs.ucl.ac.uk/people/F.Dahlqvist.html) (UCL)
 * [Dino Distefano](http://www.eecs.qmul.ac.uk/~ddino/ddino_homepage/About_me.html) (Queen Mary)
 * [Simon Docherty](http://www0.cs.ucl.ac.uk/people/S.Docherty.html) (UCL)
@@ -45,7 +46,6 @@ The people currently researching Resource Reasoning in London, Cambridge and Oxf
 * [John Wickerson](http://www.cl.cam.ac.uk/~jpw48/) (Cambridge University, Imperial College London)
 * [Thomas Wood](http://www.doc.ic.ac.uk/~tw1509) (Imperial College London)
 * [Hongseok Yang](http://www.cs.ox.ac.uk/people/hongseok.yang/Public/Home.html) (Oxford University)
-* [Pedro da Rocha Pinto](http://www.doc.ic.ac.uk/~pmd09/) (Imperial College London)
 
 People who have formerly researched Resource Reasoning in these locations:
 
