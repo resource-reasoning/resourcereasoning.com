@@ -575,5 +575,15 @@
     "pubdate": "2013-06-16",
     "title": "Finding optimum abstractions in parametric dataflow analysis",
     "venue": "PLDI 2013"
+  },
+  {
+    "abstract": "To avoid data races, concurrent operations should either be at distinct times or on distinct data. Atomicity is the abstraction that an operation takes effect at a single, discrete instant in time, with linearisability being a well-known correctness condition which asserts that concurrent operations appear to behave atomically. Disjointness is the abstraction that operations act on distinct data resource, with concurrent separation logics enabling reasoning about threads that appear to operate independently on disjoint resources.\nWe present TaDA, a program logic that combines the benefits of abstract atomicity and abstract disjointness. Our key contribution is the introduction of atomic triples, which offer an expressive approach to specifying program modules. By building up examples, we show that TaDA supports elegant modular reasoning in a way that was not previously possible.\n",
+    "authors": "Pedro da Rocha Pinto, Thomas Dinsdale-Young, Philippa Gardner",
+    "bibtex": "@inproceedings{TaDA, \n  author = {da Rocha Pinto, Pedro and Dinsdale-Young, Thomas and Gardner, Philippa}, \n  title = {{TaDA}: A Logic for Time and Data Abstraction}, \n  booktitle = {ECOOP}, \n  year = {2014}, \n  pages={207-231}, \n }\n",
+    "pdf": "http://www.doc.ic.ac.uk/~pmd09/research/publications/2014/ecoop/tada-a-logic-for-time-and-data-abstraction",
+    "pdflong": "http://www.doc.ic.ac.uk/~pmd09/research/publications/2014/ecoop/tada-a-logic-for-time-and-data-abstraction",
+    "pubdate": "2014-07-28",
+    "title": "TaDA: A Logic for Time and Data Abstraction",
+    "venue": "ECOOP 2014"
   }
 ]
