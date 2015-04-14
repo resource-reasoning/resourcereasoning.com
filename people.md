@@ -32,7 +32,7 @@ The people currently researching Resource Reasoning in London, Cambridge and Oxf
 * [Sergio Maffeis](http://www.doc.ic.ac.uk/~maffeis) (Imperial College London)
 * [Brendan McLean](http://www0.cs.ucl.ac.uk/people/B.McLean.html) (UCL)
 * [Juan Antonio Navarro Pérez](http://navarroj.com/research/) (UCL)
-* Kaustubh Nimkar (UCL)
+* [Kaustubh Nimkar](http://www0.cs.ucl.ac.uk/staff/K.Nimkar/) (UCL)
 * Gian Ntzik (Imperial College London)
 * [Peter O'Hearn](http://www0.cs.ucl.ac.uk/staff/p.ohearn/) (UCL)
 * [Matthew Parkinson](http://www.cl.cam.ac.uk/~mjp41/) (Microsoft Research Cambridge)
