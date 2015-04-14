@@ -42,6 +42,7 @@ The people currently researching Resource Reasoning in London, Cambridge and Oxf
 * [Reuben Rowe](http://www0.cs.ucl.ac.uk/staff/R.Rowe/) (UCL)
 * Mark Schellhase (Queen Mary)
 * [Gareth Smith](http://www.doc.ic.ac.uk/~gds) (Imperial College London)
+* [Tyler Sorensen](http://www0.cs.ucl.ac.uk/staff/T.Sorensen) (UCL)
 * [Abhishek Thakur](http://www.cs.ox.ac.uk/people/abhishek.thakur/) (Oxford University)
 * [Thomas Tuerk](http://www.cl.cam.ac.uk/~tt291/) (Cambridge University)
 * [John Wickerson](http://www.cl.cam.ac.uk/~jpw48/) (Cambridge University, Imperial College London)
