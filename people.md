@@ -30,6 +30,7 @@ The people currently researching Resource Reasoning in London, Cambridge and Oxf
 * [Kareem Khazem](http://www.karkhaz.com/) (UCL)
 * [Heidy Khlaff](http://heidykhlaaf.com/) (UCL)
 * [Sergio Maffeis](http://www.doc.ic.ac.uk/~maffeis) (Imperial College London)
+* [Brendan McLean](http://www0.cs.ucl.ac.uk/people/B.McLean.html)(UCL)
 * [Juan Antonio Navarro Pérez](http://navarroj.com/research/) (UCL)
 * Kaustubh Nimkar (UCL)
 * Gian Ntzik (Imperial College London)
