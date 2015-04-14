@@ -5,7 +5,7 @@ published: true
 
 The people currently researching Resource Reasoning in London, Cambridge and Oxford include:
 
-* [Jade Alglave](http://www0.cs.ucl.ac.uk/staff/J.Alglave/) (UCL)
+* [Jade Alglave](http://www0.cs.ucl.ac.uk/staff/J.Alglave/) (UCL) (Joint appointment with Microsoft)
 * [Gabrielle Anderson](http://www0.cs.ucl.ac.uk/people/G.Anderson) (UCL)
 * [Josh Berdine](http://research.microsoft.com/en-us/people/jjb/) (Microsoft Research Cambridge)
 * [Sukriti Bhattacharya](http://www0.cs.ucl.ac.uk/people/S.Bhattacharya) (UCL)
@@ -14,7 +14,7 @@ The people currently researching Resource Reasoning in London, Cambridge and Oxf
 * Cristiano Calcagno (Imperial College London)
 * [Tristan Caulfield](http://www0.cs.ucl.ac.uk/people/T.Caulfield/) (UCL)
 * [Nathan Chong](http://www0.cs.ucl.ac.uk/people/N.Chong.html) (UCL)
-* [Byron Cook](http://www0.cs.ucl.ac.uk/staff/b.cook/) (UCL, Microsoft Research Cambridge)
+* [Byron Cook](http://www0.cs.ucl.ac.uk/staff/b.cook/) (UCL) (Joint appointment with Amazon)
 * [Pedro da Rocha Pinto](http://www.doc.ic.ac.uk/~pmd09/) (Imperial College London)
 * [Fredrik Dahlqvist](http://www0.cs.ucl.ac.uk/people/F.Dahlqvist.html) (UCL)
 * [Dino Distefano](http://www.eecs.qmul.ac.uk/~ddino/ddino_homepage/About_me.html) (Queen Mary)
