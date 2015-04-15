@@ -1,4 +1,22 @@
 [  { 
+   "abstract": "Security managers face the challenge of formulating and implementing
+   policies that deliver their desired system security postures — for example,
+   their preferred balance of confidentiality, integrity, and availability — within
+   budget (monetary and otherwise). In this paper, we describe a security modelling
+   methodology, grounded in rigorous mathematical systems modelling and
+   economics, that captures the managers’ policies and the behavioural choices of
+   agents operating within the system. Models are executable, so allowing systematic
+   experimental exploration of the system-policy co-design space, and compositional,
+   so managing the complexity of large-scale systems.",
+    "authors": "M. Collinson, K. McDonald, and D. Pym",
+    "bibtex": "",
+    "pdf": "http://www0.cs.ucl.ac.uk/staff/D.Pym/CaulfieldPymWilliams.pdf",
+    "pdflong": "",
+    "pubdate": "2014",
+    "title": "Compositional Security Modelling: Structure, Economics, and Behaviour",
+    "venue": "LNCS 8533: 233--245"
+  },
+  {
    "abstract": "",
     "authors": "M. Collinson, K. McDonald, and D. Pym",
     "bibtex": "",
