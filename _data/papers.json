@@ -1,11 +1,21 @@
-[  { 
+[  {    
+   "abstract": ".",
+    "authors": "T. Caulfield and D. Pym",
+    "bibtex": "",
+    "pdf": "",
+    "pdflong": "",
+    "pubdate": "2015",
+    "title": " Modelling and Simulating Systems Security Policy",
+    "venue": "Accepted for publication, SIMUTools"
+  },
+  {
    "abstract": ".",
     "authors": "F. Dahlqvist. D. Pym",
     "bibtex": "",
     "pdf": "",
     "pdflong": "",
     "pubdate": "2015",
-    "title": " Modelling and Simulating Systems Security Policy",
+    "title": " Improving Security Policy Decisions with Models",
     "venue": "Submitted, 2015"
   },
   {
