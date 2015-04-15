@@ -1,12 +1,12 @@
 [ {  
-   "abstract": "A Substructural Logic for Layered Graphs",
+   "abstract": "",
     "authors": "M. Collinson, K. McDonald, and D. Pym",
     "bibtex": "",
     "pdf": "",
     "pdflong": "http://www.doc.ic.ac.uk/~td202/papers/vsttepfs.pdf",
     "pubdate": "2014",
-    "title": "Journal of Logic and Computation",
-    "venue": " "
+    "title": "A Substructural Logic for Layered Graphs",
+    "venue": "Journal of Logic and Computation"
   },
   {
     "abstract": "Local reasoning has become a well-established technique in program verification, which has been shown to be useful\nat many different levels of abstraction.  In separation logic, we use a low-level abstraction that is close to how the\nmachine sees the program state. In context logic, we work with high-level abstractions that are close to how the clients\nof modules see the program state.  We apply program refinement to local reasoning, demonstrating that high-level local\nreasoning is sound for module implementations.  We consider two approaches: one that preserves the high-level locality\nat the low level;  and one that breaks the high-level \"fiction\" of locality.\n",
