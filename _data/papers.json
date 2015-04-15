@@ -1,4 +1,14 @@
-[  { 
+[  {
+   "abstract": ".",
+    "authors": "G. Anderson and D.Pym",
+    "bibtex": "",
+    "pdf": "",
+    "pdflong": "",
+    "pubdate": "2014",
+    "title": " A Calculus of Bunched Resources and Processes",
+    "venue": "Submitted to a journal, 2015"
+  },
+  {
    "abstract": "Security managers face the challenge of formulating and implementing
    policies that deliver their desired system security postures — for example,
    their preferred balance of confidentiality, integrity, and availability — within
