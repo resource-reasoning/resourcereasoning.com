@@ -1,4 +1,20 @@
 [  {    
+   "abstract": "In this paper we introduce the first known tool for symbolically
+   proving fair -CTL properties of (infinite-state) integer programs.
+   Our solution is based on a reduction to existing techniques for fairnessfree
+   CTL model checking via the use of infinite non-deterministic branching
+   to symbolically partition fair from unfair executions. We show the
+   viability of our approach in practice using examples drawn from device
+   drivers and algorithms utilizing shared resources.",
+    "authors": "H. Khlaaf with B. Cook and N. Piterman",
+    "bibtex": "",
+    "pdf": "http://heidyk.com/publications/TACAS15.pdf",
+    "pdflong": "",
+    "pubdate": "2015",
+    "title": " Fairness for Infinite-State Systems",
+    "venue": "Tools and Algorithms for the Construction and Analysis of Systems,2015"
+  },
+  {   
    "abstract": ".",
     "authors": "T. Caulfield and D. Pym",
     "bibtex": "",
@@ -6,7 +22,7 @@
     "pdflong": "",
     "pubdate": "2015",
     "title": " Modelling and Simulating Systems Security Policy",
-    "venue": "Accepted for publication, SIMUTools"
+    "venue": "Accepted for publication, SIMUTools 2015"
   },
   {
    "abstract": ".",
@@ -15,7 +31,7 @@
     "pdf": "",
     "pdflong": "",
     "pubdate": "2015",
-    "title": " Improving Security Policy Decisions with Models",
+    "title": "  Completeness via canonicity for distributive substructural logics: a coalgebraic perspective",
     "venue": "Submitted, 2015"
   },
   {
