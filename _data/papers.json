@@ -1,4 +1,14 @@
-[  {
+[  { 
+   "abstract": "",
+    "authors": "M. Collinson, K. McDonald, and D. Pym",
+    "bibtex": "",
+    "pdf": "",
+    "pdflong": "",
+    "pubdate": "2015",
+    "title": "Layered Graph Logic as an Assertion Language for Access Control Policy Model",
+    "venue": "Accepted for publication, Journal of Logic and Computation"
+  },
+  { 
    "abstract": "",
     "authors": "G. Anderson and D. Pym",
     "bibtex": "",
