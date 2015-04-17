@@ -36,7 +36,7 @@ The main files of interest for editing are:
      ```
 
   * Inside the folder **_data**:
-    * **papers.yaml** ([edit](https://github.com/resource-reasoning/resourcereasoning.com/edit/gh-pages/_data/papers.yaml)) The publications page data
+    * **papers.json** ([edit](https://github.com/resource-reasoning/resourcereasoning.com/edit/gh-pages/_data/papers.json)) The publications page data
     
       This file contains the data of publications, fields should be reasonably obvious from the data already in the file.
 
@@ -47,37 +47,16 @@ The main files of interest for editing are:
      * Workshop papers and techreports are generally not included, although often an "extended version" can accompany a
          paper using the pdflong/pslong fields.
      * It's good to have the BibTeX where possible.
-     
-     Template paper record:
-     ```yaml
-     -
-        abstract: |
-          Block of **Markdown** formatted text.
-          Multiple lines
-
-          And paragraphs are permitted:
-        authors: "First Name, Second Person, Third Person"
-        bibtex: |
-          @INPROCEEDINGS{bibid,
-          comment = {Copy and paste from your reference manager}
-          }
-        pdf: "http://URI for short (or only) version of paper pdf"
-        pdflong: "http://URI for full version of paper pdf"
-        ps: "As pdf, but for ps files"
-        pslong: "As pdflong, but for ps files"
-        pubdate: "yyyy-mm-dd"
-        title: "Paper Title"
-        venue: "Paper Venue, year"
-     ```
 
   * **support.md** The support page.
     Should be self-explanatory.
 
 Files that are less likely to require editing:
-  * **index.html** The main page.
-    You might want to edit the blurb or change the pictures in the photo gallery.
-    Images for the gallery should be stored in `images` and referenced as the existing images are inside the page.
+  * **index.md** The main page.
+    Front page text.
   * **_layouts/page.html** Page template
+  * **_layouts/index.html** Index page template
+    Images for the gallery should be stored in `images` and referenced as the existing images are inside the page.
   * **_include/nav.html** Common navigational elements.
     You might want to change this page if you add or remove pages from the site, so that all of the other pages link to them.
   * **_include/foot.html** Common page footer.

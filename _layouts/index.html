@@ -1,0 +1,76 @@
+---
+layout: page
+---
+<div id="photoGallery" style="float : right">
+  <div class="imageElement">
+    <img src="images/popl1.jpg" class="full" alt="Samin Ishtiaq and Peter O'Hearn win the Most Influential POPL Paper Award" title="Samin Ishtiaq and Peter O'Hearn win the Most Influential POPL Paper Award" />
+  </div>
+  <div class="imageElement">
+    <img src="images/yak1.jpg" class="full" alt="November 2010 Yak session" />
+  </div>
+  <div class="imageElement">
+    <img src="images/yak2.jpg" class="full" alt="November 2010 Yak session" />
+  </div>
+  <div class="imageElement">
+    <img src="images/yak3.jpg" class="full" alt="November 2010 Yak session" />
+  </div>
+  <div class="imageElement">
+    <img src="images/yak4.jpg" class="full" alt="November 2010 Yak session" />
+  </div>
+  <div class="imageElement">
+    <img src="images/yak5.jpg" class="full" alt="November 2010 Yak session" />
+  </div>
+  <div class="imageElement">
+    <img src="images/yak6.jpg" class="full" alt="November 2010 Yak session" />
+  </div>
+  <div class="imageElement">
+    <img src="images/yak7.jpg" class="full" alt="November 2010 Yak session" />
+  </div>
+  <div class="imageElement">
+    <img src="images/yak8.jpg" class="full" alt="November 2010 Yak session" />
+  </div>
+  <div class="imageElement">
+    <img src="images/yak9.jpg" class="full" alt="November 2010 Yak session" />
+  </div>
+  <div class="imageElement">
+    <img src="images/yak10.jpg" class="full" alt="November 2010 Yak session" />
+  </div>
+  <div class="imageElement">
+    <img src="images/yak11.jpg" class="full" alt="November 2010 Yak session" />
+  </div>
+  <div class="imageElement">
+    <img src="images/yak12.jpg" class="full" alt="November 2010 Yak session" />
+  </div>
+  <div class="imageElement">
+    <img src="images/yak13.jpg" class="full" alt="November 2010 Yak session" />
+  </div>
+  <div class="imageElement">
+    <img src="images/yak14.jpg" class="full" alt="November 2010 Yak session" />
+  </div>
+  <div class="imageElement">
+    <img src="images/yak15.jpg" class="full" alt="November 2010 Yak session" />
+  </div>
+</div>
+{{ content }}
+<script type="text/javascript">
+  function startGallery() {
+    var myGallery = new gallery($('photoGallery'), {
+      timed: true,
+      showArrows: false,
+      showInfopane: false,
+      showCarousel:false,
+      embedLinks: false,
+      delay: 5000,
+      onPopulated: function() {
+        // Randomize the gallery!
+        for (var gi=0; gi < this.galleryData.length; gi++) {
+          var tmp = this.galleryData[gi];
+          var r = gi + Math.floor(Math.random() * (this.galleryData.length - gi));
+          this.galleryData[gi] = this.galleryData[r];
+          this.galleryData[r] = tmp;
+        }
+      }
+    });
+  }
+  window.addEvent('domready', startGallery);
+</script>
