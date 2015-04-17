@@ -5,6 +5,7 @@ published: true
 
 The people currently researching Resource Reasoning in London, Cambridge and Oxford include:
 
+* [Hasiba Afzalzada](http://www0.cs.ucl.ac.uk/people/H.Afzalzada.html) (UCL)
 * [Jade Alglave](http://www0.cs.ucl.ac.uk/staff/J.Alglave/) (UCL) (Joint appointment with Microsoft)
 * [Gabrielle Anderson](http://www0.cs.ucl.ac.uk/people/G.Anderson) (UCL)
 * [Josh Berdine](http://research.microsoft.com/en-us/people/jjb/) (Microsoft Research Cambridge)
@@ -18,8 +19,7 @@ The people currently researching Resource Reasoning in London, Cambridge and Oxf
 * [Pedro da Rocha Pinto](http://www.doc.ic.ac.uk/~pmd09/) (Imperial College London)
 * [Fredrik Dahlqvist](http://www0.cs.ucl.ac.uk/people/F.Dahlqvist.html) (UCL)
 * [Dino Distefano](http://www.eecs.qmul.ac.uk/~ddino/ddino_homepage/About_me.html) (Queen Mary)
-* [Simon Docherty](http://www0.cs.ucl.ac.uk/people/S.Docherty.html) (UCL)
-* [Mike Dodds](http://www.cl.cam.ac.uk/~md466/) (Cambridge University)
+* [Simon Docherty](http://www0.cs.ucl.ac.uk/people/S.Docherty.html) (UCL)ca
 * [Carsten Fuhs](http://www.cs.ucl.ac.uk/staff/C.Fuhs/) (UCL)
 * [Philippa Gardner](http://www.doc.ic.ac.uk/~pg) (Imperial College London)
 * [Nikos Gorogiannis](http://www.eis.mdx.ac.uk/staffpages/nikosgkorogiannis/) (Middlesex)
@@ -36,22 +36,19 @@ The people currently researching Resource Reasoning in London, Cambridge and Oxf
 * Gian Ntzik (Imperial College London)
 * [Peter O'Hearn](http://www0.cs.ucl.ac.uk/staff/p.ohearn/) (UCL)
 * [Matthew Parkinson](http://www.cl.cam.ac.uk/~mjp41/) (Microsoft Research Cambridge)
-* Rasmus Petersen (Queen Mary)
 * [David Pym](http://www0.cs.ucl.ac.uk/staff/D.Pym/) (UCL)
 * [Azalea Raad](http://www.doc.ic.ac.uk/~azalea/) (Imperial College London)
 * [Reuben Rowe](http://www0.cs.ucl.ac.uk/staff/R.Rowe/) (UCL)
-* Mark Schellhase (Queen Mary)
 * [Gareth Smith](http://www.doc.ic.ac.uk/~gds) (Imperial College London)
 * [Gadi Tellez Espinosa](http://www0.cs.ucl.ac.uk/people/G.TellezEspinosa.html) (UCL)
 * [Tyler Sorensen](http://www0.cs.ucl.ac.uk/staff/T.Sorensen) (UCL)
-* [Thomas Tuerk](http://www.cl.cam.ac.uk/~tt291/) (Cambridge University)
 * [John Wickerson](http://www.cl.cam.ac.uk/~jpw48/) (Cambridge University, Imperial College London)
 * [Thomas Wood](http://www.doc.ic.ac.uk/~tw1509) (Imperial College London)
 * [Hongseok Yang](http://www.cs.ox.ac.uk/people/hongseok.yang/Public/Home.html) (Oxford University)
 
 People who have formerly researched Resource Reasoning in these locations:
 
-* [Hasiba Afzalzada](http://www0.cs.ucl.ac.uk/people/H.Afzalzada.html) (UCL)
+
 * [Thomas Dinsdale-Young](http://www.doc.ic.ac.uk/~td202) (Imperial College London)
 * Akbar Hussain (Queen Mary)
 * [Eric Koskinen](http://cs.nyu.edu/~ejk/) (IBM)
