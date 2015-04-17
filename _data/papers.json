@@ -1,14 +1,5 @@
 [  {    
-    "abstract": "In this paper, we describe a new symbolic model
-checking procedure for CTL verification of infinite-state programs.
-Our procedure exploits the natural decomposition of the
-state space given by the control-flow graph in combination with
-the nesting of temporal operators to optimize reasoning performed
-during symbolic model checking. An experimental evaluation
-against competing tools demonstrates that our approach
-not only gains orders-of-magnitude performance improvement,
-but also allows for scalability of temporal reasoning for larger
-programs",
+    "abstract": "In this paper, we describe a new symbolic model checking procedure for CTL verification of infinite-state programs.  Our procedure exploits the natural decomposition of the state space given by the control-flow graph in combination with the nesting of temporal operators to optimize reasoning performed during symbolic model checking. An experimental evaluation against competing tools demonstrates that our approach not only gains orders-of-magnitude performance improvement, but also allows for scalability of temporal reasoning for larger programs",
     "authors": "B. Cook and N. Piterman",
     "bibtex": "",
     "pdf": "http://heidyk.com/publications/FMCAD14.pdf",
@@ -18,13 +9,7 @@ programs",
     "venue": "Formal Methods in Computer-Aided Design,2014"
   },
   {     
-   "abstract": "In this paper we introduce the first known tool for symbolically
-proving fair -CTL properties of (infinite-state) integer programs.
-Our solution is based on a reduction to existing techniques for fairnessfree
-CTL model checking via the use of infinite non-deterministic branching
-to symbolically partition fair from unfair executions. We show the
-viability of our approach in practice using examples drawn from device
-drivers and algorithms utilizing shared resources.",
+   "abstract": "In this paper we introduce the first known tool for symbolically proving fair -CTL properties of (infinite-state) integer programs.  Our solution is based on a reduction to existing techniques for fairnessfree CTL model checking via the use of infinite non-deterministic branching to symbolically partition fair from unfair executions. We show the viability of our approach in practice using examples drawn from device drivers and algorithms utilizing shared resources.",
     "authors": "H. Khlaaf with B. Cook and N. Piterman",
     "bibtex": "",
     "pdf": "http://heidyk.com/publications/TACAS15.pdf",
@@ -74,15 +59,7 @@ drivers and algorithms utilizing shared resources.",
     "venue": "Submitted to a journal, 2015"
   },
   {
-   "abstract": "Security managers face the challenge of formulating and implementing
-   policies that deliver their desired system security postures — for example,
-   their preferred balance of confidentiality, integrity, and availability — within
-   budget (monetary and otherwise). In this paper, we describe a security modelling
-   methodology, grounded in rigorous mathematical systems modelling and
-   economics, that captures the managers’ policies and the behavioural choices of
-   agents operating within the system. Models are executable, so allowing systematic
-   experimental exploration of the system-policy co-design space, and compositional,
-   so managing the complexity of large-scale systems.",
+   "abstract": "Security managers face the challenge of formulating and implementing policies that deliver their desired system security postures — for example, their preferred balance of confidentiality, integrity, and availability — within budget (monetary and otherwise). In this paper, we describe a security modelling methodology, grounded in rigorous mathematical systems modelling and economics, that captures the managers’ policies and the behavioural choices of agents operating within the system. Models are executable, so allowing systematic experimental exploration of the system-policy co-design space, and compositional, so managing the complexity of large-scale systems.",
     "authors": "M. Collinson, K. McDonald, and D. Pym",
     "bibtex": "",
     "pdf": "http://www0.cs.ucl.ac.uk/staff/D.Pym/CaulfieldPymWilliams.pdf",

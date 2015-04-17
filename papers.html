@@ -35,19 +35,19 @@ redirect_from:
 <div class="paper">
     <span class="papertitle">{{ paper.title }}</span>
     <span class="links">
-        {% if paper.pdf %}
+        {% if paper.pdf and paper.pdf != "" %}
             [<a href="{{paper.pdf | escape }}">PDF</a>]
         {% endif %}
-        {% if paper.ps %}
+        {% if paper.ps and paper.ps != "" %}
             [<a href="{{paper.ps | escape }}">PS</a>]
         {% endif %}
-        {% if paper.pdflong %}
+        {% if paper.pdflong and paper.pdflong != "" %}
             [<a href="{{paper.pdflong | escape }}">Full PDF</a>]
         {% endif %}
-        {% if paper.pslong %}
+        {% if paper.pslong and paper.pslong != "" %}
             [<a href="{{paper.pslong | escape }}">Full PS</a>]
         {% endif %}
-        {% if paper.bibtex %}
+        {% if paper.bibtex and paper.bibtex != "" %}
             [<a href="javascript:dobib('{{ forloop.index }}')">BibTeX</a>]
         {% endif %}
     </span>
