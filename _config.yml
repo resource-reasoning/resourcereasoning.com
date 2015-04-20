@@ -47,7 +47,8 @@ prose:
   metadata:
     "":
       - name: "layout"
-        element: "hidden"
+        field:
+          element: "hidden"
     _posts:
       - name: "title"
         field:
