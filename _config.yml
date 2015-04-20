@@ -29,7 +29,7 @@ redcarpet:
 
 
 prose:
-  media: "media"
+  media: "images"
   ignore:
     - vendor
     - Gemfile
@@ -37,6 +37,7 @@ prose:
     - Rakefile
     - CNAME
     - .gitignore
+    - .gitkeep
     - .gitmodules
     - .travis.yml
     - _config.yml
