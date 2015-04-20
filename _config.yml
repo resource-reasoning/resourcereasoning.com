@@ -16,6 +16,8 @@ github:
     repository_url: "https://github.com/resource-reasoning/resourcereasoning.com"
     issues_url: "https://github.com/resource-reasoning/resourcereasoning.com/issues"
 
+permalink: /news/:year/:month/:title.html
+
 defaults:
   -
     scope:
