@@ -1,5 +1,5 @@
 ---
-title: Resource Reasoning April Meeting
+title: April 2015 Research Meeting
 ---
 Resource Reasoning project meeting, Monday, 20th April 2015, 10:00-16:30. Room 422, Roberts Building, UCL, Gower Street, WC1E 6BT
 
