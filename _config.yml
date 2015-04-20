@@ -29,6 +29,7 @@ redcarpet:
 
 
 prose:
+  media: "media"
   ignore:
     - vendor
     - Gemfile
