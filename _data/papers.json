@@ -454,8 +454,8 @@
   {
     "abstract": "We present ribbon proofs, a diagrammatic proof system for separation logic. Inspired by an eponymous system due to\nBean, ribbon proofs emphasise the structure of a proof, so are intelligible and hence useful pedagogically. Because\nthey contain less redundancy than proof outlines, and allow each proof step to be checked locally, they are highly\nscalable (and we illustrate this with a ribbon proof of the Version 7 Unix memory manager). Where proof outlines are\ncumbersome to modify, ribbon proofs can be visually manoeuvred to yield proofs of variant programs. This paper\nintroduces the ribbon proof system, proves its soundness and completeness, and outlines a prototype tool for\nvalidating the diagrams in Isabelle.\n",
     "authors": "John Wickerson, Mike Dodds, Matthew Parkinson",
-    "pdf": "http://www.cl.cam.ac.uk/~jpw48/ribbons_lics12.pdf",
-    "pdflong": "http://www.cl.cam.ac.uk/~jpw48/ribbon_proofs_for_separation_logic.pdf",
+    "pdf": "http://www.cl.cam.ac.uk/~jpw48/papers/ribbons_lics12.pdf",
+    "pdflong": "http://www.cl.cam.ac.uk/~jpw48/papers/ribbon_proofs_for_separation_logic.pdf",
     "pubdate": "2012-06-27",
     "title": "Ribbon Proofs for Separation Logic",
     "venue": "LICS 2012 (short paper)"

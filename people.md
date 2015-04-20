@@ -13,7 +13,7 @@ The people currently researching Resource Reasoning in London, Cambridge and Oxf
 * [Richard Bornat](http://www.eecs.qmul.ac.uk/~richard/) (Queen Mary)
 * [James Brotherston](http://www0.cs.ucl.ac.uk/staff/J.Brotherston/) (UCL) (EPSRC Fellow)
 * Cristiano Calcagno (Imperial College London)
-* [Tristan Caulfield](http://www0.cs.ucl.ac.uk/people/T.Caulfield/) (UCL)
+* [Tristan Caulfield](http://www0.cs.ucl.ac.uk/people/T.Caulfield) (UCL)
 * [Nathan Chong](http://www0.cs.ucl.ac.uk/people/N.Chong.html) (UCL)
 * [Byron Cook](http://www0.cs.ucl.ac.uk/staff/b.cook/) (UCL) (Joint appointment with Amazon)
 * [Pedro da Rocha Pinto](http://www.doc.ic.ac.uk/~pmd09/) (Imperial College London)
