@@ -44,3 +44,12 @@ prose:
     - _tests
     - _schema
     - edit
+  metadata:
+    "":
+      - name: "layout"
+        element: "hidden"
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
