@@ -54,7 +54,9 @@ redirect_from:
     <div class="paperbody">
         <p class="authors">{{ paper.authors }}</p>
         <p class="publishedin">{{ paper.venue }} </p>
+        {% if paper.abstract and paper.abstract != "" %}
         <div class="abstract">{{ paper.abstract | markdownify }}</div>
+        {% endif %}
     </div>
     <pre class="bibtex" id="bibtex{{ forloop.index }}">{{ paper.bibtex }}</pre>
 </div>
