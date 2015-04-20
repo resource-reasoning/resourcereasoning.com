@@ -12,8 +12,18 @@ a:visited {color:#80015F;}  /* visited link */
 a:hover {color:#EC1991;}  /* mouse over link */
 a:active {color:#EC1C3B;}  /* selected link */
 
+
+table, td, th {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
 td, th {
-	padding:0.5em
+  padding:0.5em
 }
 
 h1 {color:#60015F;}
