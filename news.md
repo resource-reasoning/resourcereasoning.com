@@ -4,6 +4,7 @@ title: News
 ## April 2015
 * A project-wide meeting was held at UCL with representatives from the Advisory Panel and EPSRC in attendance. For full
   details, [click here](/news/2015/04/rr-meeting.html).
+
 ## December 2014
 * This website has been migrated to GitHub pages, and is now being co-maintained with UCL. If you notice any incorrect
     information please feel free to report it on our [project page]({{ site.github.repository_url }}).
