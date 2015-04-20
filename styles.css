@@ -80,6 +80,11 @@ h1 {color:#60015F;}
     padding-right : 20px;
     padding-bottom : 0.5em;
 }
+
+.paper {
+    margin-bottom: 10px;
+}
+
 .papertitle {font-weight: bold; font-size: larger}
 .paperbody {margin-left: 1em;}
 .authors {margin:0.2em}
