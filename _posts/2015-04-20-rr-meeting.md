@@ -1,6 +1,8 @@
 ---
 title: April 2015 Research Meeting
+published: true
 ---
+
 Resource Reasoning project meeting, Monday, 20th April 2015, 10:00-16:30. Room 422, Roberts Building, UCL, Gower Street, WC1E 6BT
 
 ## Attendees
@@ -43,3 +45,6 @@ Resource Reasoning project meeting, Monday, 20th April 2015, 10:00-16:30. Room 4
 | 15:00 - 15:30 | Richard Bornat | Part of a Weak Memory Program Logic | UCL |
 | 15:30 - 16:00 | Nathan Chong | Many-Core Compiler Fuzzing | UCL |
 | 16:00 - 16:30 | Open Discussion with Cliff Jones | | Newcastle |
+
+## Pictures
+![Placeholder](/_posts/default-placeholder.png)
