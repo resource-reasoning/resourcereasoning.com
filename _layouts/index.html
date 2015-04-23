@@ -1,56 +1,7 @@
 ---
 layout: page
 ---
-<div id="photoGallery" style="float : right">
-  <div class="imageElement">
-    <img src="images/popl1.jpg" class="full" alt="Samin Ishtiaq and Peter O'Hearn win the Most Influential POPL Paper Award" title="Samin Ishtiaq and Peter O'Hearn win the Most Influential POPL Paper Award" />
-  </div>
-  <div class="imageElement">
-    <img src="images/yak1.jpg" class="full" alt="November 2010 Yak session" />
-  </div>
-  <div class="imageElement">
-    <img src="images/yak2.jpg" class="full" alt="November 2010 Yak session" />
-  </div>
-  <div class="imageElement">
-    <img src="images/yak3.jpg" class="full" alt="November 2010 Yak session" />
-  </div>
-  <div class="imageElement">
-    <img src="images/yak4.jpg" class="full" alt="November 2010 Yak session" />
-  </div>
-  <div class="imageElement">
-    <img src="images/yak5.jpg" class="full" alt="November 2010 Yak session" />
-  </div>
-  <div class="imageElement">
-    <img src="images/yak6.jpg" class="full" alt="November 2010 Yak session" />
-  </div>
-  <div class="imageElement">
-    <img src="images/yak7.jpg" class="full" alt="November 2010 Yak session" />
-  </div>
-  <div class="imageElement">
-    <img src="images/yak8.jpg" class="full" alt="November 2010 Yak session" />
-  </div>
-  <div class="imageElement">
-    <img src="images/yak9.jpg" class="full" alt="November 2010 Yak session" />
-  </div>
-  <div class="imageElement">
-    <img src="images/yak10.jpg" class="full" alt="November 2010 Yak session" />
-  </div>
-  <div class="imageElement">
-    <img src="images/yak11.jpg" class="full" alt="November 2010 Yak session" />
-  </div>
-  <div class="imageElement">
-    <img src="images/yak12.jpg" class="full" alt="November 2010 Yak session" />
-  </div>
-  <div class="imageElement">
-    <img src="images/yak13.jpg" class="full" alt="November 2010 Yak session" />
-  </div>
-  <div class="imageElement">
-    <img src="images/yak14.jpg" class="full" alt="November 2010 Yak session" />
-  </div>
-  <div class="imageElement">
-    <img src="images/yak15.jpg" class="full" alt="November 2010 Yak session" />
-  </div>
-</div>
+{% include gallery.html pictures=site.data.gallery_index %}
 {{ content }}
 
 <script src="/scripts/mootools-1.2.1-core-yc.js" type="text/javascript"></script>

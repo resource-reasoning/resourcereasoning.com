@@ -1,0 +1,15 @@
+<div id="photoGallery" style="float : right">
+  {% for picture in include.pictures %}
+    {% if picture.set %}
+      {% for i in (1..picture.count) %}
+  <div class="imageElement">
+    <img src="{{ picture.src_prefix }}{{ i }}{{ picture.src_suffix }}" class="full" alt="{{ picture.alt }}" title="{{ picture.alt }}" />
+  </div>
+      {% endfor %}
+    {% else %}
+  <div class="imageElement">
+    <img src="{{ picture.src }}" class="full" alt="{{ picture.alt }}" title="{{ picture.alt }}" />
+  </div>
+    {% endif %}
+  {% endfor %}
+</div>

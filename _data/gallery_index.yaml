@@ -1,0 +1,18 @@
+- set: true
+  src_prefix: "/images/yak"
+  src_suffix: ".jpg"
+  count: 15
+  alt: "November 2010 Yak session"
+- set: true
+  src_prefix: "/images/yak-4-15-"
+  src_suffix: ".jpg"
+  count: 5
+  alt: "April 2015 UCL Yak session"
+- set: true
+  src_prefix: "/images/rr-meeting-4-15-"
+  src_suffix: ".jpg"
+  count: 10
+  alt: "April 2015 Resource Reasoning Grant Meeting"
+- set: false
+  src: "/images/popl1.jpg"
+  alt: "Samin Ishtiaq and Peter O'Hearn win the Most Influential POPL Paper Award"
