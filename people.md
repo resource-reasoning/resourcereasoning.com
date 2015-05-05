@@ -6,7 +6,6 @@ published: true
 The people currently researching Resource Reasoning in London, Cambridge and Oxford include:
 
 * [Hasiba Afzalzada](http://www0.cs.ucl.ac.uk/people/H.Afzalzada.html) (UCL)
-* [Jade Alglave](http://www0.cs.ucl.ac.uk/staff/J.Alglave/) (UCL) (Joint appointment with Microsoft)
 * [Gabrielle Anderson](http://www0.cs.ucl.ac.uk/people/G.Anderson) (UCL)
 * [Josh Berdine](http://research.microsoft.com/en-us/people/jjb/) (Microsoft Research Cambridge)
 * [Sukriti Bhattacharya](http://www0.cs.ucl.ac.uk/people/S.Bhattacharya) (UCL)
