@@ -1,14 +1,4 @@
 [
-  {
-    "abstract": "A key difficulty in verifying shared-memory concurrent programs is reasoning compositionally about each thread in isolation. Existing verification techniques for fine-grained concurrency require reasoning about static global shared resource, impeding compositionality. This paper introduces the program logic of CoLoSL, where each thread is verified with respect to its subjective view of the global shared state. This subjective view describes only that part of the global shared resource accessed by the thread. Subjective views may arbitrarily overlap with each other, and expand and contract depending on the resource required by the thread.",
-    "authors": "Azalea Raad, Jules Villard, Philippa Gardner",
-    "bibtex": "@incollection{\nyear={2015},\nisbn={978-3-662-46668-1},\nbooktitle={Programming Languages and Systems},\nvolume={9032},\nseries={Lecture Notes in Computer Science},\neditor={Vitek, Jan},\ndoi={10.1007/978-3-662-46669-8_29},\ntitle={CoLoSL: Concurrent Local Subjective Logic},\nurl={http://dx.doi.org/10.1007/978-3-662-46669-8_29},\npublisher={Springer Berlin Heidelberg},\nauthor={Raad, Azalea and Villard, Jules and Gardner, Philippa},\npages={710-735},\nlanguage={English}\n}",
-    "pdf": "http://www.doc.ic.ac.uk/~azalea/papers/CoLoSL.pdf",
-    "pubdate": "2015-04",
-    "title": "CoLoSL: Concurrent Local Subjective Logic",
-    "venue": "ESOP 2015"
-  },
-  {
     "abstract": "In this paper, we describe a new symbolic model checking procedure for CTL verification of infinite-state programs.  Our procedure exploits the natural decomposition of the state space given by the control-flow graph in combination with the nesting of temporal operators to optimize reasoning performed during symbolic model checking. An experimental evaluation against competing tools demonstrates that our approach not only gains orders-of-magnitude performance improvement, but also allows for scalability of temporal reasoning for larger programs",
     "authors": "B. Cook and N. Piterman",
     "bibtex": "",
@@ -17,6 +7,17 @@
     "pubdate": "2014",
     "title": " Faster Temporal Reasoning for Infinite-State Programs",
     "venue": "Formal Methods in Computer-Aided Design,2014"
+  },
+  {
+
+    "abstract": 
+    "authors": "M. Janota, R. Grigore, J.Marques-Silva"
+    "bibtex": "",
+    "pdf": "http://arxiv.org/abs/1310.2491",
+    "pdflong": "",
+    "pubdate": "2013",
+    "title": "On QBF Proofs and Preprocessing",
+    "venue": "International Conferences on Logic for Programming, Artificial Intelligence and Reasoning, 2013"
   },
   {
    "abstract": "In this paper we introduce the first known tool for symbolically proving fair -CTL properties of (infinite-state) integer programs.  Our solution is based on a reduction to existing techniques for fairnessfree CTL model checking via the use of infinite non-deterministic branching to symbolically partition fair from unfair executions. We show the viability of our approach in practice using examples drawn from device drivers and algorithms utilizing shared resources.",
