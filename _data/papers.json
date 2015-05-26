@@ -1,5 +1,4 @@
-[ 
-  },
+[
   {
     "abstract": "In this paper, we describe a new symbolic model checking procedure for CTL verification of infinite-state programs.  Our procedure exploits the natural decomposition of the state space given by the control-flow graph in combination with the nesting of temporal operators to optimize reasoning performed during symbolic model checking. An experimental evaluation against competing tools demonstrates that our approach not only gains orders-of-magnitude performance improvement, but also allows for scalability of temporal reasoning for larger programs",
     "authors": "B. Cook and N. Piterman",
@@ -7,11 +6,11 @@
     "pdf": "http://heidyk.com/publications/FMCAD14.pdf",
     "pdflong": "",
     "pubdate": "2014",
-    "title": " Faster Temporal Reasoning for Infinite-State Programs",
-    "venue": "Formal Methods in Computer-Aided Design,2014"
+    "title": "Faster Temporal Reasoning for Infinite-State Programs",
+    "venue": "Formal Methods in Computer-Aided Design, 2014"
   },
   {
-    "abstract": 
+    "abstract": "",
     "authors": "M. Janota, R. Grigore, J.Marques-Silva"
     "bibtex": "",
     "pdf": "http://arxiv.org/abs/1310.2491",
