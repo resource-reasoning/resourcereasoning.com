@@ -702,6 +702,7 @@
     "bibtex": "@inproceedings{Faults, \n  author = {Ntzik, Gian and da Rocha Pinto, Pedro and Gardner, Philippa}, \n  title = {Fault-tolerant Resource Reasoning}, \n  booktitle = {APLAS}, \n  year = {2015}, \n }\n",
     "pdf": "http://www.doc.ic.ac.uk/~pmd09/research/publications/2015/aplas/fault-tolerant-resource-reasoning.pdf",
     "pdflong": "http://www.doc.ic.ac.uk/~pmd09/research/publications/2015/aplas/fault-tolerant-resource-reasoning.pdf",
+    "pubdate": "2015-11-28",
     "title": "Fault-tolerant Resource Reasoning",
     "venue": "APLAS 2015"
   }
