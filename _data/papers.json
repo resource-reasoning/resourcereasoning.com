@@ -697,6 +697,16 @@
     "venue": "ECOOP 2014"
   },
   {
+    "abstract": "The specification of a concurrent program module is a difficult problem. The specifications must be strong enough to enable reasoning about the intended clients without reference to the underlying module implementation. We survey a range of verification techniques for specifying concurrent modules, in particular highlighting four key concepts: auxiliary state, interference abstraction, resource ownership and atomicity. We show how these concepts combine to provide powerful approaches to specifying concurrent modules.\n",
+    "authors": "Pedro da Rocha Pinto, Thomas Dinsdale-Young, Philippa Gardner",
+    "bibtex": "@inproceedings{spec-concurrency, \n  author = {da Rocha Pinto, Pedro and Dinsdale-Young, Thomas and Gardner, Philippa}, \n  title = {Steps in Modular Specifications for Concurrent Modules}, \n  booktitle = {MFPS}, \n  year = {2015}, \n }\n",
+    "pdf": "http://www.doc.ic.ac.uk/~pmd09/research/publications/2015/aplas/fault-tolerant-resource-reasoning.pdf",
+    "pdflong": "http://www.doc.ic.ac.uk/~pmd09/research/publications/2015/aplas/fault-tolerant-resource-reasoning.pdf",
+    "pubdate": "2015-06-22",
+    "title": "Steps in Modular Specifications for Concurrent Modules",
+    "venue": "MFPS 2015"
+  },
+  {
     "abstract": "Separation logic has been successful at verifying that programs do not crash due to illegal use of resources. The underlying assumption, however, is that machines do not fail. In practice, machines can fail unpredictably for various reasons, e.g. power loss, corrupting resources. Critical software, e.g. file systems, employ recovery methods to mitigate these effects. We introduce an extension of the Views framework to reason about such methods. We use concurrent separation logic as an instance of the framework to illustrate our reasoning, and explore programs using write-ahead logging, e.g. an ARIES recovery algorithm.\n",
     "authors": "Gian Ntzik, Pedro da Rocha Pinto, Philippa Gardner",
     "bibtex": "@inproceedings{Faults, \n  author = {Ntzik, Gian and da Rocha Pinto, Pedro and Gardner, Philippa}, \n  title = {Fault-tolerant Resource Reasoning}, \n  booktitle = {APLAS}, \n  year = {2015}, \n }\n",
