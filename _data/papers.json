@@ -1,4 +1,13 @@
-
+ },
+  {
+    "abstract": "We present a logic of separating modalities, LSM, that is based on Boolean BI. LSM's modalities, which generalize those of S4, combine, within a quite general relational semantics, BI's resource semantics with modal accessibility. We provide a range of examples illustrating their use in a range of examples from computer science. We give a proof system based on the method of labelled tableaux with countermodel extraction, establishing its soundness and completeness with respect to the resource semantics",
+    "authors": "J.-R. Courtault, D. Galmiche, and D. Pym",
+    "bibtex": "",
+    "pdf": "",
+    "pdflong": "",
+    "pubdate": "2015",
+    "title": "Faster Temporal Reasoning for Infinite-State Programs",
+    "venue": "A Logic of Separating Modalities. Submitted to a journal"
   },
   {
     "abstract": "In this paper, we describe a new symbolic model checking procedure for CTL verification of infinite-state programs.  Our procedure exploits the natural decomposition of the state space given by the control-flow graph in combination with the nesting of temporal operators to optimize reasoning performed during symbolic model checking. An experimental evaluation against competing tools demonstrates that our approach not only gains orders-of-magnitude performance improvement, but also allows for scalability of temporal reasoning for larger programs",
