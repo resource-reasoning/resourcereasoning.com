@@ -1,4 +1,4 @@
- },
+[
   {
     "abstract": "We present a logic of separating modalities, LSM, that is based on Boolean BI. LSM's modalities, which generalize those of S4, combine, within a quite general relational semantics, BI's resource semantics with modal accessibility. We provide a range of examples illustrating their use in a range of examples from computer science. We give a proof system based on the method of labelled tableaux with countermodel extraction, establishing its soundness and completeness with respect to the resource semantics",
     "authors": "J.-R. Courtault, D. Galmiche, and D. Pym",
