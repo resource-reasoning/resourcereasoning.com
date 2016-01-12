@@ -1,13 +1,4 @@
 [
-  {
-    "abstract": "We prove strong completeness of a range of substructural logics with respect to their relational semantics by completeness-via-canonicity. Specifically, we use the topological theory of canonical (in) equations in distributive lattice expansions to show that distributive substructural logics are strongly complete with respect to their relational semantics. By formalizing the problem in the language of coalgebraic logics, we develop a modular theory which covers a wide variety of different logics under a single framework, and lends itself to further extensions. ",
-    "authors": "F. Dahlqvist and D. Pym",
-    "bibtex": "",
-    "pdf": "",
-    "pdflong": "",
-    "pubdate": "2015",
-    "title": "Completeness via canonicity for distributive substructural logics: a coalgebraic perspective."
-    "venue": "Proc 15th Int. Conf. on Relational and Algebraic Methods in Computer Science (RAMiCS 2015)"
   },
   {
     "abstract": "In this paper, we describe a new symbolic model checking procedure for CTL verification of infinite-state programs.  Our procedure exploits the natural decomposition of the state space given by the control-flow graph in combination with the nesting of temporal operators to optimize reasoning performed during symbolic model checking. An experimental evaluation against competing tools demonstrates that our approach not only gains orders-of-magnitude performance improvement, but also allows for scalability of temporal reasoning for larger programs",
@@ -50,14 +41,14 @@
     "venue": "Accepted for publication, SIMUTools 2015"
   },
   {
-   "abstract": "",
+   "abstract": "We prove strong completeness of a range of substructural logics with respect to their relational semantics by completeness-via-canonicity. Specifically, we use the topological theory of canonical (in) equations in distributive lattice expansions to show that distributive substructural logics are strongly complete with respect to their relational semantics. By formalizing the problem in the language of coalgebraic logics, we develop a modular theory which covers a wide variety of different logics under a single framework, and lends itself to further extensions.",
     "authors": "F. Dahlqvist. D. Pym",
     "bibtex": "",
     "pdf": "",
     "pdflong": "",
     "pubdate": "2015",
     "title": "  Completeness via canonicity for distributive substructural logics: a coalgebraic perspective",
-    "venue": "Submitted, 2015"
+    "venue": "Proc 15th Int. Conf. on Relational and Algebraic Methods in Computer Science (RAMiCS 2015)"
   },
   {
    "abstract": "",
