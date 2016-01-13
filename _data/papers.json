@@ -709,7 +709,7 @@
   {
     "abstract": "The specification of a concurrent program module is a difficult problem. The specifications must be strong enough to enable reasoning about the intended clients without reference to the underlying module implementation. We survey a range of verification techniques for specifying concurrent modules, in particular highlighting four key concepts: auxiliary state, interference abstraction, resource ownership and atomicity. We show how these concepts combine to provide powerful approaches to specifying concurrent modules.\n",
     "authors": "Pedro da Rocha Pinto, Thomas Dinsdale-Young, Philippa Gardner",
-    "bibtex": "@inproceedings{spec-concurrency, \n  author = {da Rocha Pinto, Pedro and Dinsdale-Young, Thomas and Gardner, Philippa}, \n  title = {Steps in Modular Specifications for Concurrent Modules}, \n  booktitle = {MFPS}, \n  year = {2015}, \n  pages={3-18}, \n }\n",
+    "bibtex": "@inproceedings{spec-concurrency, \n  author = {da Rocha Pinto, Pedro and Dinsdale-Young, Thomas and Gardner, Philippa}, \n  title = {Steps in Modular Specifications for Concurrent Modules (Invited Tutorial Paper)}, \n  booktitle = {MFPS}, \n  year = {2015}, \n  pages={3-18}, \n }\n",
     "pdf": "http://www.doc.ic.ac.uk/~pmd09/research/publications/2015/mfps/steps-in-modular-specifications-for-concurrent-modules.pdf",
     "pdflong": "http://www.doc.ic.ac.uk/~pmd09/research/publications/2015/mfps/steps-in-modular-specifications-for-concurrent-modules.pdf",
     "pubdate": "2015-06-22",
