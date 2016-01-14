@@ -1,6 +1,9 @@
 ---
 title: News
 ---
+## January 2016
+* A project-wide meeting was held at UCL. See the [meeting page](/news/2016/01/rr-meeting.html) for details of the speakers and slides.
+
 ## April 2015
 * A project-wide meeting was held at UCL with representatives from the Advisory Panel and EPSRC in attendance. For full
   details, [click here](/news/2015/04/rr-meeting.html).
