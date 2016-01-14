@@ -23,7 +23,15 @@ end
 
 desc "Test dead external links"
 task :testlinks => :build do
-  HTML::Proofer.new("./_site", {:validate_html => true, :file_ignore => file_ignore, :href_ignore => href_ignore}).run
+  HTML::Proofer.new("./_site", {
+    :validate_html => true,
+    :file_ignore => file_ignore,
+    :href_ignore => href_ignore,
+    :typhoeus => {
+      :ssl_verifypeer => false,
+      :ssl_verifyhost => 0
+    }
+  }).run
 end
 
 
