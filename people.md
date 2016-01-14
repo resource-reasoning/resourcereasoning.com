@@ -6,8 +6,7 @@ published: true
 The people currently researching Resource Reasoning in London, Cambridge and Oxford include:
 
 * [Hasiba Afzalzada](http://www0.cs.ucl.ac.uk/people/H.Afzalzada.html) (UCL)
-* [Gabrielle Anderson](http://www0.cs.ucl.ac.uk/people/G.Anderson) (UCL)
-* [Josh Berdine](http://research.microsoft.com/en-us/people/jjb/) (Microsoft Research Cambridge)
+* [Gabrielle Anderson](http://www0.cs.ucl.ac.uk/people/Gabrielle.Anderson.html) (UCL)
 * [Sukriti Bhattacharya](http://www0.cs.ucl.ac.uk/people/S.Bhattacharya) (UCL)
 * [Richard Bornat](http://www.eecs.qmul.ac.uk/~richard/) (Queen Mary)
 * [James Brotherston](http://www0.cs.ucl.ac.uk/staff/J.Brotherston/) (UCL) (EPSRC Fellow)
@@ -48,6 +47,7 @@ The people currently researching Resource Reasoning in London, Cambridge and Oxf
 People who have formerly researched Resource Reasoning in these locations:
 
 
+* Josh Berdine (Microsoft Research Cambridge)
 * [Thomas Dinsdale-Young](http://www.doc.ic.ac.uk/~td202) (Imperial College London)
 * Akbar Hussain (Queen Mary)
 * [Eric Koskinen](http://cs.nyu.edu/~ejk/) (IBM)

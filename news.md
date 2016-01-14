@@ -123,8 +123,7 @@ title: News
     (Katholieke Universiteit Leuven).
 * Congratulations to [Thomas Dinsdale-Young](http://www.doc.ic.ac.uk/~td202) for passing his PhD thesis defense on
     [Abstract Data and Local Reasoning](http://www.doc.ic.ac.uk/~td202/thesis.pdf).
-* [Byron Cook](http://www0.cs.ucl.ac.uk/staff/b.cook/) gives a course at the
-    [ECOOP'11 PhD summer school](http://scc-sentinel.lancs.ac.uk/ecoop11/?q=program/summer_school).
+* [Byron Cook](http://www0.cs.ucl.ac.uk/staff/b.cook/) gives a course at the ECOOP'11 PhD summer school.
 
 ## June 2011
 * [John Reynolds](http://www.cs.cmu.edu/~jcr/) delivers the [BCS Lovelace Lecture](http://www.bcs.org/category/15161) on
@@ -180,7 +179,7 @@ title: News
 * [Jeremy Dawson](http://users.cecs.anu.edu.au/~jeremy/) of ANU Canberra arrives to visit Imperial for ~1 month. He will
     be working with [James Brotherston](http://www0.cs.ucl.ac.uk/staff/J.Brotherston/) on interpolation for displayable logics.
 * [Peter O'Hearn](http://www0.cs.ucl.ac.uk/staff/p.ohearn/) talks on Reasoning about Programs Using a Scientific Method on
-    16th November in a [BCS-FACS Evening Seminar](http://www.lms.ac.uk/content/lms-bac-facs-evening-seminars) at the
+    16th November in a [BCS-FACS Evening Seminar](https://www.lms.ac.uk/content/lms-bac-facs-evening-seminars) at the
     London Mathematical Society.
 * Mohammad Raza moves to [Microsoft Research Cambridge](http://research.microsoft.com/en-us/labs/cambridge/default.aspx).
 
