@@ -12,7 +12,7 @@ TBC
 | 09:45 – 10:00 | Tea, Coffee and Biscuits |
 | 10:00 – 10:15 | David Pym | Introduction | UCL |
 | 10:15 – 10:45 | Peter O’Hearn |          | UCL/Facebook |
-| 10:45 – 11:15 | Daiva Naudziuniene |     | Imperial |
+| 10:45 – 11:15 | Daiva Naudziuniene | [A Principled Intermediate Language for JavaScript Verification](/slides/2016-01/naudziuniene.pdf) | Imperial |
 | 11:15 – 11:45 | Ilya Sergey | [Hoare-style Specifications as Correctness Conditions for Non-Linearizable Concurrent Objects](/slides/2016-01/sergey.pdf) | UCL |
 | 11:45 – 12:15 | Matthew Parkinson | [Starling: Automating Concurrency Verification](/slides/2016-01/parkinson.pdf) | MSR |
 | 12:15 – 13:00 | Lunch |
