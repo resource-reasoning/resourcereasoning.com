@@ -17,7 +17,6 @@ htmlproofer_config = {
   :file_ignore => [/_site\/edit/],
   :href_ignore => [/issues\/new/], # GitHub 400s when we poke it
   :disable_external => true,
-  :check_favicon => true,
   :check_html => true,
   :parallel => { :in_processes => 4 }
 }
@@ -29,13 +28,10 @@ end
 
 desc "Test dead external links"
 task :testlinks => :build do
-  HTMLProofer.check_directory("./_site", {
+  HTMLProofer.check_directory("./_site", htmlproofer_config.merge({
     :disable_external => false,
-    :typhoeus => {
-      :ssl_verifypeer => false,
-      :ssl_verifyhost => 0
-    }
-  }).run
+    :typhoeus => { :ssl_verifypeer => false, :ssl_verifyhost => 0 },
+  })).run
 end
 
 

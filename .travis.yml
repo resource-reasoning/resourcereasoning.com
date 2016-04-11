@@ -9,7 +9,7 @@ script:
   - bundle exec rake test
 
 after_success:
-  - travis_wait bundle exec rake testlinks
+  - bundle exec rake testlinks
 
 # Force gh-pages branch to be tested
 branches:
