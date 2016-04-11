@@ -33,7 +33,7 @@ The people currently researching Resource Reasoning in London, Cambridge and Oxf
 * [Kaustubh Nimkar](http://www0.cs.ucl.ac.uk/staff/K.Nimkar/) (UCL)
 * [Gian Ntzik](http://www.imperial.ac.uk/collegedirectory/index.asp?PeopleID=433912) (Imperial College London)
 * [Peter O'Hearn](http://www0.cs.ucl.ac.uk/staff/p.ohearn/) (UCL)
-* [Matthew Parkinson](http://www.cl.cam.ac.uk/~mjp41/) (Microsoft Research Cambridge)
+* [Matthew Parkinson](http://research.microsoft.com/en-us/people/mattpark/) (Microsoft Research Cambridge)
 * [David Pym](http://www0.cs.ucl.ac.uk/staff/D.Pym/) (UCL)
 * [Azalea Raad](http://www.doc.ic.ac.uk/~azalea/) (Imperial College London)
 * [Reuben Rowe](http://www0.cs.ucl.ac.uk/staff/R.Rowe/) (UCL)
