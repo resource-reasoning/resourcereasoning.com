@@ -161,7 +161,7 @@ title: News
     * [Dodds](http://www.cl.cam.ac.uk/~md466/) and [Koskinen](http://cs.nyu.edu/~ejk/) present papers at the
         main conference
     * [Cook](http://www0.cs.ucl.ac.uk/staff/b.cook/) organises the PhD student session
-    * [da Rocha Pinto](http://www.doc.ic.ac.uk/~pmd09/) and [Parkinson](http://www.cl.cam.ac.uk/~mjp41/) present
+    * [da Rocha Pinto](http://www.doc.ic.ac.uk/~pmd09/) and [Parkinson](http://research.microsoft.com/en-us/people/mattpark/) present
         workshop papers at [Verico](http://research.ihost.com/verico/).
 * [Samin Ishtiaq](http://research.microsoft.com/en-us/people/sishtiaq/) and [Peter O'Hearn](http://www0.cs.ucl.ac.uk/staff/p.ohearn/)
     win the [Most Influential POPL Paper Award](http://www.sigplan.org/Awards/POPL) for their POPL 2001 paper
