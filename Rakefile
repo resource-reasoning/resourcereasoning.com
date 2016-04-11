@@ -1,4 +1,4 @@
-require 'html/proofer'
+require 'html-proofer'
 require 'rake/testtask'
 
 task :default => :build
@@ -13,20 +13,24 @@ Rake::TestTask.new do |t|
   t.verbose = true
 end
 
-file_ignore = [/_site\/edit/]
-href_ignore = [/issues\/new/] # GitHub 400s when we poke it
+htmlproofer_config = {
+  :file_ignore => [/_site\/edit/],
+  :href_ignore => [/issues\/new/], # GitHub 400s when we poke it
+  :disable_external => true,
+  :check_favicon => true,
+  :check_html => true,
+  :parallel => { :in_processes => 4 }
+}
 
 desc "Build the site and test output for dead links, invalid html etc."
 task :test => :build do
-  HTML::Proofer.new("./_site", {:disable_external => true, :validate_html => true, :file_ignore => file_ignore, :href_ignore => href_ignore}).run
+  HTMLProofer.check_directory("./_site", htmlproofer_config).run
 end
 
 desc "Test dead external links"
 task :testlinks => :build do
-  HTML::Proofer.new("./_site", {
-    :validate_html => true,
-    :file_ignore => file_ignore,
-    :href_ignore => href_ignore,
+  HTMLProofer.check_directory("./_site", {
+    :disable_external => false,
     :typhoeus => {
       :ssl_verifypeer => false,
       :ssl_verifyhost => 0

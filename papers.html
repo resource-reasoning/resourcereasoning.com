@@ -1,8 +1,6 @@
 ---
 # You should edit _data/papers.json to change the content of this page.
 title: Publications
-redirect_from:
-  - /papers.cgi
 ---
 <script type="text/javascript"><!--
     $(document).ready(function(){
@@ -36,29 +34,29 @@ redirect_from:
     <span class="papertitle">{{ paper.title }}</span>
     <span class="links">
         {% if paper.pdf and paper.pdf != "" %}
-            [<a href="{{paper.pdf | escape }}">PDF</a>]
+            [<a href="{{paper.pdf | uri_escape }}">PDF</a>]
         {% endif %}
         {% if paper.ps and paper.ps != "" %}
-            [<a href="{{paper.ps | escape }}">PS</a>]
+            [<a href="{{paper.ps | uri_escape }}">PS</a>]
         {% endif %}
         {% if paper.pdflong and paper.pdflong != "" %}
-            [<a href="{{paper.pdflong | escape }}">Full PDF</a>]
+            [<a href="{{paper.pdflong | uri_escape }}">Full PDF</a>]
         {% endif %}
         {% if paper.pslong and paper.pslong != "" %}
-            [<a href="{{paper.pslong | escape }}">Full PS</a>]
+            [<a href="{{paper.pslong | uri_escape }}">Full PS</a>]
         {% endif %}
         {% if paper.bibtex and paper.bibtex != "" %}
             [<a href="javascript:dobib('{{ forloop.index }}')">BibTeX</a>]
         {% endif %}
     </span>
     <div class="paperbody">
-        <p class="authors">{{ paper.authors }}</p>
-        <p class="publishedin">{{ paper.venue }} </p>
+        <p class="authors">{{ paper.authors | escape }}</p>
+        <p class="publishedin">{{ paper.venue | escape }} </p>
         {% if paper.abstract and paper.abstract != "" %}
         <div class="abstract">{{ paper.abstract | markdownify }}</div>
         {% endif %}
     </div>
-    <pre class="bibtex" id="bibtex{{ forloop.index }}">{{ paper.bibtex }}</pre>
+    <pre class="bibtex" id="bibtex{{ forloop.index }}">{{ paper.bibtex | escape }}</pre>
 </div>
 {% endfor %}
 <p>
