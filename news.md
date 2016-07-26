@@ -2,7 +2,7 @@
 title: News
 ---
 ## June 2016
-* The EPSRC 'Resource Reasoning' research grant ends.
+* The EPSRC 'Resource Reasoning' platform research grant [EP/H008373/2](http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/H008373/2) ends.
 
 ## January 2016
 * A project-wide meeting was held at UCL. See the [meeting page](/news/2016/01/rr-meeting.html) for details of the speakers and slides.
