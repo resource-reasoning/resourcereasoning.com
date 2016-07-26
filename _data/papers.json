@@ -735,5 +735,57 @@
     "pubdate": "2016-04-02",
     "title": "Modular Termination Verification for Non-blocking Concurrency",
     "venue": "ESOP 2016"
+  },
+  {
+    "authors": "Frederik Dahlqvist, David Pym",
+    "title": "Completeness via Canonicity for Distributive Substructural Logics: A Coalgebraic Perspective",
+    "abstract": "We prove strong completeness of a range of substructural logics with respect to their relational semantics by completeness-via-canonicity. Specifically, we use the topological theory of canonical (in) equations in distributive lattice expansions to show that distributive substructural logics are strongly complete with respect to their relational semantics. By formalizing the problem in the language of coalgebraic logics, we develop a modular theory which covers a wide variety of different logics under a single framework, and lends itself to further extensions.",
+    "venue": "RAMICS 2015",
+    "pubdate": "2015-09-28",
+    "bibtex": " @Inbook{Dahlqvist2015,\n author=\"Dahlqvist, Fredrik\n and Pym, David\",\n editor=\"Kahl, Wolfram\n and Winter, Michael\n and Oliveira, Jos{\'e}\",\n title=\"Completeness via Canonicity for Distributive Substructural Logics: A Coalgebraic Perspective\",\n bookTitle=\"Relational and Algebraic Methods in Computer Science: 15th International Conference, RAMiCS 2015, Braga, Portugal, September 28 - October 1, 2015, Proceedings\",\n year=\"2015\",\n publisher=\"Springer International Publishing\",\n address=\"Cham\",\n pages=\"119--135\",\n isbn=\"978-3-319-24704-5\",\n doi=\"10.1007/978-3-319-24704-5_8\",\n url=\"http://dx.doi.org/10.1007/978-3-319-24704-5_8\"\n }"
+  },
+  {
+    "authors": "Stephen Brookes, Peter W. O'Hearn, Uday S. Reddy",
+    "title": "The Essence of Reynolds",
+    "venue": "Formal Aspects of Computing",
+    "pubdate": "2014-04-12",
+    "abstract": "John Reynolds (1935-2013) was a pioneer of programming languages research. In this paper we pay tribute to the man, his ideas, and his influence."
+  },
+  {
+    "authors": "Byron Cook, Carsten Fuhs, Kaustubh Nimkar, Peter W. O'Hearn",
+    "title": "Embracing Overapproximation for Proving Nontermination",
+    "venue": "TinyToCS 3",
+    "pdf": "http://tinytocs.org/vol3/papers/TinyToCS_3_cook.pdf",
+    "pubdate": "2015-06-08"
+  },
+  {
+    "authors": "Cristiano Calcagno, Dino Distefano, Jérémy Dubreil, Dominik Gabi, Pieter Hooimeijer, Martino Luca, Peter W. O'Hearn, Irene Papakonstantinou, Jim Purbrick, Dulma Rodriguez",
+    "title": "Moving Fast with Software Verification",
+    "venue": "NFM 2015",
+    "pubdate": "2015-04-08"
+  },
+  {
+    "title": "From Categorical Logic to Facebook Engineering",
+    "authors": "Peter W. O'Hearn",
+    "venue": "LICS 2015",
+    "pubdate": "2015-07-06"
+  },
+  {
+    "authors": "Byron Cook, Carsten Fuhs, Kaustubh Nimkar, Peter W. O'Hearn",
+    "title": "Disproving termination with overapproximation",
+    "venue": "FMCAD 2014",
+    "pubdate": "2014-10-21"
+  },
+  {
+    "authors": "Marc Brockschmidt, Byron Cook, Samin Ishtiaq, Heidy Khlaaf, Nir Piterman",
+    "title": "T2: Temporal Property Verification",
+    "venue": "TACAS 2016",
+    "pubdate": "2016-04-02"
+  },
+  {
+    "authors": "James Brotherston, Nikos Gorogiannis",
+    "title": "Cyclic Abduction of Inductively Defined Safety and Termination Preconditions",
+    "venue": "SAS 2014",
+    "pubdate": "2014-09-11"
   }
 ]
