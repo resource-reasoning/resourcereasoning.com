@@ -742,7 +742,7 @@
     "abstract": "We prove strong completeness of a range of substructural logics with respect to their relational semantics by completeness-via-canonicity. Specifically, we use the topological theory of canonical (in) equations in distributive lattice expansions to show that distributive substructural logics are strongly complete with respect to their relational semantics. By formalizing the problem in the language of coalgebraic logics, we develop a modular theory which covers a wide variety of different logics under a single framework, and lends itself to further extensions.",
     "venue": "RAMICS 2015",
     "pubdate": "2015-09-28",
-    "bibtex": " @Inbook{Dahlqvist2015,\n author=\"Dahlqvist, Fredrik\n and Pym, David\",\n editor=\"Kahl, Wolfram\n and Winter, Michael\n and Oliveira, Jos{\'e}\",\n title=\"Completeness via Canonicity for Distributive Substructural Logics: A Coalgebraic Perspective\",\n bookTitle=\"Relational and Algebraic Methods in Computer Science: 15th International Conference, RAMiCS 2015, Braga, Portugal, September 28 - October 1, 2015, Proceedings\",\n year=\"2015\",\n publisher=\"Springer International Publishing\",\n address=\"Cham\",\n pages=\"119--135\",\n isbn=\"978-3-319-24704-5\",\n doi=\"10.1007/978-3-319-24704-5_8\",\n url=\"http://dx.doi.org/10.1007/978-3-319-24704-5_8\"\n }"
+    "bibtex": " @Inbook{Dahlqvist2015,\n author=\"Dahlqvist, Fredrik\n and Pym, David\",\n editor=\"Kahl, Wolfram\n and Winter, Michael\n and Oliveira, Jos{\\'e}\",\n title=\"Completeness via Canonicity for Distributive Substructural Logics: A Coalgebraic Perspective\",\n bookTitle=\"Relational and Algebraic Methods in Computer Science: 15th International Conference, RAMiCS 2015, Braga, Portugal, September 28 - October 1, 2015, Proceedings\",\n year=\"2015\",\n publisher=\"Springer International Publishing\",\n address=\"Cham\",\n pages=\"119--135\",\n isbn=\"978-3-319-24704-5\",\n doi=\"10.1007/978-3-319-24704-5_8\",\n url=\"http://dx.doi.org/10.1007/978-3-319-24704-5_8\"\n }"
   },
   {
     "authors": "Stephen Brookes, Peter W. O'Hearn, Uday S. Reddy",
@@ -756,36 +756,42 @@
     "title": "Embracing Overapproximation for Proving Nontermination",
     "venue": "TinyToCS 3",
     "pdf": "http://tinytocs.org/vol3/papers/TinyToCS_3_cook.pdf",
-    "pubdate": "2015-06-08"
+    "pubdate": "2015-06-08",
+    "abstract": "We embrace overapproximation to prove nontermination: a live abstraction’s closed recurrence implies the input program’s nontermination."
   },
   {
     "authors": "Cristiano Calcagno, Dino Distefano, Jérémy Dubreil, Dominik Gabi, Pieter Hooimeijer, Martino Luca, Peter W. O'Hearn, Irene Papakonstantinou, Jim Purbrick, Dulma Rodriguez",
     "title": "Moving Fast with Software Verification",
     "venue": "NFM 2015",
-    "pubdate": "2015-04-08"
+    "pubdate": "2015-04-08",
+    "abstract": "For organisations like Facebook, high quality software is important. However, the pace of change and increasing complexity of modern code makes it difficult to produce error-free software. Available tools are often lacking in helping programmers develop more reliable and secure applications.  Formal verification is a technique able to detect software errors statically, before a product is actually shipped. Although this aspect makes this technology very appealing in principle, in practice there have been many difficulties that have hindered the application of software verification in industrial environments. In particular, in an organisation like Facebook where the release cycle is fast compared to more traditional industries, the deployment of formal techniques is highly challenging.  This paper describes our experience in integrating a verification tool based on static analysis into the software development cycle at Facebook."
   },
   {
     "title": "From Categorical Logic to Facebook Engineering",
     "authors": "Peter W. O'Hearn",
     "venue": "LICS 2015",
-    "pubdate": "2015-07-06"
+    "pubdate": "2015-07-06",
+    "abstract": "I chart a line of development from category-theoretic models of programs and logics to automatic program verification/analysis techniques that are in deployment at Facebook. Our journey takes in a number of concepts from the computer science logician's toolkit -- including categorical logic and model theory, denotational semantics, the Curry-Howard isomorphism, sub structural logic, Hoare Logic and Separation Logic, abstract interpretation, compositional program analysis, the frame problem, and abductive inference."
   },
   {
     "authors": "Byron Cook, Carsten Fuhs, Kaustubh Nimkar, Peter W. O'Hearn",
     "title": "Disproving termination with overapproximation",
     "venue": "FMCAD 2014",
-    "pubdate": "2014-10-21"
+    "pubdate": "2014-10-21",
+    "abstract" : "When disproving termination using known techniques (e.g. recurrence sets), abstractions that overapproximate the program's transition relation are unsound. In this paper we introduce live abstractions, a natural class of abstractions that can be combined with the recent concept of closed recurrence sets to soundly disprove termination. To demonstrate the practical usefulness of this new approach we show how programs with nonlinear, nondeterministic, and heap-based commands can be shown nonterminating using linear overapproximations."
   },
   {
     "authors": "Marc Brockschmidt, Byron Cook, Samin Ishtiaq, Heidy Khlaaf, Nir Piterman",
     "title": "T2: Temporal Property Verification",
     "venue": "TACAS 2016",
-    "pubdate": "2016-04-02"
+    "pubdate": "2016-04-02",
+    "abstract": "We present the open-source tool T2, the first public release from the TERMINATOR project [9]. T2 has been extended over the past decade to support automatic temporal-logic proving techniques and to handle a general class of user-provided liveness and safety properties. Input can be provided in a native format and in C, via the support of the LLVM compiler framework. We briefly discuss T2’s architecture, its underlying techniques, and conclude with an experimental illustration of its competitiveness and directions for future extensions."
   },
   {
     "authors": "James Brotherston, Nikos Gorogiannis",
     "title": "Cyclic Abduction of Inductively Defined Safety and Termination Preconditions",
     "venue": "SAS 2014",
-    "pubdate": "2014-09-11"
+    "pubdate": "2014-09-11",
+    "abstract": "We introduce cyclic abduction: a new method for automatically inferring safety and termination preconditions of heap-manipulating while programs, expressed as inductive definitions in separation logic. Cyclic abduction essentially works by searching for a cyclic proof of the desired property, abducing definitional clauses of the precondition as necessary in order to advance the proof search process.  We provide an implementation, CABER, of our cyclic abduction method, based on a suite of heuristically guided tactics. It is often able to automatically infer preconditions describing lists, trees, cyclic and composite structures which, in other tools, previously had to be supplied by hand."
   }
 ]

@@ -58,12 +58,6 @@
     },
     "additionalProperties": false,
     "required": ["title", "authors", "abstract", "pubdate", "venue"],
-    "anyOf": [
-      { "required": ["pdf"] },
-      { "required": ["pdflong"] },
-      { "required": ["ps"] },
-      { "required": ["pslong"] }
-    ],
 
     "options": {
       "remove_empty_properties": true
