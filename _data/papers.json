@@ -793,5 +793,19 @@
     "venue": "SAS 2014",
     "pubdate": "2014-09-11",
     "abstract": "We introduce cyclic abduction: a new method for automatically inferring safety and termination preconditions of heap-manipulating while programs, expressed as inductive definitions in separation logic. Cyclic abduction essentially works by searching for a cyclic proof of the desired property, abducing definitional clauses of the precondition as necessary in order to advance the proof search process.  We provide an implementation, CABER, of our cyclic abduction method, based on a suite of heuristically guided tactics. It is often able to automatically infer preconditions describing lists, trees, cyclic and composite structures which, in other tools, previously had to be supplied by hand."
+  },
+  {
+    "authors": "Aws Albarghouthi, Josh Berdine, Byron Cook, Zachary Kincaid",
+    "title": "Spatial Interpolants",
+    "venue": "ESOP 2015",
+    "pubdate": "2015-04-11",
+    "abstract": "We propose SplInter, a new technique for proving properties of heap-manipulating programs that marries (1) a new separation logic–based analysis for heap reasoning with (2) an interpolation-based technique for refining heap-shape invariants with data invariants. SplInter is property directed, precise, and produces counterexample traces when a property does not hold. Using the novel notion of spatial interpolants modulo theories, SplInter can infer complex invariants over general recursive predicates, e.g., of the form all elements in a linked list are even or a binary tree is sorted. Furthermore, we treat interpolation as a black box, which gives us the freedom to encode data manipulation in any suitable theory for a given program (e.g., bit vectors, arrays, or linear arithmetic), so that our technique immediately benefits from any future advances in SMT solving and interpolation."
+  },
+  {
+    "authors": "Byron Cook, Heidy Khlaaf, Nir Piterman",
+    "title": "On Automation of CTL* Verification for Infinite-State Systems",
+    "venue": "CAV 2015",
+    "pubdate": "2015-07-18",
+    "abstract": "In this paper we introduce the first known fully automated tool for symbolically proving CTL∗ properties of (infinite-state) integer programs. The method uses an internal encoding which facilitates reasoning about the subtle interplay between the nesting of path and state temporal operators that occurs within CTL∗ proofs. A precondition synthesis strategy is then used over a program transformation which trades nondeterminism in the transition relation for nondeterminism explicit in variables predicting future outcomes when necessary. We show the viability of our approach in practice using examples drawn from device drivers and various industrial examples."
   }
 ]
