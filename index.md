@@ -9,4 +9,3 @@ The ongoing project is to develop an elegant theory (or theories) of resource re
 
 The research activity was underpinned by an EPSRC Programme Grant, 'Resource Reasoning', and also other grants, fellowships and industrial collaborations (see [Support & Connections](support.html)).
 
-The research grant ended in June 2016, and this website will cease to be updated.
