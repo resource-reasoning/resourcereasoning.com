@@ -1,6 +1,9 @@
 ---
 title: News
 ---
+## June 2016
+* The EPSRC 'Resource Reasoning' research grant ends.
+
 ## January 2016
 * A project-wide meeting was held at UCL. See the [meeting page](/news/2016/01/rr-meeting.html) for details of the speakers and slides.
 
