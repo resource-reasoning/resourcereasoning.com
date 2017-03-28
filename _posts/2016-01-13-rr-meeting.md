@@ -1,6 +1,8 @@
 ---
 title: January 2016 Research Meeting
+date: 2016-01-13 00:00:00 Z
 ---
+
 Resource Reasoning project meeting, Wednesday, 13th January 2016, 10:00-17:00. 6.12 Malet Place Engineering, UCL, Gower Street, WC1E 6BT
 
 ## Attendees

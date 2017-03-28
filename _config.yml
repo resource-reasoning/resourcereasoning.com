@@ -1,53 +1,57 @@
+---
+title: Resourcereasoning.Com
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: page
 include:
-  - _schema
+- _schema
 exclude:
+- vendor
+- README.md
+- Gemfile
+- Gemfile.lock
+- Rakefile
+- CNAME
+gems:
+- jekyll-sitemap
+- jekyll-redirect-from
+github:
+  repository_url: https://github.com/resource-reasoning/resourcereasoning.com
+  issues_url: https://github.com/resource-reasoning/resourcereasoning.com/issues
+permalink: "/news/:year/:month/:title.html"
+prose:
+  media: images
+  ignore:
   - vendor
-  - README.md
   - Gemfile
   - Gemfile.lock
   - Rakefile
   - CNAME
-
-gems:
-  - jekyll-sitemap
-  - jekyll-redirect-from
-
-github:
-    repository_url: "https://github.com/resource-reasoning/resourcereasoning.com"
-    issues_url: "https://github.com/resource-reasoning/resourcereasoning.com/issues"
-
-permalink: /news/:year/:month/:title.html
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: page
-
-prose:
-  media: "images"
-  ignore:
-    - vendor
-    - Gemfile
-    - Gemfile.lock
-    - Rakefile
-    - CNAME
-    - .gitignore
-    - .gitkeep
-    - .gitmodules
-    - .travis.yml
-    - _config.yml
-    - _tests
-    - _schema
-    - edit
+  - ".gitignore"
+  - ".gitkeep"
+  - ".gitmodules"
+  - ".travis.yml"
+  - _config.yml
+  - _tests
+  - _schema
+  - edit
   metadata:
-    "":
-      - name: "layout"
-        field:
-          element: "hidden"
+    '':
+    - name: layout
+      field:
+        element: hidden
     _posts:
-      - name: "title"
-        field:
-          element: "text"
-          label: "title"
+    - name: title
+      field:
+        element: text
+        label: title

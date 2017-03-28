@@ -1,6 +1,7 @@
 ---
 layout: index
 ---
+
 This website describes research activity between 2009 and 2016 in the southeast of England -- at Imperial, Microsoft Research Cambridge, Oxford, Queen Mary and UCL -- on local reasoning about resources.
 
 It arose from work on various forms of separation logic and its associated automatic verification tools.

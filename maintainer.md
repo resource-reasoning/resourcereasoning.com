@@ -1,6 +1,5 @@
 ---
 title: Site Maintenance
-published: true
 ---
 
 This site is directly maintained by the Resource Reasoning groups at Imperial and UCL.

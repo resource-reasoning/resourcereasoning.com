@@ -1,6 +1,7 @@
 ---
 title: Support &amp; Connections
 ---
+
 We are grateful to the EPSRC, RAEng and other organizations for supporting this research:
 
 * EPSRC Resource Reasoning Program Grants [EP/H008373/1](http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/H008373/1) [EP/H008373/2](http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/H008373/2)

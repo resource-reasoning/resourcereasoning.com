@@ -1,6 +1,5 @@
 ---
 title: People
-published: true
 ---
 
 The people currently researching Resource Reasoning in London, Cambridge and Oxford include:
