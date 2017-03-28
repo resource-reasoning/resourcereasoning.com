@@ -1,5 +1,5 @@
 ---
-title: Resourcereasoning.Com
+title: Resource Reasoning
 timezone: UTC
 collections:
   posts:
@@ -46,7 +46,7 @@ prose:
   - _schema
   - edit
   metadata:
-    '':
+    Key:
     - name: layout
       field:
         element: hidden
